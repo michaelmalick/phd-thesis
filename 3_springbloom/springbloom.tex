@@ -742,117 +742,128 @@ Program to R.M.  Peterman.
 
 \section{Tables}
 
-\begin{quote}
-\textbf{Table 1.} Summary of pink salmon stock-recruit data sets. Brood
-years indicate the temporal range of spawning years; N is the number of
-non-missing years within that range; R is the annual average recruitment
-(catch plus escapement) in millions across all brood years; S is the
-average number of spawners in millions across all brood years;
-\(\alpha\) and \(\beta\) are maximum likelihood estimates of the
-intercept (i.e., stock productivity at low spawner abundances) and slope
-(i.e., density-dependent effect), respectively, of the single-stock
-Ricker models (eq. \ref{eq:bloom:1}).
-\end{quote}
+% \begin{quote}
+% \textbf{Table 1.} Summary of pink salmon stock-recruit data sets. Brood
+% years indicate the temporal range of spawning years; N is the number of
+% non-missing years within that range; R is the annual average recruitment
+% (catch plus escapement) in millions across all brood years; S is the
+% average number of spawners in millions across all brood years;
+% \(\alpha\) and \(\beta\) are maximum likelihood estimates of the
+% intercept (i.e., stock productivity at low spawner abundances) and slope
+% (i.e., density-dependent effect), respectively, of the single-stock
+% Ricker models (eq. \ref{eq:bloom:1}).
+% \end{quote}
 
-\newpage
+% \newpage
 
-\begin{quote}
-\textbf{Table 2.} Summary of the best-fit multi-stock Ricker model
-coefficients (eq. \ref{eq:bloom:3}). The Subset column identifies the stocks included
-in the hierarchical model (North = stocks 1-9, South = stocks 10-27, and
-All = stocks 1-27). The Stocks column indicates the number of stocks
-used to fit the model; N is the total number of data points across all
-stocks used to fit the model; \(\alpha\) is the intercept representing
-average productivity of pink salmon at low spawner abundance (fixed
-effect; see eq. \ref{eq:bloom:3}); \(\gamma\) is the fixed effect corresponding to
-either the bloom initiation or mean chl-a concentration (see eq. ref{eq:bloom:3}); and
-SE is the standard error for the fixed-effect coefficients.
-AIC\textsubscript{C} is the Akaike Information Criterion, corrected for
-small sample size.
-\end{quote}
+% \begin{quote}
+% \textbf{Table 2.} Summary of the best-fit multi-stock Ricker model
+% coefficients (eq. \ref{eq:bloom:3}). The Subset column identifies the stocks included
+% in the hierarchical model (North = stocks 1-9, South = stocks 10-27, and
+% All = stocks 1-27). The Stocks column indicates the number of stocks
+% used to fit the model; N is the total number of data points across all
+% stocks used to fit the model; \(\alpha\) is the intercept representing
+% average productivity of pink salmon at low spawner abundance (fixed
+% effect; see eq. \ref{eq:bloom:3}); \(\gamma\) is the fixed effect corresponding to
+% either the bloom initiation or mean chl-a concentration (see eq. ref{eq:bloom:3}); and
+% SE is the standard error for the fixed-effect coefficients.
+% AIC\textsubscript{C} is the Akaike Information Criterion, corrected for
+% small sample size.
+% \end{quote}
 
-\textless{}!--
+% \textless{}!--
 
-\begin{verbatim}
+% \begin{verbatim}
 
-load("./tables/table_lme.RData")
-pandoc.table(table.lme, justify = "left")
-\end{verbatim}
+% load("./tables/table_lme.RData")
+% pandoc.table(table.lme, justify = "left")
+% \end{verbatim}
 
-\begin{quote}
-* Significantly different from zero at P \textless{} 0.05; **
-significant at P \textless{} 0.01. --\textgreater{}
-\end{quote}
+% \begin{quote}
+% * Significantly different from zero at P \textless{} 0.05; **
+% significant at P \textless{} 0.01. --\textgreater{}
+% \end{quote}
 
-\newpage
+% \newpage
+
+
+
 
 \section{Figures}
 
-\begin{quote}
-\textbf{Fig. 1.} Study area indicating the grid cells used to compute
-the bloom initiation date and mean chl-a concentrations (green squares)
-and the locations of ocean entry points for the pink salmon stocks
-(solid black triangles). Solid line indicates break point identified by
-the intervention model (see text) between northern and southern stock
-groupings.
-\end{quote}
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.6]{3_springbloom/figures/map.pdf}
+  \caption{Study area indicating the grid cells used to compute the bloom
+    initiation date and mean chl-a concentrations (green squares) and the
+    locations of ocean entry points for the pink salmon stocks (solid black
+    triangles). Solid line indicates break point identified by the intervention
+    model (see text) between northern and southern stock groupings.}
+  \label{fig:bloom:1}
+\end{figure}
 
-\begin{quote}
-\textbf{Fig. 2.} Correlograms (pairwise correlations as a function of
-distance between location of data pairs) of correlations among salmon
-productivity indices across all brood years (top panel), salmon
-productivity for brood years 1997-2009 (middle panel), and spring bloom
-initiation date (bottom panel). Solid curves represent the estimated
-smooth nonparametric covariance function with 95\% confidence band shown
-as the dashed lines. Solid vertical lines indicate the 50\% correlation
-scale (D50).
-\end{quote}
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.9]{3_springbloom/figures/pinks_bloom_ncf.pdf}
+  \caption{Correlograms (pairwise correlations as a function of distance between
+    location of data pairs) of correlations among salmon productivity indices
+    across all brood years (top panel), salmon productivity for brood years
+    1997-2009 (middle panel), and spring bloom initiation date (bottom panel).
+    Solid curves represent the estimated smooth nonparametric covariance
+    function with 95\% confidence band shown as the dashed lines. Solid vertical
+    lines indicate the 50\% correlation scale (D50).}
+  \label{fig:bloom:2}
+\end{figure}
 
-\begin{quote}
-\textbf{Fig. 3.} Comparison of the estimated 50\% correlation scale
-(D50; top panel) and y-intercept (CZD; bottom panel) for the
-nonparametric covariance functions fit to pink salmon residuals using
-all brood years of data (``Pink all'' from Fig. 2a), pink salmon
-residuals using only brood years 1997-2009 (``Pink short'' from Fig.
-2b), and initiation date for the spring bloom (from Fig. 2c). Dots
-indicate point estimates for each metric and vertical lines give 95\%
-confidence intervals.
-\end{quote}
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.9]{3_springbloom/figures/bloom_pink_ncf_summary.pdf}
+  \caption{Comparison of the estimated 50\% correlation scale (D50; top panel)
+    and y-intercept (CZD; bottom panel) for the nonparametric covariance
+    functions fit to pink salmon residuals using all brood years of data (``Pink
+    all'' from Fig. 2a), pink salmon residuals using only brood years 1997-2009
+    (``Pink short'' from Fig.  2b), and initiation date for the spring bloom
+    (from Fig. 2c). Dots indicate point estimates for each metric and vertical
+    lines give 95\% confidence intervals.}
+  \label{fig:bloom:3}
+\end{figure}
 
-\begin{quote}
-\textbf{Fig. 4.} Correlograms (pairwise correlations as a function of
-distance between location of data pairs) of correlations among grid
-cells for the monthly mean chl-a concentrations. Solid curves represent
-the estimated smooth nonparametric covariance function with the 95\%
-confidence band shown as the dashed lines. Solid vertical lines indicate
-the 50\% correlation scale (D50).
-\end{quote}
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.8]{3_springbloom/figures/chl_ncf.pdf}
+  \caption{Correlograms (pairwise correlations as a function of distance between
+    location of data pairs) of correlations among grid cells for the monthly
+    mean chl-a concentrations. Solid curves represent the estimated smooth
+    nonparametric covariance function with the 95\% confidence band shown as the
+    dashed lines. Solid vertical lines indicate the 50\% correlation scale
+    (D50).}
+  \label{fig:bloom:4}
+\end{figure}
 
-\begin{quote}
-\textbf{Fig. 5.} The 50\% correlation scale (D50) for chl-a
-concentration by month. Solid vertical lines indicate 95\% confidence
-intervals for each month. Dotted horizontal line indicates the 50\%
-correlation scale for pink salmon using brood years 1997-2009; the grey
-shaded region indicates the 95\% confidence interval for that pink
-salmon 50\% correlation scale.
-\end{quote}
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.9]{3_springbloom/figures/chl_ncf_50.pdf}
+  \caption{The 50\% correlation scale (D50) for chl-a concentration by month.
+    Solid vertical lines indicate 95\% confidence intervals for each month.
+    Dotted horizontal line indicates the 50\% correlation scale for pink salmon
+    using brood years 1997-2009; the grey shaded region indicates the 95\%
+    confidence interval for that pink salmon 50\% correlation scale.}
+  \label{fig:bloom:5}
+\end{figure}
 
-\begin{quote}
-\textbf{Fig. 6.} Estimates of the effects on pink salmon productivity of
-spring bloom initiation date (left panels), mean April-May chl-a
-concentration (middle panels), and mean July-September chl-a
-concentration (right panels) from the single-stock and best-fit
-multi-stock models. In panels \emph{a-c} the ordinate gives the stock
-number, as defined in Table 1, solid circles represent the estimated
-effect for either chl-a or the bloom initiation from the single stock
-models (i.e., \(\gamma\) in eq. \ref{eq:bloom:2}), and the solid vertical line gives
-the estimated region-wide effect for either the bloom initiation or
-chl-a from a multi-stock model (i.e., \(\gamma\) in eq. \ref{eq:bloom:3}). Based on
-results from the single-stock analyses, separate multi-stock models were
-fit to northern and southern stocks for the spring bloom and April-May
-chl-a covariates, which are separated by a solid horizontal line. Bottom
-panels \emph{d-f} show histograms of the spring bloom and chl-a effects
-based on single-stock models (eq. \ref{eq:bloom:2}) and estimated probability density
-functions (smooth curves) of the single-stock model coefficients for
-northern and southern stocks.
-\end{quote}
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.7]{3_springbloom/figures/lme_coef.pdf}
+  \caption{Estimates of the effects on pink salmon productivity of spring bloom
+    initiation date (left panels), mean April-May chl-a concentration (middle
+    panels), and mean July-September chl-a concentration (right panels) from the
+    single-stock and best-fit multi-stock models. In panels \emph{a-c} the
+    ordinate gives the stock number, as defined in Table 1, solid circles
+    represent the estimated effect for either chl-a or the bloom initiation from
+    the single stock models (i.e., \(\gamma\) in eq. \ref{eq:bloom:2}), and the
+    solid vertical line gives the estimated region-wide effect for either the
+    bloom initiation or chl-a from a multi-stock model (i.e., \(\gamma\) in eq.
+    \ref{eq:bloom:3}). Based on results from the single-stock analyses, separate
+    multi-stock models were fit to northern and southern stocks for the spring
+    bloom and April-May chl-a covariates, which are separated by a solid
+    horizontal line. Bottom panels \emph{d-f} show histograms of the spring
+    bloom and chl-a effects based on single-stock models (eq. \ref{eq:bloom:2})
+    and estimated probability density functions (smooth curves) of the
+    single-stock model coefficients for northern and southern stocks.}
+  \label{fig:bloom:6}
+\end{figure}
+
