@@ -1,0 +1,145 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PHD DISSERTATION
+%
+%
+% Michael Malick
+% 10 Feb 2015
+% v0.01
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+% ----------------------------
+% Pre-amble
+% ----------------------------
+% {{{
+
+\documentclass[12pt]{report}
+\usepackage{natbib}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{pdfpages}
+\usepackage{fixltx2e} % provides \textsubscript
+\usepackage[showframe=false, 
+            top=1.0in, 
+            bottom=1.0in, 
+            left=1.25in, 
+            right=1.25in]{geometry}
+\usepackage{hyperref}
+\hypersetup{pdfstartview=FitH,
+            % pagebackref=false,
+            bookmarksopen=false,
+            colorlinks,
+            linkcolor=black,
+            urlcolor=black,
+            citecolor=black}
+\usepackage{amstext}
+\usepackage{amsmath}
+
+% Left justify the captions
+\usepackage{caption}
+\captionsetup{justification=justified,
+              singlelinecheck=false}
+
+% 1.5 line spacing
+\onehalfspacing
+
+% Line numbers
+% \usepackage{lineno}
+% \linenumbers
+
+
+\begin{document}
+\raggedright
+\setlength{\parindent}{1cm}	
+\bibpunct{(}{)}{;}{a}{}{;}
+
+
+% }}}
+
+
+
+% ----------------------------
+% Includes
+% ----------------------------
+% \phantomsection is needed for 
+% certain sections to have proper 
+% links in the toc
+
+
+% Title page
+\pagenumbering{gobble}
+\input{./1_frontmatter/titlepage.tex}
+\clearpage
+\pagenumbering{roman}
+\setcounter{page}{2}
+
+% Approval
+\phantomsection
+\input{./1_frontmatter/approval.tex}
+\clearpage
+
+% Partial copyright
+\phantomsection
+\addcontentsline{toc}{chapter}{Partial Copyright License}
+\includepdf[pagecommand={\thispagestyle{plain}}, pages={1}]
+  {./1_frontmatter/partial-copyright.pdf}
+
+% Abstract
+\input{./1_frontmatter/abstract.tex}
+\clearpage
+
+% Quote
+\input{./1_frontmatter/quote.tex}
+\clearpage
+
+% Acknowledgements
+\input{./1_frontmatter/acknowledgements.tex}
+\clearpage
+
+% TOC
+\phantomsection
+\addcontentsline{toc}{chapter}{Contents}
+\tableofcontents
+\clearpage
+
+% List of tables
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
+\clearpage
+
+% List of figures
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{10} %% need to change manually
+
+%%%%%
+
+% Introduction
+\input{./2_introduction/intro.tex}
+\clearpage
+
+% Spring-bloom
+\input{./3_springbloom/springbloom.tex}
+\clearpage
+
+% Discussion
+\input{./7_discussion/discussion.tex}
+\clearpage
+
+
+% Bibliography
+\phantomsection
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{tafs_v1}
+\bibliography{/Users/malickmj/Documents/pandoc/bibtex-files/master}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+% vim:fdm=marker
