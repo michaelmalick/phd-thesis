@@ -1,0 +1,873 @@
+% Thesis Spring Bloom Chapter
+% Michael Malick
+% 2015-10-12
+
+\chapter[Environmental Pathways and Salmon Recruitment]{Accounting for multiple
+pathways in the connections among climate variability, ocean processes, and coho
+salmon recruitment in the Northern California Current\footnotemark[1]}
+
+\footnotetext[1]{A version of this chapter appears as 
+  Malick, M.J., S.P. Cox, R.M. Peterman, T.C. Wainwright, and W.T. Peterson.
+  2015. Accounting for multiple pathways in the connections among climate
+  variability, ocean processes, and coho salmon recruitment in the Northern
+  California Current. Canadian Journal of Fisheries and Aquatic Sciences
+  72:1552-1564. \url{http://doi.org/10.1139/cjfas-2014-0509}.}
+
+
+\section{Abstract}
+
+Pathways linking climate to population dynamics of higher-trophic-level fish
+species such as Pacific salmon often involve a hierarchy in which regional-scale
+physical and biological processes mediate the effects of large-scale climate
+variability. We used probabilistic networks to investigate 17 potential
+ecological pathways linking climate to Oregon coho salmon recruitment. We found
+that pathways originating with the Pacific Decadal Oscillation were the most
+influential on recruitment with the net effect being 2 to 4 times greater than
+for pathways originating with the North Pacific Gyre Oscillation or Oceanic Niño
+Index. Among all environmental variables, sea surface temperature and an index
+of juvenile salmon prey biomass had the greatest effects on recruitment with a
+76\% chance of recruitment being equal to or below average given that ocean
+temperatures were above average and a 34\% chance of recruitment being below
+average given that prey biomass was above average. Our results provide evidence
+that shifts in climate patterns could strongly influence recruitment
+simultaneously through multiple ecological pathways and highlight the importance
+of quantifying cumulative effects of these pathways on higher-trophic-level
+species.
+
+
+
+\section{Introduction}
+
+Pacific salmon (\emph{Oncorhynchus} spp.) populations along the Northeast
+Pacific coast exhibit large inter-annual and inter-decadal fluctuations in adult
+abundances. Changes in large-scale climate patterns are often associated with
+variability in salmon recruitment, although there are many intermediate-scale
+processes that can link climate and salmon \citep{Mueter2002a, Beamish2004b,
+Drinkwater2010a, Malick2015a}. In particular, several regional-scale
+oceanographic variables are associated with both large-scale climate patterns
+and salmon recruitment, including sea surface temperature (SST), upwelling
+intensity, and ocean transport \citep{King2011, Chavez2003a, Keister2011a}.
+However, most research on relationships between climate variability and salmon
+recruitment simplify the ecological system by considering only direct effects of
+climate on recruitment (Fig. 1a). For instance, multiple studies show
+correlations between the Pacific Decadal Oscillation (PDO) and indices of salmon
+survival \citep{Mantua1997a, Burke2013, Malick2009a} without further
+investigating possible pathways of bottom-up or top-down processes linking the
+two.
+
+Pathways linking climate to the dynamics of higher-trophic-level fish species
+such as salmon often involve a hierarchy in which regional-scale physical and
+biological processes mediate the effects of large-scale climate variability
+(Fig. 1b) \citep{Drinkwater2010a, Ottersen2010a, Dippner2006}. For example,
+there are at least two hypothesized pathways connecting the PDO with salmon
+recruitment in the Northern California Current \citep{Wells2008a, Keister2011a}.
+Under the first hypothesis, regional-scale SST and juvenile salmon prey biomass
+act as intermediaries between the PDO and recruitment \citep{Daly2013,
+Cole2000a}, whereas under the second hypothesis, regional-scale ocean transport
+and copepod community composition act as intermediaries \citep{Bi2011a,
+Keister2011a}. These hypothesized pathways include processes that occur at
+several temporal, spatial, and functional scales, and therefore, represent the
+ecological system more realistically than assuming direct relationships between
+climate patterns and salmon recruitment \citep{Levin1992a, Ottersen2010a,
+Bakun1996a, Hunt2002a}.
+
+Despite the more intuitive appeal of the hierarchical pathway perspective on
+relationships between climate and salmon recruitment, it remains incomplete
+because it assumes a stationary ecosystem structure.  Abrupt or persistent
+changes in climate patterns can substantially alter physical and biological
+processes in coastal ecosystems, potentially influencing high-trophic level
+species through numerous ecological pathways (Fig. 1c) \citep{Anderson1999a,
+Mantua1997a}. This implies a more complex hierarchy in which the relative
+strengths of alternative pathways may change over time. However, there has been
+little research on the relative importance of particular pathways on salmon
+recruitment or on the joint effect of multiple pathways linking climate to fish
+recruitment in general.
+
+In this study, we investigate how multiple ecological pathways potentially link
+climate and oceanographic processes to wild Oregon coho salmon (\emph{O.
+kisutch}) recruitment. Specifically, we developed two probabilistic network
+models, similar to Fig. 1c, to determine the joint effect of multiple ecological
+pathways on coho salmon recruitment as well as the relative strength of specific
+pathways. In addition, we investigated two time periods to determine whether the
+dominant pathways changed over time. Our use of probabilistic networks allowed
+us to (1) clearly and intuitively model recruitment as a function of multiple
+ecological pathways, (2) quantify the effects of both direct and indirect
+effects of environmental variables on salmon recruitment, and (3) account for
+uncertainty in the relationships among variables by describing the relationships
+probabilistically rather than deterministically \citep{Varis1995a}. We also
+identify important environmental variables that could be used as indicators of
+salmon recruitment and contribute to the understanding of the mechanisms that
+control recruitment of Pacific salmon in the Northern California Current region.
+
+
+
+\section{Methods}
+
+\subsection{Overview}
+
+We used data for nine environmental variables to estimate the relative strength
+and net effects of 17 ecological pathways on recruitment of wild Oregon coho
+salmon. The pathways were organized into two independent probabilistic networks
+(e.g., Fig. 1c), a physical network and a biophysical network, which we used to
+perform two analyses. First, to determine the relative strength of each of the
+17 pathways within the networks, we used partial correlation coefficients to
+estimate the strength of each link in the networks. Second, to quantify the
+joint effect of multiple pathways on coho salmon recruitment, we used fitted
+probabilistic networks along with Monte Carlo sampling to estimate conditional
+posterior probability distributions for various levels of coho salmon
+recruitment, given several scenarios (i.e., sets of conditions) for the
+environmental variables.
+
+
+\subsection{Data sources}
+
+\subsubsection{Coho salmon recruitment}
+
+Oregon's wild coho salmon populations are divided into three discrete
+evolutionarily significant units (ESU) \citep{Weitkamp1995a, Lawson2007a}. The
+focus of our study is on the Oregon Coast ESU, the largest one, which extends
+from the mouth of the Columbia River south to Cape Blanco (Fig. 2). It contains
+21 independent coho salmon populations (i.e., populations that were historically
+self-supporting) located in several different river basins \citep{Lawson2007a}.
+Oregon Coast coho salmon rear mainly in coastal streams and rivers, but some
+populations rear primarily in coastal lakes and have a distinct life history and
+different population dynamics than the river populations \citep{Lawson2004,
+PFMC2013}. Because of this, we restricted our analysis to the river populations
+only. In the past, there was also substantial production of hatchery coho salmon
+on the Oregon coast -- we have excluded this production from our analysis, and
+concentrate on just the wild production.
+
+Annual aggregate adult recruitment and escapement estimates for the wild river
+coho salmon populations within the Oregon Coast ESU were available for brood
+years 1968-2009 from the Pacific Fisheries Management Council \citep{PFMC2013,
+Rupp2012}. Recruitment estimates were generated from adult escapement and
+harvest rate estimates, where escapement was estimated through statistical
+expansion of survey counts in a subset of stream reaches within the Oregon Coast
+ESU \citep{Lewis2010}. For return years 1971 through 1990, adult escapements
+were monitored using spawner surveys on standard index areas along the Oregon
+coast. Since 1990 a stratified random sampling design has been implemented,
+which covers all spawning habitats within the Oregon Coast ESU
+\citep{Jacobs1998, Lewis2010}. Because spawner survey methods prior to 1990 did
+not allow reliable reconstruction of population-specific abundance, we used
+aggregate recruitment data across all coho salmon populations in the Oregon
+Coast ESU (Fig. 3), which is consistent with the current pre-season forecasting
+methods used by the Pacific Fisheries Management Council \citep{PFMC2013}.
+
+We chose to focus on wild coho salmon production instead of hatchery production
+because of a potential mismatch between the biological data used in this study
+and the geographic location of coho salmon hatcheries. The most widely used and
+reliable source of hatchery data in the Northern California Current region is
+the Oregon Production Index \citep{Logerwell2003a, Koslow2002a, Cole2000a},
+which is largely composed of data for Columbia River hatcheries (90\% Columbia
+River fish since 1991) \citep{PFMC2013}. Because the Columbia River is
+approximately 425 km north of the sampling locations used to produce the
+biological data set, the biological variables may not be representative of early
+ocean conditions of coho salmon entering the ocean from the Columbia River. In
+addition, Columbia River fish enter the ocean in the Columbia River plume, which
+can have different dynamics than other coastal areas due to the large freshwater
+influence \citep{Hickey1998}.
+
+While our main focus was on total recruitment, we also investigated an index of
+coho salmon productivity. To create the productivity index, we fit a
+Beverton-Holt model (log\textsubscript{e}(R/S) = log\textsubscript{e}(a) -
+log\textsubscript{e}(1 + bS)) \citep{Beverton1957a} to the spawner-recruitment
+time series and then calculated the residuals. We used this residual series as
+our productivity index, which describes inter-annual variability in productivity
+(in units of log\textsubscript{e}(R/S)) after accounting for density-dependent
+effects of spawner abundance (online supplemental Fig. S1).
+
+
+\subsubsection{Environmental variables}
+
+Nine environmental variables were included in the probabilistic networks (Table
+1; footnotes in that table indicate the data sources). Three of the variables
+represent large-scale climate patterns, which reflect variability over thousands
+of kilometers \citep{King2011}. The first, PDO, is defined as the leading
+principle component of monthly SST anomalies in the North Pacific poleward of
+20$^{\circ}$N \citep{Mantua1997a}.  Second, the North Pacific Gyre Oscillation (NPGO) is
+defined as the second principle component of monthly sea-surface-height
+anomalies in the North Pacific and represents variability that is orthogonal to
+the PDO over the period 1950--2010 \citep{Di-Lorenzo2008a}. Third, we used the
+Oceanic Niño Index (ONI) to index variability associated with El Niño and La
+Niña events; it is defined as the 3-month running average of SST anomalies in
+the Niño 3.4 region (120$^{\circ}$W-170$^{\circ}$W and 5$^{\circ}$S-5$^{\circ}$N) \citep{Trenberth1997}. Unlike the
+PDO and NPGO, which have most of their variance at decadal and inter-decadal
+periods, the ONI has most of its variance at inter-annual time scales
+\citep{Sarachik2010a}. Because large-scale climate variables are believed to set
+the stage for regional-scale physical and biological processes, each of the
+three large-scale variables was averaged over the months of December-March in
+the winter prior to smolt out-migration \citep{Mantua1997a, Yeh2011,
+DiLorenzo2013a}.
+
+Four of the environmental variables represent physical oceanographic variability
+on a smaller, regional scale. First, we used monthly National Oceanic and
+Atmospheric Administration extended reconstructed SST version 3b data to index
+regional-scale variability in SST off the coast of Oregon \citep{Smith2008a}.
+Monthly SST values were averaged over January-June for a 2$^{\circ}$x2$^{\circ}$ grid cell
+centered on 44$^{\circ}$N 126$^{\circ}$W. The January-June period was chosen because research has
+suggested that coastal SST can strongly influence salmon survival at time
+periods just prior to and during smolt out-migration \citep{Mueter2005a}.
+
+Second, we used the Bakun upwelling index to represent inter-annual variability
+in upwelling intensity, where intensity was quantified as the volume of surface
+water transported offshore caused by geostrophic wind fields \citep{Bakun1973,
+Schwing1996}. Daily values for the upwelling index were available for 1970-2011
+for the 45$^{\circ}$N 125$^{\circ}$W station.  We averaged the upwelling index over March-April to
+represent ocean conditions just-prior to the spring transition and smolt
+out-migration \citep{Logerwell2003a, Lawson1997}. Third, to index inter-annual
+variability in the start date of the upwelling season, we used the Bakun
+upwelling index to calculate the spring transition date as the day of the year
+corresponding to the minimum value of the cumulative upwelling index
+\citep{Bakun1973, Bograd2009}, where the cumulative upwelling index was
+calculated by taking the daily cumulative sum of the Bakun upwelling index
+starting on January 1 of each year. Fourth, we used deep water temperature
+(i.e., temperature at 50m depth) at a station five miles off the coast of
+Newport, Oregon to index inter-annual variability of the source of waters which
+upwell along the Oregon coast. This source water is thought to be primarily
+influenced by wind intensity and large-scale climate patterns such as the PDO
+and NPGO \citep{Jacox2014, Chhak2007}. In particular, when northerly winds are
+strong, water from a deeper (and thus colder) offshore source upwells onto the
+shelf; when winds are weak, waters upwell from a shallower (thus warmer) source.
+
+The two remaining environmental variables represent inter-annual variability in
+regional-scale biological (rather than physical) processes. First, to index prey
+availability of juvenile fish available to coho salmon during their first summer
+at sea, we used the average biomass (mg carbon / 1000 m\textsuperscript{3}) of
+those ichthyoplankton species that in January-March will develop into the
+individuals that the coho salmon will eat in summer (primarily sand lance and
+osmerids).  Sampling of ichthyoplankton occurred from 1998-2011 (Table 1). All
+fish larvae were identified to the species level and a subset of lengths were
+taken for each species. Length--to--biomass conversions were made using
+published values, and total biomass at each station was estimated
+\citep{Peterson2012a}. Details of the ichthyoplankton sampling procedures can be
+found in \citet{Daly2013}. Although our ichthyoplankton biomass variable indexes
+prey resource availability prior to smolt out-migration (i.e., January-March),
+previous research has indicated that ichthyoplankton biomass during this period
+is correlated with coho salmon survival \citep{Daly2013}.
+
+Second, to index the quality of food (rather than the quantity) available to
+coho salmon during their early marine residency, we used the average
+May-September log\textsubscript{10} biomass (mg carbon / m\textsuperscript{3})
+of three primary copepod species, \emph{Pseudocalanus mimus}, \emph{Acartia
+longiremis}, and \emph{Calanus marshallae}. These copepod species are associated
+with northern water sources and generally have a higher lipid content than
+copepod species characteristic of other water sources off the coast of Oregon
+\citep{Lee2006, Hooff2006a}. Copepods were sampled biweekly from 1998-2011
+during May-September at the NH05 station along the Newport Hydrographic Line.
+Details of the copepod sampling procedures can be found in \citet{Lamb2005a},
+\citet{Peterson2003a}, and \citet{Bi2011b}.  We used a May-September average to
+represent conditions experienced by coho salmon during and just after smolt
+out-migration \citep{Bi2011a}.
+
+In general, all environmental variables were averaged over a temporal period
+corresponding to either the winter prior to ocean entry or the first summer the
+coho salmon were in the ocean to represent conditions coho salmon experience
+during the first ocean summer (Table 1). Unless stated otherwise, all reported
+years correspond to the ocean entry year for the coho salmon cohort.
+
+
+\subsection{Probabilistic networks}
+
+Probabilistic networks are a class of graphical models that permit the explicit
+and intuitive modeling of ecological networks while also taking uncertainties
+into account explicitly \citep{Pearl1988a, Varis1995a}. A complete probabilistic
+network is composed of three parts: (1) a set of variables, (2) a network
+structure in the form of a directed acyclic graph, and (3) a set of local
+probability distributions associated with each variable \citep{Heckerman1996a}.
+These three components of a probabilistic network produce a joint probability
+distribution over all variables in a network (also known as the global
+distribution for the network).
+
+Our probabilistic network analysis consisted of four steps. First, we
+constructed two directed acyclic graphs, which represented alternative network
+structures, using the nine environmental variables. Second, we estimated the
+strength of each link and pathway in the networks using partial correlation
+coefficients. Third, we fit the probabilistic networks by estimating the
+parameters of the local probability distributions for each network. Fourth, we
+used the fitted networks to estimate conditional posterior probability
+distributions for recruitment given various scenarios for the environmental
+variables.
+
+
+\subsubsection{Network structures}
+
+We used the nine environmental variables to construct two probabilistic network
+structures (Figs. 4 and 5) that represented the hypothesized structure of the
+ecological system. Both network structures took the form of directed acyclic
+graphs, meaning neither network contained feedback loops. Within the networks,
+ovals represent variables and arrows connecting variables indicate dependencies
+among the variables.  The networks in this study contain three types of
+variables (1) variables with no incoming arrows (root variables), (2) variables
+with incoming and outgoing arrows (intermediate variables), and (3) variables
+with only incoming arrows (in our networks recruitment was the only variable
+with no outgoing arrows). Because intermediate variables can be both dependent
+and independent variables within the network, we refer to variables at the base
+of an arrow as parent variables and variables at the tip of an arrow head as
+child variables, as is the convention for such analyses of probabilistic network
+models \citep{Koller2009a, Korb2004a}.
+
+The first network structure was a physical network based on only physical
+environmental variables for coho salmon ocean entry years 1970-2011. The
+physical network structure included 7 variables, 10 links among the variables,
+and 9 pathways connecting large-scale climate variables with recruitment (Fig.
+4). The second network structure was a biophysical network that combined
+physical and biological environmental variables for ocean entry years 1998-2011.
+The biophysical network structure had 10 variables, 13 links, and 8 pathways
+connecting climate variables and recruitment (Fig. 5).
+
+Both the physical and biophysical network structures were organized in a
+spatial, temporal, and functional manner to represent bottom-up forcing on coho
+salmon recruitment. For example, large-scale climate and oceanographic patterns
+of variability were designated as root variables and were averaged over the
+winter months prior to smolt outmigration (Table 1). These large-scale variables
+were independent of each other in the networks (as indicated by the absence of
+arrows connecting these variables in the networks) and directly influenced a set
+of regional-scale physical oceanographic variables such as SST that represented
+variability in the late winter and spring (Table 1). In the physical network,
+SST was directly linked to coho salmon recruitment (Fig. 4), whereas in the
+biophysical network the regional-scale physical variables directly influenced a
+set of regional-scale biological variables (e.g., copepod biomass), which were
+then directly connected to coho salmon recruitment (Fig. 5).
+
+
+\subsubsection{Pathway and link strength}
+
+We used partial correlation coefficients to quantify the strength of each link
+in the network graphs \citep{Zar1999a, Scutari2010, Yang2011}.  Coefficients
+were computed for each link in a network by correlating two variables connected
+by an arrow while accounting for the effects of other variables that had
+incoming arrows to the child variable of the arrow of interest. For example, the
+partial correlation coefficient for the link connecting ichthyoplankton biomass
+and coho salmon recruitment in the biophysical network was computed by
+correlating these two variables, after removing the effect of copepod biomass on
+ichthyoplankton biomass and recruitment. To help identify the pathways with the
+strongest associations between pairs of variables (i.e., relative pathway
+strength), we averaged the absolute value of the partial correlation
+coefficients for each link in a particular pathway connecting large-scale
+climate variables with coho salmon recruitment.  For example, to estimate the
+relative strength of the pathway including the PDO, SST, and coho salmon
+recruitment in the physical network, we averaged the partial correlation
+coefficients for the link between the PDO and SST and between SST and
+recruitment.
+
+
+\subsubsection{Network parameter estimation}
+
+Both the physical and biophysical probabilistic networks took the form of linear
+Gaussian probabilistic networks where the local probability distributions
+associated with each variable were assumed to be Gaussian and the joint
+distribution of all variables in the network was assumed to be multivariate
+normal \citep{Shachter1989a, Koller2009a}. Parameters of local distributions
+were estimated using linear regression models fit by maximum likelihood. For
+variables with incoming arrows, the regression models were fit with the child
+variable as the response variable and the parent variables as the predictor
+variables. For example, in the biophysical network (Fig. 5), parameters for the
+local distribution for SST were estimated using a linear regression model where
+SST was the dependent variable and the ONI and PDO were the independent
+variables. For root variables, models were fit with only an intercept term. For
+coho salmon recruitment, models were fit using natural log-transformed coho
+salmon recruitment data. Model fitting was performed using R and the Bayesian
+network package \texttt{bnlearn} \citep{Scutari2010, Rcore2013a}.
+
+Unlike conventional path analysis \citep{Wright1934}, the parameters of the
+regression models (i.e., the parameters of the local distributions) were not of
+direct interest in our probabilistic network analysis \citep{Korb2004a,
+Koller2009a}. Instead, the fitted regression parameters were used along with a
+Monte Carlo sampling algorithm to query the joint probability distribution of
+the probabilistic network, which allowed us to estimate conditional posterior
+probability distributions for recruitment given various scenarios for the
+environmental variables, as explained in the following two sections
+\citep{Henrion1988a}.
+
+
+\subsubsection{Posterior distributions}
+
+Using the fitted probabilistic networks, we estimated two sets of conditional
+posterior probability distributions for coho salmon recruitment to quantify the
+effect of the environmental variables on recruitment. For both sets of posterior
+distributions, we first discretized the predictor environmental variables into
+two categories, above or below the arithmetic mean value. The choice of using
+two categories for the predictor variables was partly due to the low sample
+sizes available for the environmental variables and to simplify presentation of
+the results \citep{Koller2009a}. We then estimated conditional posterior
+probabilities for a range of recruitment values that corresponded to the
+observed recruitment data, which allowed us to summarize the posterior
+probabilities using cumulative probability distributions.
+
+For the first set of posterior distributions, we estimated the probability of
+recruitment being less than a range of abundance values given values of a single
+environmental variable in the network (i.e., we only specified conditions for a
+single environmental variable at a time). For instance, we estimated the
+conditional probability that recruitment would be less than or equal to 150 000
+salmon given that SST was above average. For environmental variables not
+directly connected to recruitment (e.g., the PDO), this set of posterior
+distributions accounts for all pathways connecting that variable and recruitment
+by propagating through the network uncertainty about the relationships among
+pairs of variables (see the Posterior sampling section for details). That is,
+this set of posterior distributions quantifies the joint effect of all pathways
+specified in the network connecting the environmental variable and recruitment.
+We evaluated two scenarios for each environmental variable corresponding to the
+variable either being above or below average.
+
+For the second set of posterior distributions, we estimated the probability of
+recruitment being less than a range of abundance levels, given that all parent
+variables of recruitment were either above of below their mean value. For the
+physical network, this corresponded to estimating the conditional probability of
+various levels of recruitment, given values for both SST and the spring
+transition, whereas the conditioning variables on recruitment for the
+biophysical network were ichthyoplankton biomass and copepod biomass. We
+estimated probabilities for four scenarios of environmental variables. Because
+both networks had two variables directly linked to recruitment, scenarios
+included cases in which both environmental variables were either above or below
+average and the two cases in which one of the environmental variables was above
+average and the other was below average.
+
+Each set of posterior distributions included a single probability distribution
+for each discrete case of an environmental variable (i.e., above and below
+average). To facilitate the interpretation of results, we calculated the maximum
+difference between cumulative probability distributions (\(\Delta p\)) for each
+discrete case of an environmental variable. For instance, \(\Delta p\) for the
+two cumulative probability distributions showing the effects of SST on
+recruitment was calculated by finding the maximum vertical difference (i.e.,
+probability) between the cumulative probability distributions for recruitment
+given above- and below-average SST conditions. To more easily compare results
+from the physical and biophysical networks, we also estimated the posterior
+probability that coho salmon recruitment would be less than or equal to 150 000
+salmon, which is approximately equal to average recruitment for 1970-2011 (149
+152 salmon).
+
+
+\subsubsection{Posterior sampling}
+
+We estimated the conditional posterior probability distributions for recruitment
+using logic sampling (also known as forward sampling), which is a type of
+rejection sampling \citep{Henrion1988a, Korb2004a}. As an example, to estimate
+the conditional probability of recruitment being below 150 000 salmon given that
+the PDO was above average in the physical network, we first sampled values for
+the three large scale variables independently of each other weighting by the
+prior distribution for each variable. We then sampled values for SST and
+upwelling weighting by the known values of the large-scale variables.  The
+spring transition was then sampled, weighting by the known values of SST and
+upwelling. Finally, recruitment values were sampled, weighting by the known
+values of both parent variables. The probability of recruitment being below 150
+000 given an above average PDO value was then estimated by dividing the number
+of samples where recruitment was less than 150 000 and the PDO was above average
+by the number of samples where the PDO was above average.
+
+More generally, the estimation algorithm consisted of sampling from the joint
+posterior distribution, where the samples were weighted either by the prior
+distribution for variables with no parents or the value of the parent variables.
+The prior distributions for the root variables corresponded to the observed
+distribution over the period included in the model and were sampled
+independently for each root variable. Samples were only retained if the value of
+the sampled evidence variable of interest (e.g., PDO is above average) was the
+same as the value specified in the analysis. The conditional probability for
+coho salmon recruitment given the evidence was then computed as the number of
+samples where both the evidence and recruitment values matched the specified
+value divided by the total number of samples where the sampled evidence values
+match the specified value \citep{Henrion1988a}. For each analysis, we generated
+1 000 000 samples from the posterior distribution in order to ensure that events
+with low probabilities were sufficiently sampled \citep{Koller2009a}.
+
+
+
+\section{Results}
+
+\subsection{Pathway and link strength}
+
+In both networks, the pathway with the highest relative strength originated with
+the PDO (Table 2). In the physical network, the pathway with the highest average
+link strength included the PDO, SST, and recruitment (average of the absolute
+values of the two relevant correlations = 0.54; Fig. 4 and Table 2) and the
+pathway with the second highest relative strength included the ONI, SST, and
+recruitment (average correlation = 0.46). The pathway with the strongest
+association among variables in the biophysical network was nearly identical to
+the strongest pathway in the physical network, but also included ichthyoplankton
+biomass (average correlation = 0.54; Fig. 5 and Table 2), while the pathway with
+the second highest relative strength went from the PDO through deep temperature
+and copepod biomass to recruitment (average correlation = 0.53).
+
+In the physical network, the two environmental variables with a direct effect on
+recruitment (SST and spring transition) had a negative relationship with
+recruitment indicating that cooler surface temperatures and an earlier spring
+transition date are associated with higher recruitment (Fig. 4). Between these
+two variables, SST had a considerably stronger relationship with recruitment
+than the spring transition with a partial correlation coefficient more than
+twice as strong (Fig. 4). In the biophysical network, both variables with a
+direct effect on recruitment (ichthyoplankton and copepod biomass) had a
+positive relationship with recruitment, suggesting higher prey biomass is
+associated with increased recruitment, although the relationship between
+ichthyoplankton biomass and recruitment was twice as strong as the relationship
+between copepod biomass and recruitment (Fig. 5).
+
+
+\subsection{Posterior distributions}
+
+In the probabilistic analysis, the variables with the strongest overall effect
+(i.e., the joint effect of all pathways connecting a single environmental
+variable and recruitment) on the probability of recruitment were regional-scale
+physical and biological variables with a direct effect on recruitment (Figs. 6,
+7). In the physical network, SST had the strongest effect on recruitment with
+\(\Delta p\) = 0.29 (Fig.  6d), which was moderately larger than the next most
+influential variable, the PDO (\(\Delta p\) = 0.18; Fig. 6b). For the
+biophysical network, ichthyoplankton biomass had the strongest effect on
+recruitment with \(\Delta p\) = 0.40, which was considerably stronger than all
+other variables in the network (Fig. 7). Differences in steepness of the two
+conditional probability distributions for the physical network meant that there
+was a 76\% chance that recruitment would be 150 000 or less when SST was above
+average and a 49\% chance of recruitment being equal to or below that level when
+SST was below average (Fig. 6d). Likewise, for the biophysical network, there
+was a 34\% chance that recruitment would be 150 000 or less when ichthyoplankton
+biomass was greater than average and a 73\% chance when ichthyoplankton biomass
+was less than average (Fig. 7g).
+
+Among the three large-scale climate variables, the PDO had the strongest overall
+effect on recruitment in both networks with a \(\Delta p\) between 2 and 4 times
+greater than for the ONI and NPGO (Figs. 6, 7). In particular, a warm PDO (i.e.,
+when the PDO was above average) was associated with lower recruitment. For
+example, there was a 71\% chance that recruitment would be 150 000 salmon or
+less when the PDO was in a warm phase for the physical network and a 62\% chance
+for the biophysical network (Figs. 6b, 7b). When the PDO was cool, the
+probability of recruitment being equal to or below 150 000 was considerably
+less, with a 54\% chance in the physical network and a 45\% chance in the
+biophysical network. In contrast, for the NPGO and ONI, the probability of
+recruitment being 150 000 or less was nearly identical, regardless of whether
+these variables were above or below average.
+
+When both parent variables of recruitment in the physical network were above
+average, that is, when SST was warm and the spring transition occurred late, the
+cumulative probability distribution for recruitment (thick grey curve in Fig.
+8a) was considerably steeper compared to when SST was cool and the spring
+transition occurred early (thick black curve in Fig. 8a). This difference in
+steepness corresponded to an 81\% chance recruitment would be equal to or below
+150 000 salmon when both conditioning variables were above average but only a
+43\% when both variables were below average (Fig. 8a). For the biophysical
+network, when both variables that index coho salmon prey resources (i.e.,
+ichthyoplankton and copepod biomass) were above average, the cumulative
+probability distribution for recruitment was considerably less steep (thick grey
+curve in Fig. 8b) than when the prey resource indices were below average (thick
+black curve in Fig. 8b). This difference in the cumulative probability
+distributions equated to a 25\% chance that recruitment would be 150 000 salmon
+or less when both prey indices were above average and a 81\% chance recruitment
+would be equal to or below that level when both prey indices were below average.
+
+When oceanographic conditions were mixed, that is, when one parent variable of
+recruitment was above average and the other was below average, the probability
+that recruitment would be 150 000 salmon or less tended to be more influenced by
+SST than the spring transition date in the physical network and by
+ichthyoplankton biomass than copepod biomass in the biophysical network (Fig.
+8). For instance, the cumulative probability distribution when ichthyoplankton
+biomass was below average and copepod biomass was above average (black dashed
+curve in Fig. 8b) was moderately steeper compared to when ichthyoplankton
+biomass was above average and copepod biomass was below average (grey dashed
+curve in Fig. 8b).
+
+
+\subsection{Productivity index}
+
+The results from the networks fitted using an index of coho salmon productivity
+were qualitatively the same as the results shown above for the networks fitted
+using total coho salmon recruitment. The rank order of the pathways with the
+highest average partial correlation coefficients was identical for both the
+physical and biophysical networks (online supplemental Table S1). Similarly, the
+rank order of the influence of each environmental variable on coho salmon (as
+indicated by \(\Delta p\)) was identical for both the physical and biophysical
+networks (online supplemental Figs. S2-S4).
+
+
+
+\section{Discussion}
+
+In this study, we estimated the joint effect and relative strength of multiple
+ecological pathways on coho salmon recruitment in the Northern California
+Current to better understand the mechanisms linking climate variability and
+salmon recruitment. We found (1) pathways originating with the PDO were the most
+influential on recruitment with a joint effect considerably larger than for the
+ONI or NPGO, (2) warm ocean years (i.e., when surface temperatures were above
+average) were associated with reduced salmon prey biomass as well as lower
+recruitment levels compared to cool years, and (3) the probability of coho
+salmon recruitment being below average was most strongly influenced by
+regional-scale SST and ichthyoplankton biomass. These results suggest that
+shifts in climate and ocean conditions resulting from natural variability or
+anthropogenic climate change could influence salmon recruitment through multiple
+mechanisms.
+
+Our findings indicate there were multiple pathways with high average link
+strength connecting the PDO and recruitment of Oregon coho salmon, suggesting
+that a single large-scale climate event can influence salmon recruitment
+simultaneously through multiple mechanisms. In the pathway with the strongest
+associations among variables, SST and ichthyoplankton biomass mediated the
+effects of the PDO on recruitment. This result broadly agrees with those of
+several previous studies that suggest thermal environments are important for the
+recruitment processes of higher-trophic level species \citep{Martins2012,
+Planque1999, Hunt2011a}. Although temperature can influence salmon directly, for
+example, by influencing metabolic or growth rates \citep{Mortensen2000a,
+Farley2007b}, the occurrence of ichthyoplankton biomass as an intermediary
+between SST and recruitment in the biophysical network suggests that the
+indirect effect of temperature through bottom-up forcing can also strongly
+influence recruitment. In particular, it appears that cooler ocean temperatures
+are associated with increased prey resources for juvenile salmon. This is
+consistent with the findings of \citet{Daly2013} and also supports the idea of a
+combined influence of ocean temperature and prey resources on juvenile salmon
+\citep{Pearcy1992a}.
+
+The pathway with the second strongest association among variables included deep
+water temperature and copepod biomass as intermediaries between the PDO and
+recruitment, indicating changes in ocean current patterns and the subsequent
+advection of zooplankton into the Northern California Current region may also
+influence recruitment. Off the Oregon coast, zooplankton are generally
+associated with one of two community structures, (1) a northern community that
+has low species diversity and large copepod species that are rich in lipids, or
+(2) a southern community that has high species diversity and small copepod
+species that are poor in lipids \citep{Hooff2006a}. The observed negative
+relationship between deep water temperature and copepod biomass supports the
+findings of previous studies that indicated the lipid-rich zooplankton community
+is associated with the transport of cooler water from northern areas into the
+Northern California Current \citep{Keister2011a}. Furthermore, the positive
+relationship between copepod biomass and recruitment suggests increased
+lipid-rich copepod prey resources are associated with higher salmon recruitment
+\citep{Bi2011a}.
+
+In both networks, cool PDO conditions (i.e., when the PDO was below the
+long-term average) were associated with increased recruitment compared to warm
+conditions. Furthermore, cool periods were also associated with cooler deep
+water temperatures (indicative of increased equator-ward transport), increased
+upwelling, increased ichthyoplankton biomass, and a more northern copepod
+community composition off the coast of Oregon.  Although numerous previous
+studies have indicated similar associations among these environmental variables
+during cool PDO regimes \citep{King2011, Peterson2003b, Keister2011a,
+Mantua1997a}, our results extend those findings by explicitly quantifying the
+uncertainty in these relationships in the form of posterior probabilities. For
+example, the results for the biophysical network indicated that under warm PDO
+conditions, there was a 62\% chance that recruitment would be below the
+long-term average. In contrast, under cool PDO conditions, there was only a 45\%
+chance recruitment would be below average. Although this suggests that cool
+ocean conditions are beneficial for coho salmon, it also indicates there is
+considerable uncertainty about recruitment levels even when the PDO is below
+average. This uncertainty may partly arise due to our focus on recruitment,
+which also includes variability from the freshwater life phase, although our
+sensitivity analysis using productivity showed almost the same results as using
+total recruitment.
+
+We found that ichthyoplankton biomass tended to be more influential than copepod
+biomass on recruitment with an effect twice as strong. The importance of
+ichthyoplankton biomass over copepod biomass was surprising because several
+previous studies have reported strong positive relationships between the biomass
+of northern copepod species and coho salmon survival \citep{Bi2011a,
+Ruzicka2011, Peterson2003b}.  However, the finding is consistent with evidence
+indicating that coho salmon diets during the first ocean summer are primarily
+composed of small fish species (by percent weight) such as Pacific sand lance
+and osmerids \citep{Brodeur2007a, Weitkamp2008a}. The importance of
+ichthyoplankton biomass likely reflects a bottom-up forcing mechanism where
+increased ichthyoplankton biomass results in increased growth rates, body size,
+and marine survival of coho salmon. However, because ichthyoplankton are also
+prey for numerous other species \citep{Gladics2014, Miller2010, Miller2007} and
+because ocean conditions that influence ichthyoplankton biomass may also
+influence other marine species, this variable may act as a surrogate for other
+biological processes that directly influence survival such as predator
+distributions, abundances, or diets.
+
+The result that upwelling did not have a strong effect on recruitment deviates
+from earlier findings that increased upwelling intensity is associated with
+increased marine survival of Oregon coho salmon \citep{Fisher1988a,
+Logerwell2003a}. This difference in results may be due to at least three
+factors. First, in this study we used total recruitment from wild coho salmon
+stocks, which includes variability associated with the freshwater life phase,
+whereas the previous studies used marine survival of hatchery reared coho salmon
+as the response variable. Second, there is some evidence that the relationship
+between upwelling and salmon survival may not be stationary. In particular,
+\citet{Botsford2002} and \citet{Pearcy1997} indicated that the previous strong
+correlation between upwelling and coho salmon survival in the Northern
+California Current has broken down since the early 1990s.  Third, the weak
+relationship may also be due to how upwelling was indexed. To index upwelling
+intensity, we averaged the daily Bakun upwelling index over the months of March
+and April. However, this index does not differentiate between magnitude and
+duration of upwelling events within this period. In particular, sustained wind
+speeds over a certain threshold may reduce ecosystem productivity due to
+transport of nutrients and phytoplankton out of the system \citep{Botsford2006,
+Botsford2003}. Therefore, it is possible that shorter-term upwelling ``events''
+on the scale of days or weeks may be more important for determining productivity
+in the coastal ecosystem than the seasonal upwelling average.
+
+Some results from the physical and biophysical networks were similar, including
+showing the importance of the PDO and SST in the strongest pathways and the
+minimal influence of the NPGO and upwelling on recruitment. These similarities
+between the networks, which were fit using different but overlapping years,
+suggests that the major pathways and the most important climate and physical
+variables for determining recruitment did not differ greatly between the
+1970-2011 and 1998-2011 time periods. In addition, this similarity indicates
+that our results are not sensitive to the different network structures that we
+used to connect large-scale climate and regional-scale physical variables.
+
+The parameters of the local distributions in our probabilistic networks were
+estimated using linear regression models, therefore, we implicitly assumed these
+relationships were stationary (i.e., the parameters were constant over time)
+\citep{Walters1987a}. However, sharp changes in the abundance and productivity
+index for Oregon Coast coho salmon over the past 40 years (Fig. 3 and online
+supplemental Fig. S1) may reflect non-stationarity in the recruitment time
+series. Detecting non-stationarity and its causes is often problematic in
+fisheries abundance time series due to small sample sizes, the lack of contrast
+in the data, and confounding with environmental conditions and changes in
+harvest management \citep{Walters1987a, Peterman2009a}. In the case of Oregon
+Coast coho salmon, the short time series make it difficult to detect
+non-stationarity, as opposed to large variations, even though there is
+moderately good contrast in the recruitment estimates. In addition, potential
+changes in the underlying relationships between recruitment and the
+environmental variables may be confounded with other factors including changes
+in harvest management strategies, or changes in freshwater habitat. Because the
+results of the physical and biophysical networks were similar (suggesting there
+was little change in relationships between the entire study period and the most
+recent 14 years), we believe our stationarity assumption is valid for the time
+periods investigated, although, we caution against extrapolating the reported
+relationships outside the temporal bounds used to fit the probabilistic
+networks.
+
+Our network modeling approach explicitly depicted the hypothesized ecological
+network, however, relationships within the network are correlative rather than
+causative. Therefore, our results could be confounded with variables or pathways
+not included in the networks. For example, the networks presented in this study
+only included pathways representing bottom-up forcing. It is likely though, that
+shifts in large-scale climate patterns also influence top-down forcing pathways,
+for instance, by influencing the distribution of predators of juvenile coho
+salmon \citep{Pearcy2002a, Perry2005a}. Therefore, our findings merely represent
+an initial step in understanding how salmon recruitment is influenced by the
+ecological network: further research is needed into other ecological pathways to
+more clearly identify the ecological mechanisms.
+
+While our research focused on using the fitted probabilistic networks to better
+understand how environmental conditions influence coho salmon, the networks
+could also be used as a tool to help managers of salmon fisheries by providing
+pre-season forecasts of recruitment given different scenarios of environmental
+conditions \citep{Nyberg2006a, Araujo2013}. The probabilistic network approach
+has several advantages over more traditional modeling and forecasting methods
+(e.g., stock recruitment models with environmental effects) including explicitly
+depicting the underlying ecological network, accounting for multiple pathways
+and indirect effects, and presenting results in a probabilistic form. In
+particular, such explicit representation of uncertainty is an important aspect
+of using ecological models to guide decision-making \citep{Clark2001a}.
+
+In conclusion, our results demonstrate that large-scale climate patterns can
+strongly influence coho salmon recruitment simultaneously through multiple
+ecological pathways. This suggests that multiple ecological mechanisms may
+underlie the large fluctuations observed in adult returns of Pacific salmon. In
+particular, it appears that both thermal regimes and prey resources are
+important processes in the mechanisms connecting climate variability and salmon
+recruitment. Taken together, these conclusions highlight the importance of
+quantifying the cumulative effects of these pathways to better understand how
+future changes in climate patterns will influence higher-trophic level species
+\citep{Ainsworth2011a, Fulton2011}.
+
+
+
+\section{Acknowledgments}
+
+We thank the numerous people who collected and compiled the physical and
+biological oceanographic data over the past decades. In particular, we thank Jay
+Peterson, Leah Feinberg, Tracy Shaw, Jennifer Menkel and Jennifer Fisher.
+Funding for this research was provided by Simon Fraser University and a grant
+from the Canada Research Chairs Program to R.M.  Peterman. We also thank Franz
+Mueter and two anonymous referees for helpful comments and discussions.
+
+
+
+\section{Tables}
+
+\newpage
+
+\section{Figure Captions}\label{figure-captions}
+
+\begin{quote}
+\textbf{Fig. 1.} Schematic of pathways linking large-scale climate
+processes and Pacific salmon recruitment; (a) pathway where climate has
+a direct effect on recruitment, (b) pathway where climate effects on
+recruitment are mediated by a regional-scale oceanographic process
+(e.g., upwelling), (c) climate effects are mediated by multiple
+regional-scale variables resulting in two pathways connecting climate
+and recruitment.
+\end{quote}
+
+\begin{quote}
+\textbf{Fig. 2.} Study area showing the ocean-entry locations of the ten
+largest river basins located within the Oregon Coast coho salmon
+evolutionarily significant unit (ESU).
+\end{quote}
+
+\begin{quote}
+\textbf{Fig. 3.} Time series of spawning stock size (dashed line) and
+the resulting total recruitment (solid line) for Oregon Coast coho
+salmon. Grey shaded region indicates the period used for the biophysical
+network.
+\end{quote}
+
+\begin{quote}
+\textbf{Fig. 4.} Directed acyclic graph for the probabilistic network
+fit using only physical environmental variables (called the physical
+network here). Ovals represent variables and arrows indicate
+dependencies among variables within the network. Numbers next to each
+arrow are the partial correlation coefficients. Thick solid arrows
+indicate the pathway with the highest average partial correlations
+(``link strength'', i.e., PDO to SST to coho recruitment), whereas the
+thick dashed arrow indicates the first link in the pathway with the
+second-highest average link strength.
+\end{quote}
+
+\begin{quote}
+\textbf{Fig. 5.} Directed acyclic graph for the probabilistic network
+fit using both physical and biological environmental variables (called
+the biophysical network here). Ovals represent variables and arrows
+indicate dependencies among variables within the network. Numbers next
+to each arrow are the partial correlation coefficients. Thick solid
+arrows indicate the pathway with the highest average partial
+correlations (i.e., link strength), whereas thick dashed arrows indicate
+the pathway with the second highest average link strength.
+\end{quote}
+
+\begin{quote}
+\textbf{Fig. 6.} Cumulative probability distributions of coho salmon
+recruitment for the physical network conditioned on each variable in the
+network. Thick grey curves indicate the cumulative probability for
+recruitment given that the environmental variable is greater than
+average, whereas thick black dashed curves show cumulative probability
+when the environmental variable is less than average. Thin dotted lines
+indicate the cumulative probabilities for 150 000 salmon. The
+\(\Delta p\) gives the maximum vertical difference in probability
+between the two cumulative distributions within a panel.
+\end{quote}
+
+\begin{quote}
+\textbf{Fig. 7.} Cumulative probability distributions of coho salmon
+recruitment for the biophysical network conditioned on each variable in
+the network. Thick grey curves indicate the cumulative probability for
+recruitment given that the environmental variable is greater than
+average, whereas thick black dashed curves show cumulative probability
+when the environmental variable is less than average. Thin dotted lines
+indicate the cumulative probabilities for 150 000 salmon. The
+\(\Delta p\) gives the maximum vertical difference in probability
+between the two cumulative distributions within a panel.
+\end{quote}
+
+\begin{quote}
+\textbf{Fig. 8.} Cumulative conditional posterior probability
+distributions for coho salmon recruitment conditioned on the parent
+variables of recruitment for (a) the physical network (conditioned on
+sea surface temperature (SST) and spring transition (ST) date) and (b)
+the biophysical network (conditioned on ichthyoplankton biomass (Ich)
+and copepod biomass (Cope)). Thick solid grey curves indicate the
+cumulative probability for recruitment given that both conditioning
+variables are greater than average (+). Thick solid black curves show
+cumulative probabilities when both variables are less than their
+long-term averages (-). Thick dashed curves indicate scenarios when the
+conditioning variables are mixed. For the physical network, the grey
+dashed curve indicates cumulative probabilities when SST is above
+average and the spring transition is below average, whereas the dashed
+black curve shows the cumulative probabilities for the opposite
+conditions. For the biophysical network, the grey dashed curve indicates
+cumulative probabilities when ichthyoplankton biomass is above average
+and copepod biomass is below average, whereas the dashed black curve
+shows the cumulative probabilities for the opposite conditions. Thin
+dotted lines indicate the cumulative probabilities for 150 000 salmon.
+The \(\Delta p\) gives the maximum vertical difference in probability
+between the two cumulative distributions where both conditioning
+variables are either above or below average within a panel.
+\end{quote}
+

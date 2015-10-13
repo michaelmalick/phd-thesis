@@ -34,6 +34,8 @@ ABV  = --citation-abbreviations ~/Documents/pandoc/csl-citations/abbrev.json
 master.pdf: master.tex $(ACKNO) $(INTRO) $(DISCU) $(SPBLM) makefile *.tex 
 	cp -r ~/Documents/research/phd-spring-bloom/thesis/figures ./3_springbloom
 	cp -r ~/Documents/research/phd-spring-bloom/thesis/tables ./3_springbloom
+	cp -r ~/Documents/research/phd-bayesian-network/thesis/figures ./4_bayesnetwork
+	cp -r ~/Documents/research/phd-bayesian-network/thesis/tables ./4_bayesnetwork
 	latexmk -pdf $<
 	rm -f *.{aux,bbl,blg,log,fls,fdb_latexmk,lof,lot,toc,out}
 
