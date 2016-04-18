@@ -1,4 +1,9 @@
 /examples
 *.RData
 /sfuthesis-2.1.0
-
+/copyright
+/forms
+master.pdf
+intro.pdf
+*.key
+*/figures
