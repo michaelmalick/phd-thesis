@@ -107,16 +107,35 @@ rates, as well as productivity (Perry et al. 1996; Armstrong et al. 2005). Thus,
 bottom-up forcing mechanisms likely have a strong impact on Pacific salmon year
 class strength.
 
-- A leading hypothesis of how bottom-up forcing can influence
-  higher-trophic-level species such as salmon starts with physical oceanographic
-  conditions, and in particular vertical transport of nutrients into the upper
-  water column
 
-- For example, in coastal upwelling areas winds drive surface water offshore
-  through Ekman transport, which brings cool nutrient rich water into the photic
-  zone, which fuels the spring phytoplankton bloom and in turn secondary
-  production, for example, of zooplankton, which are a key food resource for
-  juvenile salmon in coastal habitats
+A prevailing bottom-up forcing hypothesis in marine ecosystems posits that
+vertical ocean transport processes modulates surface primary production. For
+example, in coastal upwelling areas winds drive surface waters offshore through
+Ekman transport, bringing deep nutrient rich water into the photic zone,
+providing the necessary nutrients for the spring phytoplankton bloom, which in
+turn affects secondary production, for instance, of zooplankton, which are a key
+food resource for juvenile salmon in coastal habitats. For Pacific salmon,
+testing this vertical transport hypothesis has mainly focused on the
+relationships between average upwelling intensity and productivity of individual
+salmon stocks with mixed results. For instance, @Nickelson1986a and
+@Logerwell2003a showed positive relationships between average upwelling
+intensity and marine survival of coho salmon in the Northern California Current,
+whereas @Pearcy1997 and @Botsford2002 provided evidence that this relationship
+may be non-stationary through time.
+
+A key assumption of this previous work on the links between vertical transport
+and productivity of higher-trophic-level species is that there is a strong
+relationship between primary production and salmon productivity.
+In chapter 1, I explore this assumption by asking whether the phenology or
+intensity of the spring phytoplankton bloom can explain variability in salmon
+productivity.
+
+
+The
+results of this research have been mixed with some studies indicating positive
+relationships between productivity and upwelling intensity and others indicated
+no relationship.
+
 
 - Ideally, to estimate the effects of bottom-up control on salmon productivity,
   we would want to look at relationships between productivity and food resources
