@@ -167,4 +167,20 @@ no relationship.
 - "Balancing harvest opportunities with conservation needs"
 
 ## Contributions
-- See Sean Anderson's dissertation for an example
+
+I am the sole author of chapters xxx and xxx (general introduction and
+discussion, respectively) and these chapters are written in the first-person
+singular. Chapters xxx-xxx are derived from either published manuscripts or
+submitted manuscripts with co-authors and these chapters are written in the
+first-person plural. For each of the chapters deriving from multi-authored
+manuscripts (chapters xxx-xxx), I am the first-author of the work and performed
+the data analysis and wrote the first draft of the text. These chapters,
+however, benefited greatly from discussions, editing, and comments from the
+co-author. The original published sources of these chapters are provided at the
+beginning of each chapter. The initial ideas for chapter (bloom) were developed
+by myself, Randall Peterman, Franz Mueter and Sean Cox. Chapter (npc) builds on
+ideas originally presented in an unpublished manuscript by Randall Peterman,
+Franz Mueter, and Brigitte Dorner. The idea for chapter (bn) came out of
+discussions between myself and Randall Peterman following a presentation on
+Bayesian networks by Catherine Michielsens. The ideas presented in chapter
+(policy) were initially developed by myself, Murray Rutherford, and Sean Cox.
