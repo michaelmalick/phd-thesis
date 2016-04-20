@@ -15,19 +15,20 @@ demographic rates of exploited populations. Although it is widely recognized
 that variability in the structure and function of marine ecosystems, is in part,
 driven by environmental stochasticity, the effects of environmental conditions
 on higher-trophic-level species has been and continues to be debated in
-fisheries science. At the core of this debate is contention over the relative
-importance of environmental stochasticity and the effects of fishing in
-controlling the dynamics of exploited fish populations. In many cases,
-separating the effects of fishing and environmental stochasticity on exploited
-populations may not be possible without extreme management actions. However,
-ignoring the effects of environmental stochasticity on fish stock productivity
-may be costly from an economic, management and ecological perspective. For
-example, ocean temperatures in the Gulf of Maine have been increasing at an
-unprecedented rate over the past two decades and a failure to account for the
-effects of this warming on cod stock productivity likely contributed to the
-collapse of the Gulf of Maine cod fishery. Thus, avoiding similar undesirable
-management outcomes in the future will likely require anticipating how
-environmental change will impact marine and anadromous fish populations.
+fisheries science [@Walters1988a; @Skud1975]. At the core of the debate is
+contention over the relative importance of environmental stochasticity and the
+effects of fishing in controlling the dynamics of exploited fish populations. In
+many cases, separating the effects of fishing and environmental stochasticity on
+exploited populations may not be possible without extreme management actions
+[@Walters2004b, pg. 176-177]. However, ignoring the effects of environmental
+stochasticity on fish stock productivity may be costly from an economic,
+management and ecological perspective. For example, ocean temperatures in the
+Gulf of Maine have been increasing at an unprecedented rate over the past two
+decades and a failure to account for the effects of this warming on cod stock
+productivity likely contributed to the collapse of the Gulf of Maine cod fishery
+[@Pershing2015]. Thus, avoiding similar undesirable management outcomes in the
+future will likely require anticipating how environmental change will impact
+marine and anadromous fish populations.
 
 At least three lines of evidence further suggest that environmental
 stochasticity is indeed a leading driver of variability in fish stock
@@ -35,24 +36,25 @@ productivity. First, paleo-ecological studies have shown that fish populations
 experienced large fluctuations in abundance prior to the onset of commercial
 fishing [@Finney2000; @Rogers2013a]. Second, within-stock density-dependent
 effects often explain little of the observed variability in stock productivity
-[@Peterman1987a]. Finally, shifts in the underlying mean productivity of stocks
-often coincide with environmental regime shifts. Combined, these lines of
-evidence indicate the need...
+[@Peterman1987a; @Szuwalski2015a]. Finally, shifts in the underlying mean
+productivity of stocks often coincide with environmental regime
+shifts [@Anderson1999a; @Chavez2003a] . Combined, these lines of evidence
+indicate the need...
 
 Detecting the effects of environmental stochasticity on fish populations is
 difficult because fish population abundances are affected by multiple ecological
 factors including dynamics internal to the population (e.g., density dependent
 effects), predator-prey interactions, intra- and inter-specific competition, and
-resource availability. The effects of environmental stochasticity on these
-drivers of productivity are not isolated, but instead, changes in environmental
-conditions can have widespread effects across many drivers. For example, changes
-in ocean temperature may simultaneously influence the distribution of predator
-populations and the the availability of food resources. Furthermore,
-environmental conditions may also have direct effects on fish populations, for
-example, by influencing metabolic rates, swimming speeds, and reproduction.
-Therefore, understanding how environmental change affects fish populations
-requires understanding the relative importance of competing hypotheses of how
-fish populations respond to environmental change.
+resource availability [@Ottersen2010a]. The effects of environmental
+stochasticity on these drivers of productivity are not isolated, but instead,
+changes in environmental conditions can have widespread effects across many
+drivers. For example, changes in ocean temperature may simultaneously influence
+the distribution of predator populations and the the availability of food
+resources. Furthermore, environmental conditions may also have direct effects on
+fish populations, for example, by influencing metabolic rates, swimming speeds,
+and reproduction. Therefore, understanding how environmental change affects
+fish populations requires understanding the relative importance of competing
+hypotheses of how fish populations respond to environmental change.
 
 ## Spatial variability
 
@@ -74,23 +76,25 @@ likely drivers of salmon productivity.
 
 Four processes have been hypothesized to drive spatial synchrony in animal
 populations including dispersal, disease, predation, and environmental
-stochasticity.  For Pacific salmon, dispersal occurs when adults from one
-population stray from their natal spawning area and reproduce with another
-population. Although salmon dispersal plays an important role in meta-population
-dynamics, dispersal rates are likely too low to synchronize populations across
-100's of kilometers [@Schtickzelle2007; @Brenner2012; @Rogers2008]. In some
-areas, predation and host/parasite dynamics may be contributing factors to
-spatial synchrony across salmon populations. For example, along the southern
-British Columbia coast, infection of wild salmon with sea lice from Atlantic
-salmon farms has been shown to reduce population growth for wild pink and coho
-salmon population that migrate past the salmon farms [CITE]. Similarly, mobile
+stochasticity [@Koenig1999a; @Bjornstad1999a].  For Pacific salmon, dispersal
+occurs when adults from one population stray from their natal spawning area and
+reproduce with another population. Although salmon dispersal plays an important
+role in meta-population dynamics, dispersal rates are likely too low to
+synchronize populations across 100's of kilometers
+[@Schtickzelle2007; @Brenner2012; @Rogers2008]. In some areas, predation and
+host/parasite dynamics may be contributing factors to spatial synchrony across
+salmon populations. For example, along the southern British Columbia coast,
+infection of wild salmon with sea lice from Atlantic salmon farms has been shown
+to reduce population growth for wild pink and coho salmon population that
+migrate past the salmon farms [@Connors2010; @Krkosek2011]. Similarly, mobile
 predators such as birds, and marine mammals predate salmon across numerous
 populations, although it is unclear if predation rates from these predators are
-high enough to cause synchrony across population [CITE]. However, in many areas
-(e.g., Alaska) the prevalence of disease and spatial extent of predation within
-and across populations is largely unknown due to the lack of pertinent data,
-making it difficult to estimate the relative importance of these mechanisms in
-driving the observed spatial synchrony.
+high enough to cause synchrony across population
+[@Ford2016; @Springer2014]. However, in many areas (e.g., Alaska) the prevalence
+of disease and spatial extent of predation within and across populations is
+largely unknown due to the lack of pertinent data, making it difficult to
+estimate the relative importance of these mechanisms in driving the observed
+spatial synchrony.
 
 Among the four hypothesized mechanisms driving spatial synchrony across animal
 populations, synchronous environmental conditions is the most studied.
