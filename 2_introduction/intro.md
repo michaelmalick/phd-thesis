@@ -5,30 +5,39 @@ Michael Malick
 ~5-10 pages
 -->
 
-Date: 18 April 2016
+Date: 20 April 2016
 
 # General Introduction
 
 A critical challenge to maintaining viable and productive marine and anadromous
-fish populations is understanding how environmental change affects demographic
-rates of exploited populations. Indeed, responses of marine and anadromous fish
-populations to changes in environmental conditions have been widely observed and
-may impact fisheries management outcomes. For example, ocean temperatures in
-the Gulf of Maine have been increasing at an unprecedented rate over the past
-two decades and a failure to account for the effects of this warming on cod
-stock productivity likely contributed to the collapse of the Gulf of Maine cod
-fishery. Therefore, understanding the drivers of the variability in productivity
-is critical for anticipating how perturbations to the marine ecosystem will
-impact salmon populations.
+fish populations is understanding how environmental stochasticity affects
+demographic rates of exploited populations. Although it is widely recognized
+that variability in the structure and function of marine ecosystems, is in part,
+driven by environmental stochasticity, the effects of environmental conditions
+on higher-trophic-level species has been and continues to be debated in
+fisheries science. At the core of this debate is contention over the relative
+importance of environmental stochasticity and the effects of fishing in
+controlling the dynamics of exploited fish populations. In many cases,
+separating the effects of fishing and environmental stochasticity on exploited
+populations may not be possible without extreme management actions. However,
+ignoring the effects of environmental stochasticity on fish stock productivity
+may be costly from an economic, management and ecological perspective. For
+example, ocean temperatures in the Gulf of Maine have been increasing at an
+unprecedented rate over the past two decades and a failure to account for the
+effects of this warming on cod stock productivity likely contributed to the
+collapse of the Gulf of Maine cod fishery. Thus, avoiding similar undesirable
+management outcomes in the future will likely require anticipating how
+environmental change will impact marine and anadromous fish populations.
 
-For marine and anadromous fish populations, there are at least three lines of
-evidence that suggest environmental conditions are a leading driver of
-variability in productivity. First, paleo-ecological studies have shown that
-salmon populations experienced large fluctuations in abundance prior to the
-onset of commercial fishing [@Finney2000; @Rogers2013a]. Second, within-stock
-density-dependent effects often explain little of the observed variability in
-stock productivity [@Peterman1987a]. Third, shifts in the underlying mean
-productivity of stocks often coincide with environmental regime shifts.
+At least three lines of evidence further suggest that environmental
+stochasticity is indeed a leading driver of variability in fish stock
+productivity. First, paleo-ecological studies have shown that fish populations
+experienced large fluctuations in abundance prior to the onset of commercial
+fishing [@Finney2000; @Rogers2013a]. Second, within-stock density-dependent
+effects often explain little of the observed variability in stock productivity
+[@Peterman1987a]. Finally, shifts in the underlying mean productivity of stocks
+often coincide with environmental regime shifts. Combined, these lines of
+evidence indicate the need...
 
 Detecting the effects of environmental stochasticity on fish populations is
 difficult because fish population abundances are affected by multiple ecological
