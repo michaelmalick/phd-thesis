@@ -86,11 +86,11 @@ salmon farms has been shown to reduce population growth for wild pink and coho
 salmon population that migrate past the salmon farms [CITE]. Similarly, mobile
 predators such as birds, and marine mammals predate salmon across numerous
 populations, although it is unclear if predation rates from these predators are
-high enough to cause synchrony across population [CITE]. However, in many
-areas (e.g., Alaska) the prevalence of disease and spatial extent of predation
-within and across populations is largely unknown, making it difficult to
-estimate the relative importance of these mechanisms in driving the observed
-spatial synchrony.
+high enough to cause synchrony across population [CITE]. However, in many areas
+(e.g., Alaska) the prevalence of disease and spatial extent of predation within
+and across populations is largely unknown due to the lack of pertinent data,
+making it difficult to estimate the relative importance of these mechanisms in
+driving the observed spatial synchrony.
 
 Among the four hypothesized mechanisms driving spatial synchrony across animal
 populations, synchronous environmental conditions is the most studied.
@@ -112,56 +112,88 @@ are particularly important for determining stock productivity (Parker 1968;
 Peterman 1985; Beamish and Mahnken 2001; Wertheimer and Thrower 2007).  During
 this critical period, foraging conditions, and in particular zooplankton
 abundances, have been shown to be important factors in determining salmon growth
-rates, as well as productivity (Perry et al. 1996; Armstrong et al. 2005). Thus,
-bottom-up forcing mechanisms likely have a strong impact on Pacific salmon year
-class strength.
-
+rates, as well as productivity indicating that bottom-up forcing mechanisms
+likely have a strong impact on Pacific salmon year class strength (Perry et
+al. 1996; Armstrong et al. 2005).
 
 A prevailing bottom-up forcing hypothesis in marine ecosystems posits that
-vertical ocean transport processes modulates surface primary production. For
-example, in coastal upwelling areas winds drive surface waters offshore through
-Ekman transport, bringing deep nutrient rich water into the photic zone,
-providing the necessary nutrients for the spring phytoplankton bloom, which in
-turn affects secondary production, for instance, of zooplankton, which are a key
-food resource for juvenile salmon in coastal habitats. For Pacific salmon,
-testing this vertical transport hypothesis has mainly focused on the
-relationships between average upwelling intensity and productivity of individual
-salmon stocks with mixed results. For instance, @Nickelson1986a and
-@Logerwell2003a showed positive relationships between average upwelling
-intensity and marine survival of coho salmon in the Northern California Current,
-whereas @Pearcy1997 and @Botsford2002 provided evidence that this relationship
-may be non-stationary through time.
+vertical transport processes modulates surface primary production. For example,
+in coastal upwelling areas, winds drive surface waters offshore through Ekman
+transport, causing deep nutrient rich water to 'upwell' into the photic zone,
+providing the necessary nutrients for primary production in general and the
+spring phytoplankton bloom in particular. Primary production occurring during
+the spring phytoplankton bloom in turn affects secondary production, for
+instance, of zooplankton, which are a key food resource for juvenile salmon in
+coastal habitats. For Pacific salmon, testing this vertical transport hypothesis
+has mainly focused on the relationships between average upwelling intensity and
+productivity of individual salmon stocks with mixed results.
 
 A key assumption of this previous work on the links between vertical transport
 and productivity of higher-trophic-level species is that there is a strong
-relationship between primary production and salmon productivity.
-In chapter 1, I explore this assumption by asking whether the phenology or
+relationship between phytoplankton dynamics and salmon productivity, however,
+this assumption is largely untested. In the Northeast Pacific, phytoplankton
+dynamics are primarily characterized by the spring phytoplankton bloom, which
+has two primary modes of variability, the timing of the bloom and the intensity
+of the bloom [CITE]. In chapter xxx, I explore the relationships between spring
+bloom dynamics and salmon productivity by asking whether the phenology or
 intensity of the spring phytoplankton bloom can explain variability in salmon
-productivity.
+productivity. I find strong evidence for effects of the timing of the spring
+bloom as well as phytoplankton biomass following the bloom on salmon
+productivity throughout the North Pacific Rim.
+
+Recently, an alternative bottom-up forcing hypothesis has emerged that suggests
+that food resources available to juvenile salmon may also be driven by changes
+in horizontal transport, i.e., ocean current patterns, that cause zooplankton to
+be advected into or out of coastal areas.  In chapter xxx, I develop a method
+for indexing variability in the NPC and estimate relationships between
+variability in the positioning and intensity of the NPC on 16x North American
+pink, chum, and sockeye salmon stocks. I find that stocks of these species in
+the southern part of their North American range (i.e., throughout British
+Columbia and Washington) are most strongly affected by variability in horizontal
+ocean transport.
+
+In chapters xxx and xxx, I find evidence for two competing bottom-up forcing
+hypotheses. However, these hypotheses are not mutually exclusive and may have
+additive or multiplicative effects on salmon productivity. Because both the
+vertical and horizontal transport hypotheses focus on ocean processes that occur
+at the regional spatial scale, both hypotheses may be driving by larger scale
+processes, such as climate processes. Indeed, hierarchy theory suggests that
+large-scale processes likely 'set the stage' for smaller scale processes by
+defining boundaries that constrain the smaller-scale processes.
+
+It is widely recognized that the dynamics of the North Pacific are partially
+controlled by inter-decadal fluctuations in large-scale climate and ocean
+processes (Mantua et al. 1997; Hare et al. 1999). The Pacific Decadal
+Oscillation (PDO) and the North Pacific Gyre Oscillation (NPGO) represent two of
+the major modes of large-scale variability in the North Pacific (Mantua and Hare
+2002; Di Lorenzo et al.  2008). Fluctuations in these patterns, often referred
+to as regime shifts, can substantially alter the physical and biological
+processes in the North Pacific (Chavez et al. 2003). A major reversal of the PDO
+in 1976/77 is one of the best documented cases of the impacts of regime shifts
+on the dynamics of the North Pacific (Mantua et al. 1997; Anderson and Piatt
+1999; Mueter and Norcross 2000; Hunt et al. 2002). Following this regime shift,
+the species composition of the North Pacific shifted from a crustacean-dominated
+system to a gadid and flatfish-dominated system (Anderson and Piatt 1999; Mueter
+and Norcross 2000). Moreover, the abundances of wild adult sockeye salmon
+(O. nerka) and pink salmon (O. gorbuscha) in the North Pacific increased by more
+than 65% after the regime shift (Ruggerone et al. 2010).
+
+While, changes in large-spatial-scale climate patterns, such as the PDO, are
+often correlated with indices of salmon productivity, there are many
+intermediate-scale linkages between climate patterns and salmon productivity, as
+well as multiple pathways that can connect climate and salmon (Mueter et
+al. 2002a; Beamish et al. 2004; Drinkwater et al. 2010). For example, the
+vertical transport hypothesis represents one pathway in which large-scale
+climate processes may impact higher-trophic-level dynamics and the horizontal
+transport hypothesis represents an alternative pathway. In chapter xxx, I
+estimate the cumulative effects of these pathways on productivity of coho salmon
+in the Northern California Current using Bayesian network. Results of this
+analysis strongly indicated that both the vertical and horizontal transport
+pathways simultaneously affect salmon productivity and indicate the need to
+account for the cumulative effects of competing hypothesis of how environmental
+stochasticity affects higher-trophic-level species.
 
 
-The
-results of this research have been mixed with some studies indicating positive
-relationships between productivity and upwelling intensity and others indicated
-no relationship.
-
-
-- Ideally, to estimate the effects of bottom-up control on salmon productivity,
-  we would want to look at relationships between productivity and food resources
-  directly, however, the spatial extent of food supply data is limited.
-
-- To get around this, previous research has relied on physical oceanographic
-  data, for example, by estimating relationships between upwelling intensity and
-  salmon productivity
-
-- But, with the advent of remote sensing satellites, we are now able to
-  investigate relationships between phytoplankton and salmon productivity, which
-  gets us one step closer.
-
-- There is an alternative hypothesis as well, that suggests that food resources
-  available to juvenile salmon may also be driven by changes in horizontal
-  transport, i.e., ocean current patterns, that cause zooplankton to be adverted
-  into or out of coastal areas
 
 ## Managing for environmental change
 - "Balancing harvest opportunities with conservation needs"
