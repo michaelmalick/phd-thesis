@@ -56,81 +56,7 @@ and reproduction. Therefore, understanding how environmental change affects
 fish populations requires understanding the relative importance of competing
 hypotheses of how fish populations respond to environmental change.
 
-## Spatial variability
-
-Demographic rates of fish populations often fluctuate synchronously across space
-and determining the extent of spatial synchrony across populations is an
-important first step in differentiating between alternative hypotheses of how
-abiotic and biotic factors drive local population dynamics
-[@Koenig1999a; @Bjornstad1999a]. In particular, the spatial scale of the
-hypothesized drivers of the population dynamics should approximately match the
-observed extent of synchrony across populations. For example, observed synchrony
-of population productivity across 10's of kilometers would suggest that biotic
-or abiotic factors that also covary over 10's of kilometers are likely drivers
-of the observed synchrony.  For Pacific salmon, stock productivity time series
-tend to be synchronous at the regional-scale with synchrony between populations
-being greatest at distances less than 500 km, suggesting that regional-scale
-biotic or abiotic processes are likely drivers of salmon productivity.
-
-Mortality of Pacific salmon during the ocean life phase is widely recognized to
-be size selective (Parker 1971; Holtby et al. 1990; McGurk 1996; Moss et
-al. 2005). Consequently, faster growing salmon are expected to have reduced
-mortality rates compared to slower growing conspecifics. A large fraction of
-marine mortality of salmon (e.g., > 70%) is also thought to occur during the
-first year of ocean residency, indicating that growth rates during this period
-are particularly important for determining stock productivity (Parker 1968;
-Peterman 1985; Beamish and Mahnken 2001; Wertheimer and Thrower 2007).  During
-this critical period, foraging conditions, and in particular zooplankton
-abundances, have been shown to be important factors in determining salmon growth
-rates, as well as productivity, indicating that bottom-up forcing mechanisms
-likely have a strong impact on Pacific salmon year class strength (Perry et
-al. 1996; Armstrong et al. 2005).
-
-
-
-
-Four processes have been hypothesized to drive spatial synchrony in animal
-populations including dispersal, disease, predation, and environmental
-stochasticity [@Koenig1999a; @Bjornstad1999a].
-
-Four processes have been hypothesized to drive spatial synchrony in animal
-populations including dispersal, disease, predation, and environmental
-stochasticity [@Koenig1999a; @Bjornstad1999a].  For Pacific salmon, dispersal
-occurs when adults from one population stray from their natal spawning area and
-reproduce with another population. Although salmon dispersal plays an important
-role in meta-population dynamics, dispersal rates are likely too low to
-synchronize populations across 100's of kilometers
-[@Schtickzelle2007; @Brenner2012; @Rogers2008]. In some areas, predation and
-host/parasite dynamics may be contributing factors to spatial synchrony across
-salmon populations. For example, along the southern British Columbia coast,
-infection of wild salmon with sea lice from Atlantic salmon farms has been shown
-to reduce population growth for wild pink and coho salmon population that
-migrate past the salmon farms [@Connors2010; @Krkosek2011]. Similarly, mobile
-predators such as birds, and marine mammals predate salmon across numerous
-populations, although it is unclear if predation rates from these predators are
-high enough to cause synchrony across population
-[@Ford2016; @Springer2014]. However, in many areas (e.g., Alaska) the prevalence
-of disease and spatial extent of predation within and across populations is
-largely unknown due to the lack of pertinent data, making it difficult to
-estimate the relative importance of these mechanisms in driving the observed
-spatial synchrony.
-
-Synchronous environmental conditions have long been cited as a likely mechanism
-driving spatial synchrony in animal populations. Although the Moran effect was
-originally formulated using abiotic factors (e.g., temperature), the Moran
-effect is now often broadened to also include biotic factors such as food
-resources.
-
-Among the four hypothesized mechanisms driving spatial synchrony across animal
-populations, synchronous environmental conditions is the most studied.
-
-- Moran effect
-- Food resources
-
-suggesting that food resources or abiotic environmental conditions may play an
-important role in driving salmon productivity.
-
-## Ecological pathways
+## Bottom-up forcing hypotheses
 
 Mortality of Pacific salmon during the ocean life phase is widely recognized to
 be size selective (Parker 1971; Holtby et al. 1990; McGurk 1996; Moss et
@@ -181,6 +107,8 @@ pink, chum, and sockeye salmon stocks. I find that stocks of these species in
 the southern part of their North American range (i.e., throughout British
 Columbia and Washington) are most strongly affected by variability in horizontal
 ocean transport.
+
+## Ecological pathways
 
 In chapters xxx and xxx, I find evidence for two competing bottom-up forcing
 hypotheses. However, these hypotheses are not mutually exclusive and may have
