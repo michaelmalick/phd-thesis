@@ -63,16 +63,35 @@ and determining the extent of spatial synchrony across populations is an
 important first step in differentiating between alternative hypotheses of how
 abiotic and biotic factors drive local population dynamics
 [@Koenig1999a; @Bjornstad1999a]. In particular, the spatial scale of the
-hypothesized drivers of the population dynamics should match the observed extent
-of synchrony across populations. For example, it has been hypothesized that
-large-scale climate processes, such as the PDO, are a dominant driver of Pacific
-salmon productivity. According to this hypothesis, an expectations would be that
-productivity of individual salmon stocks is synchronous over large spatial
-scales (i.e., > 1000 km). However, Pacific salmon productivity trends tend to be
-synchronous at the regional-scale with synchrony among populations being
-greatest at distances less than 500 km [@Mueter2002b; @Pyper2005a]. This
-provides a first suggestion that regional-scale abiotic or biotic factors are
-likely drivers of salmon productivity.
+hypothesized drivers of the population dynamics should approximately match the
+observed extent of synchrony across populations. For example, observed synchrony
+of population productivity across 10's of kilometers would suggest that biotic
+or abiotic factors that also covary over 10's of kilometers are likely drivers
+of the observed synchrony.  For Pacific salmon, stock productivity time series
+tend to be synchronous at the regional-scale with synchrony between populations
+being greatest at distances less than 500 km, suggesting that regional-scale
+biotic or abiotic processes are likely drivers of salmon productivity.
+
+Mortality of Pacific salmon during the ocean life phase is widely recognized to
+be size selective (Parker 1971; Holtby et al. 1990; McGurk 1996; Moss et
+al. 2005). Consequently, faster growing salmon are expected to have reduced
+mortality rates compared to slower growing conspecifics. A large fraction of
+marine mortality of salmon (e.g., > 70%) is also thought to occur during the
+first year of ocean residency, indicating that growth rates during this period
+are particularly important for determining stock productivity (Parker 1968;
+Peterman 1985; Beamish and Mahnken 2001; Wertheimer and Thrower 2007).  During
+this critical period, foraging conditions, and in particular zooplankton
+abundances, have been shown to be important factors in determining salmon growth
+rates, as well as productivity, indicating that bottom-up forcing mechanisms
+likely have a strong impact on Pacific salmon year class strength (Perry et
+al. 1996; Armstrong et al. 2005).
+
+
+
+
+Four processes have been hypothesized to drive spatial synchrony in animal
+populations including dispersal, disease, predation, and environmental
+stochasticity [@Koenig1999a; @Bjornstad1999a].
 
 Four processes have been hypothesized to drive spatial synchrony in animal
 populations including dispersal, disease, predation, and environmental
@@ -96,13 +115,20 @@ largely unknown due to the lack of pertinent data, making it difficult to
 estimate the relative importance of these mechanisms in driving the observed
 spatial synchrony.
 
+Synchronous environmental conditions have long been cited as a likely mechanism
+driving spatial synchrony in animal populations. Although the Moran effect was
+originally formulated using abiotic factors (e.g., temperature), the Moran
+effect is now often broadened to also include biotic factors such as food
+resources.
+
 Among the four hypothesized mechanisms driving spatial synchrony across animal
 populations, synchronous environmental conditions is the most studied.
 
 - Moran effect
 - Food resources
 
-
+suggesting that food resources or abiotic environmental conditions may play an
+important role in driving salmon productivity.
 
 ## Ecological pathways
 
@@ -111,12 +137,12 @@ be size selective (Parker 1971; Holtby et al. 1990; McGurk 1996; Moss et
 al. 2005). Consequently, faster growing salmon are expected to have reduced
 mortality rates compared to slower growing conspecifics. A large fraction of
 marine mortality of salmon (e.g., > 70%) is also thought to occur during the
-first years of ocean residency, indicating that growth rates during this period
+first year of ocean residency, indicating that growth rates during this period
 are particularly important for determining stock productivity (Parker 1968;
 Peterman 1985; Beamish and Mahnken 2001; Wertheimer and Thrower 2007).  During
 this critical period, foraging conditions, and in particular zooplankton
 abundances, have been shown to be important factors in determining salmon growth
-rates, as well as productivity indicating that bottom-up forcing mechanisms
+rates, as well as productivity, indicating that bottom-up forcing mechanisms
 likely have a strong impact on Pacific salmon year class strength (Perry et
 al. 1996; Armstrong et al. 2005).
 
