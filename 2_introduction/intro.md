@@ -5,7 +5,7 @@ Michael Malick
 ~5-10 pages
 -->
 
-Date: 25 April 2016
+Date: 27 April 2016
 
 # General Introduction
 
@@ -18,7 +18,7 @@ on higher-trophic-level species has been, and continues to be, debated in
 fisheries science [@Walters1988a; @Skud1975]. At the core of the debate is
 contention over the relative importance of environmental stochasticity and the
 effects of fishing in controlling the dynamics of exploited fish populations.
-For Pacific salmon, At least three lines of evidence suggest that environmental
+For Pacific salmon, at least three lines of evidence suggest that environmental
 stochasticity is indeed a leading driver of variability in stock
 productivity. First, paleo-ecological studies have shown that fish populations
 experienced large fluctuations in abundance prior to the onset of commercial
@@ -53,9 +53,9 @@ drivers. For example, changes in ocean temperature may simultaneously influence
 the distribution of predator populations and the the availability of food
 resources. Furthermore, environmental conditions may also have direct effects on
 fish populations, for example, by influencing metabolic rates, swimming speeds,
-and reproduction [CITE]. Therefore, understanding how environmental change affects
-fish populations requires understanding the relative importance of competing
-hypotheses of how fish populations respond to environmental change.
+and reproduction [CITE]. Therefore, understanding how environmental change
+affects fish populations requires understanding the relative importance of
+competing hypotheses of how fish populations respond to environmental change.
 
 
 ## Bottom-up forcing hypotheses
@@ -78,57 +78,60 @@ A prevailing bottom-up forcing hypothesis in marine ecosystems posits that
 vertical transport processes modulates surface primary production. In
 particular, processes controlling water column stratification and the movement
 of deep nutrient rich water to the surface are frequently cited as key elements
-driving phytoplankton dynamics.  For example, in coastal upwelling areas, winds
-drive surface waters offshore through Ekman transport, causing deep nutrient
-rich water to upwell into the photic zone, providing the necessary nutrients
-for primary production. Primary production occurring during the spring phytoplankton bloom
-in turn affects secondary production, for instance, of zooplankton, thus
-providing a pathway between vertical transport and salmon productivity.
+driving phytoplankton dynamics. For example, in coastal upwelling areas, winds
+drive surface waters offshore through Ekman dynamics, causing deep nutrient rich
+water to upwell into the photic zone, providing the necessary nutrients for
+primary production. In turn, this primary production provides grazing
+opportunities for zooplankton, and thus provides a pathway between vertical
+ocean transport and salmon productivity.
+
+For Pacific salmon, testing this vertical transport hypothesis has mainly
+focused on the relationships between average upwelling intensity and
+productivity of individual salmon stocks with mixed results.  A key assumption
+of this previous work on the links between vertical transport and productivity
+of higher-trophic-level species is that there is a strong relationship between
+phytoplankton dynamics and salmon productivity, however, this assumption is
+largely untested.  In chapter 1, I explore this vertical transport hypothesis by
+asking whether the phenology or intensity of the spring phytoplankton bloom can
+explain variability in salmon productivity. In particular, I use hierarchical
+models to estimate the effects of spring bloom initiation date and phytoplankton
+biomass on productivity of 27 pink salmon populations. I find strong evidence
+for effects of the spring bloom on pink salmon productivity with the phenology
+of bloom consistently being a better predictor of salmon productivity than
+phytoplankton biomass.
 
 Recently, an alternative bottom-up forcing hypothesis has emerged that suggests
-that food resources available to juvenile salmon may also be driven by changes
-in horizontal transport, i.e., ocean current patterns, that cause zooplankton to
-be advected into or out of coastal areas.
+that horizontal ocean transport may be as equally important as vertical
+transport in determining productivity of higher-trophic-level species. The
+horizontal transport hypothesis suggests that food resources available to
+juvenile salmon is driven by changes in horizontal transport processes,
+e.g., ocean currents or eddies, that cause zooplankton or other weakly/passive
+drifters to be advected into or out of coastal areas. For example, in the
+California Current, research has indicated that the composition of copepods in
+coastal areas is largely determined by advection processes.
 
-For Pacific salmon, testing this vertical transport hypothesis
-has mainly focused on the relationships between average upwelling intensity and
-productivity of individual salmon stocks with mixed results.
-
-A key assumption of this previous work on the links between vertical transport
-and productivity of higher-trophic-level species is that there is a strong
-relationship between phytoplankton dynamics and salmon productivity, however,
-this assumption is largely untested. In the Northeast Pacific, phytoplankton
-dynamics are primarily characterized by the spring phytoplankton bloom, which
-has two primary modes of variability, the timing of the bloom and the intensity
-of the bloom [CITE]. In chapter xxx, I explore the relationships between spring
-bloom dynamics and salmon productivity by asking whether the phenology or
-intensity of the spring phytoplankton bloom can explain variability in salmon
-productivity. I find strong evidence for effects of the timing of the spring
-bloom as well as phytoplankton biomass following the bloom on salmon
-productivity throughout the North Pacific Rim.
-
-Recently, an alternative bottom-up forcing hypothesis has emerged that suggests
-that food resources available to juvenile salmon may also be driven by changes
-in horizontal transport, i.e., ocean current patterns, that cause zooplankton to
-be advected into or out of coastal areas.  In chapter xxx, I develop a method
-for indexing variability in the NPC and estimate relationships between
-variability in the positioning and intensity of the NPC on 16x North American
-pink, chum, and sockeye salmon stocks. I find that stocks of these species in
-the southern part of their North American range (i.e., throughout British
-Columbia and Washington) are most strongly affected by variability in horizontal
-ocean transport.
+For Pacific salmon, the effects of horizontal transport on productivity has
+largely not been tested, except for a few local scale studies.  In chapter 2, I
+develop a method for indexing variability in the NPC and estimate relationships
+between variability in the positioning and intensity of the NPC on 163 North
+American pink, chum, and sockeye salmon stocks. I find that stocks of these
+species in the southern part of their North American range (i.e., throughout
+British Columbia and Washington) are most strongly affected by variability in
+horizontal ocean transport and the effect attenuates for stocks that enter the
+ocean at higher latitudes.
 
 
 ## Ecological pathways
 
-In chapters xxx and xxx, I find evidence for two competing bottom-up forcing
-hypotheses. However, these hypotheses are not mutually exclusive and may have
+In chapters 1 and 2, I find evidence for two competing bottom-up forcing
+hypotheses; the vertical transport hypothesis and the horizontal transport
+hypothesis. However, these hypotheses are not mutually exclusive and may have
 additive or multiplicative effects on salmon productivity. Because both the
 vertical and horizontal transport hypotheses focus on ocean processes that occur
-at the regional spatial scale, both hypotheses may be driving by larger scale
+at the regional spatial scale, both hypotheses may be affected by larger scale
 processes, such as climate processes. Indeed, hierarchy theory suggests that
 large-scale processes likely 'set the stage' for smaller scale processes by
-defining boundaries that constrain the smaller-scale processes [CITE].
+defining boundaries that constrain the smaller-scale processes [@Allen1982a].
 
 It is widely recognized that the dynamics of the North Pacific are partially
 controlled by inter-decadal fluctuations in large-scale climate and ocean
@@ -153,7 +156,7 @@ well as multiple pathways that can connect climate and salmon
 [@Mueter2002a; @Beamish2004b; @Drinkwater2010a]. For example, the vertical
 transport hypothesis represents one pathway in which large-scale climate
 processes may impact higher-trophic-level dynamics and the horizontal transport
-hypothesis represents an alternative pathway. In chapter xxx, I estimate the
+hypothesis represents an alternative pathway. In chapter 3, I estimate the
 cumulative effects of these pathways on productivity of coho salmon in the
 Northern California Current using Bayesian network. Results of this analysis
 strongly indicated that both the vertical and horizontal transport pathways
