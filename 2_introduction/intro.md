@@ -5,21 +5,23 @@ Michael Malick
 ~5-10 pages
 -->
 
-Date: 27 April 2016
+Date: 28 April 2016
 
 # General Introduction
 
-Demographic rates of exploited marine and anadromous fish populations vary over
+Productivity[^1] of exploited marine and anadromous fish populations vary over
 time and space by orders of magnitude, with 10-fold changes not being
-unusual. Such large spatial and temporal variability in population dynamics
-creates risks for management agencies, fish stocks, and communities that rely on
-these fish populations for economic and cultural prosperity.  For example,
-abrupt changes in the productivity of an expoited fish stock can have important
-management and conservation implications if they are not detected quickly
-because they can mislead managers about the status of a stock or appropriate
-management actions to take [@Walters1987a; @Vert-pre2013a]. Fundamental to
-minimizing these risks is development of a quantitative understanding of the
-drivers of the observed variability in stock productivity.
+unusual. Despite more than 100 years of research, there are still large
+uncertainties about the underlying drivers of this variability. These
+uncertainties create risks for management agencies, fish stocks, and communities
+that rely on these fish populations for economic and cultural prosperity.  For
+example, abrupt and persistent changes in the productivity of an exploited fish
+stock can have important management and conservation implications if they are
+not anticipated or detected quickly because they can mislead scientists and
+decision-makers about the status of a stock or appropriate management actions to
+take [@Walters1987a; @Vert-pre2013a]. Fundamental to minimizing these risks is
+development of a quantitative understanding of the drivers of the observed
+variability.
 
 It is widely recognized that variability in the structure and function of marine
 ecosystems, is in part, driven by environmental stochasticity. However, the
@@ -27,16 +29,25 @@ effects of environmental conditions on higher-trophic-level fish species has
 been, and continues to be, debated in fisheries science
 [@Walters1988a; @Skud1975]. At the core of this debate is contention over the
 relative importance of environmental stochasticity and the effects of fishing in
-controlling the dynamics of exploited fish populations.  For Pacific salmon, as
-well as several pelagic and demersal marine fish species, three lines of
-evidence suggest that environmental stochasticity is indeed a leading driver of
-variability in stock productivity. First, paleo-ecological studies have shown
-that fish populations experienced large fluctuations in abundance prior to the
-onset of commercial fishing [@Finney2000; @Rogers2013a]. Second, within-stock
-density-dependent effects often explain little of the observed variability in
-stock productivity [@Peterman1987a; @Szuwalski2015a; @Cury2014]. Finally, shifts
-in the underlying mean productivity of stocks often coincide with environmental
-regime shifts [@Anderson1999a; @Chavez2003a; @Rothschild2000a].
+controlling the dynamics of exploited fish populations. In many cases,
+separating the effects of fishing and environmental stochasticity may not be
+possible without extreme management actions, which are usually not politically
+feasible [@Walters2004b, pg. 176-177]. In all but a few cases, the confounding
+of fishing and environmental effects has resulted in ignoring the effects of
+environmental stochasticity on fish stock productivity. However, in the face of
+unprecedented environmental change, continuing to ignore environment effects may
+be costly from an economic, management, and ecological perspective.
+
+For Pacific salmon, as well as several pelagic and demersal marine fish species,
+three lines of evidence suggest that environmental stochasticity is indeed a
+leading driver of variability in stock productivity. First, paleo-ecological
+studies have shown that fish populations experienced large fluctuations in
+abundance prior to the onset of commercial fishing
+[@Finney2000; @Rogers2013a]. Second, within-stock density-dependent effects
+often explain little of the observed variability in stock productivity
+[@Peterman1987a; @Szuwalski2015a; @Cury2014]. Finally, shifts in the underlying
+mean productivity of stocks often coincide with environmental regime shifts
+[@Anderson1999a; @Chavez2003a; @Rothschild2000a].
 
 Although these three lines of evidence provide a first suggestion of the
 importance of environmental stochasticity, detecting the effects of
@@ -54,6 +65,10 @@ fish populations, for example, by influencing metabolic rates, swimming speeds,
 and reproduction [CITE]. Therefore, understanding how environmental change
 affects fish populations requires understanding the relative importance of
 competing hypotheses of how fish populations respond to environmental change.
+
+[^1] Throughout this thesis, the term productivity refers to the per capita
+growth rate for a population, which for Pacific salmon is estimated as the
+number of recruits produced per spawner.
 
 
 ## Bottom-up forcing hypotheses
