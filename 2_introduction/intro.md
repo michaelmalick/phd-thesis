@@ -5,38 +5,25 @@ Michael Malick
 ~5-10 pages
 -->
 
-Date: 28 April 2016
+Date: 29 April 2016
 
 # General Introduction
 
-Productivity[^1] of exploited marine and anadromous fish populations vary over
-time and space by orders of magnitude, with 10-fold changes not being
-unusual. Despite more than 100 years of research, there are still large
-uncertainties about the underlying drivers of this variability. These
-uncertainties create risks for management agencies, fish stocks, and communities
-that rely on these fish populations for economic and cultural prosperity.  For
-example, abrupt and persistent changes in the productivity of an exploited fish
-stock can have important management and conservation implications if they are
-not anticipated or detected quickly because they can mislead scientists and
-decision-makers about the status of a stock or appropriate management actions to
-take [@Walters1987a; @Vert-pre2013a]. Fundamental to minimizing these risks is
-development of a quantitative understanding of the drivers of the observed
-variability.
-
-It is widely recognized that variability in the structure and function of marine
-ecosystems, is in part, driven by environmental stochasticity. However, the
-effects of environmental conditions on higher-trophic-level fish species has
-been, and continues to be, debated in fisheries science
-[@Walters1988a; @Skud1975]. At the core of this debate is contention over the
-relative importance of environmental stochasticity and the effects of fishing in
-controlling the dynamics of exploited fish populations. In many cases,
-separating the effects of fishing and environmental stochasticity may not be
-possible without extreme management actions, which are usually not politically
-feasible [@Walters2004b, pg. 176-177]. In all but a few cases, the confounding
-of fishing and environmental effects has resulted in ignoring the effects of
-environmental stochasticity on fish stock productivity. However, in the face of
-unprecedented environmental change, continuing to ignore environment effects may
-be costly from an economic, management, and ecological perspective.
+Abundances of exploited marine and anadromous fish populations vary over time
+and space by orders of magnitude, with 10-fold changes not being unusual.
+Despite a century of research, much uncertainty remains in our understanding of
+the processes underlying this variability, leading to increased risk for
+management agencies, fish stocks, and users of the resource.  The drivers of
+fluctuations in abundance have been widely debated in fisheries science and at
+the core of this debate is contention over the relative importance of
+environmental stochasticity and the effects of fishing in controlling the
+dynamics of exploited fish populations. In many cases, separating the effects of
+fishing and the environmental may not be possible without extreme management
+actions and this has resulted in environmental effects being largely abscent in
+fisheries assessments [@Walters2004b, pg. 176-177].  However, in the face of
+unprecedented environmental change, continuing to ignore environment effects on
+exploited populations may be costly from an economic, management, and ecological
+perspective.
 
 For Pacific salmon, as well as several pelagic and demersal marine fish species,
 three lines of evidence suggest that environmental stochasticity is indeed a
