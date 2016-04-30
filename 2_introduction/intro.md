@@ -5,26 +5,24 @@ Michael Malick
 ~5-10 pages
 -->
 
-Date: 29 April 2016
+Date: 30 April 2016
 
 # General Introduction
 
-Productivity[^1] of exploited marine and anadromous fish populations vary over
+Productivity[^1] of exploited marine and anadromous fish populations varies over
 time and space by orders of magnitude, with 3-fold changes not being unusual.
 Despite a century of research, much uncertainty remains in our understanding of
 the processes underlying this variability, leading to increased risk for
-management agencies, fish stocks, and users of the resource.  The drivers of
-fluctuations in stock productivity have been widely debated in fisheries science
-and at the core of this debate is contention over the relative importance of
-environmental stochasticity and the effects of fishing in controlling the
-dynamics of exploited fish populations [@Walters1988a; @Skud1975]. In many
-cases, separating the effects of fishing and the environmental may not be
-possible without extreme management actions and this has resulted in
-environmental effects being largely abscent in fisheries assessments
-[@Walters2004b, pg. 176-177; @SkernMauritzen2015]. However, in the face of
-unprecedented environmental change, continuing to ignore environment effects on
-exploited populations may be costly from an economic, management, and ecological
-perspective [@Pershing2015].
+management agencies, fish stocks, and users of the resource.  Although it is
+widely recognized that variability in the structure and function of marine
+ecosystems, is in part, driven by environmental stochasticity, environmental
+processes are rarely included in fisheries assessments because of a poor
+understanding of the mechanisms driving observed correlations between
+environmental processes and productivity of higher-trophic-level species
+[@SkernMauritzen2015; @Myers1998b]. However, in the face of unprecedented
+environmental change, continuing to ignore environmental effects on exploited
+fish populations is increasingly likely to result in undesirable management
+outcomes such as overexploitation or fisheries collapse [@Pershing2015].
 
 For Pacific salmon, as well as several pelagic and demersal marine fish species,
 three lines of evidence suggest that environmental stochasticity is indeed a
