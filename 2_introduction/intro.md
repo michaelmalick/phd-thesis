@@ -20,11 +20,11 @@ prior to the onset of commercial fishing [@Finney2000; @Rogers2013a]. Second,
 within-stock density-dependent effects often explain little of the observed
 variability in stock productivity [@Peterman1987a; @Szuwalski2015a; @Cury2014].
 Finally, shifts in the underlying mean productivity of stocks often coincide
-with environmental regime shifts
-[@Anderson1999a; @Chavez2003a; @Rothschild2000a].  Despite these multiple lines
-of evidence, maintaining viable and productive fish populations in the face of
-unprecedented environmental change requires a quantitative understanding of the
-mechanisms driving the observed variability in stock productivity.
+with environmental regime shifts [@Anderson1999a; @Chavez2003a;
+@Rothschild2000a].  Despite these multiple lines of evidence, maintaining viable
+and productive fish populations in the face of unprecedented environmental
+change requires a quantitative understanding of the mechanisms driving the
+observed variability in stock productivity.
 
 The effects of environmental conditions, including abiotic (e.g., temperature,
 climate) and biotic (e.g., prey availability, competition, and predation)
@@ -35,12 +35,12 @@ year-class success is largely determined by prey availability when fish larvae
 start exogenous feeding, i.e., mortality during this critical life stage due to
 poor feeding conditions may disproportionately affect overall year-class
 success. Since the seminal publication of @Hjort1914, dozens of alternative
-hypotheses have been developed to explain the effects of environmental
-processes on fish stock productivity including the match-mismatch
-hypothesis, the stable ocean hypothesis, and the optimal environmental window
-hypothesis [@Cushing1990a; @Cury1989a; @Peterman1987b; @Lasker1978]. A critical
-challenge to estimating the effects of environmental processes on stock
-productivity is separating the effects of these competing hypotheses.
+hypotheses have been developed to explain the effects of environmental processes
+on fish stock productivity including the match-mismatch hypothesis, the stable
+ocean hypothesis, and the optimal environmental window hypothesis
+[@Cushing1990a; @Cury1989a; @Peterman1987b; @Lasker1978]. A critical challenge
+to estimating the effects of environmental processes on stock productivity is
+separating the effects of these competing hypotheses.
 
 [^1]: Throughout this thesis, the term productivity refers to the per capita
       growth rate for a population, which for Pacific salmon is estimated as the
@@ -52,15 +52,14 @@ productivity is separating the effects of these competing hypotheses.
 Demographic rates of fish populations often fluctuate synchronously across space
 and determining the extent of spatial synchrony across populations is an
 important first step in differentiating between alternative hypotheses of how
-abiotic and biotic factors drive local population dynamics
-[@Koenig1999a; @Bjornstad1999a]. In particular, the spatial scale of the
-hypothesized drivers of the population dynamics should approximately match the
-observed extent of synchrony across populations. For example, Pacific salmon
-productivity trends tend to be synchronous at the regional-scale with synchrony
-among populations being greatest at distances less than 500 km
-[@Mueter2002b; @Pyper2005a]. This provides a first suggestion that
-regional-scale abiotic or biotic factors are likely drivers of salmon
-productivity.
+abiotic and biotic factors drive local population dynamics [@Koenig1999a;
+@Bjornstad1999a]. In particular, the spatial scale of the hypothesized drivers
+of the population dynamics should approximately match the observed extent of
+synchrony across populations. For example, Pacific salmon productivity trends
+tend to be synchronous at the regional-scale with synchrony among populations
+being greatest at distances less than 500 km [@Mueter2002b; @Pyper2005a]. This
+provides a first suggestion that regional-scale abiotic or biotic factors are
+likely drivers of salmon productivity.
 
 Four processes have been hypothesized to drive spatial synchrony in animal
 populations including dispersal, disease, predation, and environmental
@@ -68,20 +67,20 @@ stochasticity [@Koenig1999a; @Bjornstad1999a].  For Pacific salmon, dispersal
 occurs when adults from one population stray from their natal spawning area and
 reproduce with another population. Although salmon dispersal plays an important
 role in meta-population dynamics, dispersal rates are likely too low to
-synchronize populations across 100's of kilometers
-[@Schtickzelle2007; @Brenner2012; @Rogers2008]. In some areas, predation and
-host/parasite dynamics may be contributing factors to spatial synchrony across
-salmon populations. For example, along the southern British Columbia coast,
-infection of wild salmon with sea lice from Atlantic salmon farms has been shown
-to reduce population growth for wild pink and coho salmon population that
-migrate past the salmon farms [@Connors2010; @Krkosek2011]. Similarly, mobile
-predators such as birds, and marine mammals predate salmon across numerous
-populations, although it is unclear if predation rates from these predators are
-high enough to cause synchrony across population [@Ford2016; @Springer2014].
-However, in many areas (e.g., Alaska) the prevalence of disease and spatial
-extent of predation within and across populations is largely unknown due to the
-lack of pertinent data, making it difficult to estimate the relative importance
-of these mechanisms in driving the observed spatial synchrony.
+synchronize populations across 100's of kilometers [@Schtickzelle2007;
+@Brenner2012; @Rogers2008]. In some areas, predation and host/parasite dynamics
+may be contributing factors to spatial synchrony across salmon populations. For
+example, along the southern British Columbia coast, infection of wild salmon
+with sea lice from Atlantic salmon farms has been shown to reduce population
+growth for wild pink and coho salmon population that migrate past the salmon
+farms [@Connors2010; @Krkosek2011]. Similarly, mobile predators such as birds,
+and marine mammals predate salmon across numerous populations, although it is
+unclear if predation rates from these predators are high enough to cause
+synchrony across population [@Ford2016; @Springer2014].  However, in many areas
+(e.g., Alaska) the prevalence of disease and spatial extent of predation within
+and across populations is largely unknown due to the lack of pertinent data,
+making it difficult to estimate the relative importance of these mechanisms in
+driving the observed spatial synchrony.
 
 Synchronous environmental conditions have long been cited as a likely mechanism
 driving spatial synchrony in animal populations. Although the Moran effect was
@@ -90,14 +89,13 @@ broadened to also include biotic factors such as food resource availability.
 For Pacific salmon, mortality during the ocean life phase is widely recognized
 to be size selective [@Parker1971a; @Holtby1990a; @McGurk1996a; @Moss2005a],
 with a large fraction of the mortality (e.g., > 70%) occurring during the first
-year of ocean residency
-[@Parker1968a; @Peterman1985a; @Beamish2001a; @Wertheimer2007a].  During this
-critical period, food resources, and in particular zooplankton abundances,
-have been shown to be important factors in determining salmon growth rates, as
-well as productivity, indicating that processes regulating food resource
-availability likely have a strong impact on individual stock productivities, and
-may be a key driver of spatial synchrony in productivity across stocks
-[@Perry1996a; @Armstrong2005a].
+year of ocean residency [@Parker1968a; @Peterman1985a; @Beamish2001a;
+@Wertheimer2007a].  During this critical period, food resources, and in
+particular zooplankton abundances, have been shown to be important factors in
+determining salmon growth rates, as well as productivity, indicating that
+processes regulating food resource availability likely have a strong impact on
+individual stock productivities, and may be a key driver of spatial synchrony in
+productivity across stocks [@Perry1996a; @Armstrong2005a].
 
 
 ## Bottom-up forcing hypotheses
@@ -132,8 +130,8 @@ Recently, an alternative bottom-up forcing hypothesis has emerged that suggests
 that horizontal ocean transport may be as equally important as vertical
 transport in determining productivity of higher-trophic-level species. The
 horizontal transport hypothesis suggests that food resources available to
-juvenile salmon is driven by changes in horizontal transport processes,
-e.g., ocean currents or eddies, that cause zooplankton or other weakly/passive
+juvenile salmon is driven by changes in horizontal transport processes, e.g.,
+ocean currents or eddies, that cause zooplankton or other weakly/passive
 drifters to be advected into or out of coastal areas. For example, in the
 California Current, research has indicated that the composition of copepods in
 coastal areas is largely determined by advection processes.
@@ -180,17 +178,17 @@ by more than 65% after the regime shift [@Ruggerone2010a].
 While, changes in large-spatial-scale climate patterns, such as the PDO, are
 often correlated with indices of salmon productivity, there are many
 intermediate-scale linkages between climate patterns and salmon productivity, as
-well as multiple pathways that can connect climate and salmon
-[@Mueter2002a; @Beamish2004b; @Drinkwater2010a]. For example, the vertical
-transport hypothesis represents one pathway in which large-scale climate
-processes may impact higher-trophic-level dynamics and the horizontal transport
-hypothesis represents an alternative pathway. In chapter 3, I estimate the
-cumulative effects of these pathways on productivity of coho salmon in the
-Northern California Current using Bayesian network. Results of this analysis
-strongly indicated that both the vertical and horizontal transport pathways
-simultaneously affect salmon productivity and indicate the need to account for
-the cumulative effects of competing hypothesis of how environmental
-stochasticity affects higher-trophic-level species.
+well as multiple pathways that can connect climate and salmon [@Mueter2002a;
+@Beamish2004b; @Drinkwater2010a]. For example, the vertical transport hypothesis
+represents one pathway in which large-scale climate processes may impact
+higher-trophic-level dynamics and the horizontal transport hypothesis represents
+an alternative pathway. In chapter 3, I estimate the cumulative effects of these
+pathways on productivity of coho salmon in the Northern California Current using
+Bayesian network. Results of this analysis strongly indicated that both the
+vertical and horizontal transport pathways simultaneously affect salmon
+productivity and indicate the need to account for the cumulative effects of
+competing hypothesis of how environmental stochasticity affects
+higher-trophic-level species.
 
 
 ## Managing for environmental change
