@@ -7,6 +7,46 @@ Michael Malick
 
 Date: 30 April 2016
 
+<!--
+
+Title 1: Ecological drivers of spatial and temporal variability in Pacific
+         salmon productivity
+
+Title 2: Ecological pathways as drivers of Pacific salmon productivity
+
+1.  Decision-making, uncertainty, and productivity changes
+2.  Environmental stochasticity as drivers of productivity changes
+3.  Critical-period hypothesis and Pacific salmon
+4.  Ecological pathways
+        - present the challenge (over-arching question of the thesis)
+        - critical uncertainties in links
+5.  Chapter: spring bloom
+6.  Chapter: NPC
+7.  Chapter: Bayesian network
+8.  Ecosystem-based management
+9.  Chapter: policy
+
+- Macro-scale perspective
+- Cross-system comparative approaches
+- Spatial covariation
+
+- NPC and spring bloom chapters provide some evidence that different
+  pathways/mechanisms may drive productivity in N/S areas
+
+- In the first two chapters, I use a macro-scale perspective to examine
+  evironmental effects on salmon productivity across a variety of systems. This
+  cross-scale comparative approach has the advantage of allowing the
+  simultaneous estimation of environmental effects at multiple spatial scales.
+  In particular, in both of these chapters I use hierarchical modeling methods
+  that allow leveraging data from many salmon populations across their North
+  American ranges to help reduce uncertainties in the effects of environmental
+  change on the dynamics of higher-trophic-level species. Further,
+
+-->
+
+
+
+
 # General Introduction
 
 Productivity[^1] of exploited marine and anadromous fish populations varies over
