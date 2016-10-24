@@ -5,7 +5,7 @@ Michael Malick
 ~10 paragraphs
 -->
 
-Date: 30 April 2016
+Date: 2016-10-24
 
 <!--
 
@@ -85,57 +85,6 @@ separating the effects of these competing hypotheses.
 [^1]: Throughout this thesis, the term productivity refers to the per capita
       growth rate for a population, which for Pacific salmon is estimated as the
       number of recruits produced per spawner.
-
-
-## Spatial variability
-
-Demographic rates of fish populations often fluctuate synchronously across space
-and determining the extent of spatial synchrony across populations is an
-important first step in differentiating between alternative hypotheses of how
-abiotic and biotic factors drive local population dynamics [@Koenig1999a;
-@Bjornstad1999a]. In particular, the spatial scale of the hypothesized drivers
-of the population dynamics should approximately match the observed extent of
-synchrony across populations. For example, Pacific salmon productivity trends
-tend to be synchronous at the regional-scale with synchrony among populations
-being greatest at distances less than 500 km [@Mueter2002b; @Pyper2005a]. This
-provides a first suggestion that regional-scale abiotic or biotic factors are
-likely drivers of salmon productivity.
-
-Four processes have been hypothesized to drive spatial synchrony in animal
-populations including dispersal, disease, predation, and environmental
-stochasticity [@Koenig1999a; @Bjornstad1999a].  For Pacific salmon, dispersal
-occurs when adults from one population stray from their natal spawning area and
-reproduce with another population. Although salmon dispersal plays an important
-role in meta-population dynamics, dispersal rates are likely too low to
-synchronize populations across 100's of kilometers [@Schtickzelle2007;
-@Brenner2012; @Rogers2008]. In some areas, predation and host/parasite dynamics
-may be contributing factors to spatial synchrony across salmon populations. For
-example, along the southern British Columbia coast, infection of wild salmon
-with sea lice from Atlantic salmon farms has been shown to reduce population
-growth for wild pink and coho salmon population that migrate past the salmon
-farms [@Connors2010; @Krkosek2011]. Similarly, mobile predators such as birds,
-and marine mammals predate salmon across numerous populations, although it is
-unclear if predation rates from these predators are high enough to cause
-synchrony across population [@Ford2016; @Springer2014].  However, in many areas
-(e.g., Alaska) the prevalence of disease and spatial extent of predation within
-and across populations is largely unknown due to the lack of pertinent data,
-making it difficult to estimate the relative importance of these mechanisms in
-driving the observed spatial synchrony.
-
-Synchronous environmental conditions have long been cited as a likely mechanism
-driving spatial synchrony in animal populations. Although the Moran effect was
-originally formulated using abiotic factors (e.g., temperature), it is now often
-broadened to also include biotic factors such as food resource availability.
-For Pacific salmon, mortality during the ocean life phase is widely recognized
-to be size selective [@Parker1971a; @Holtby1990a; @McGurk1996a; @Moss2005a],
-with a large fraction of the mortality (e.g., > 70%) occurring during the first
-year of ocean residency [@Parker1968a; @Peterman1985a; @Beamish2001a;
-@Wertheimer2007a].  During this critical period, food resources, and in
-particular zooplankton abundances, have been shown to be important factors in
-determining salmon growth rates, as well as productivity, indicating that
-processes regulating food resource availability likely have a strong impact on
-individual stock productivities, and may be a key driver of spatial synchrony in
-productivity across stocks [@Perry1996a; @Armstrong2005a].
 
 
 ## Bottom-up forcing hypotheses
