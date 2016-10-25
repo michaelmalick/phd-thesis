@@ -89,31 +89,52 @@ separating the effects of these competing hypotheses.
 
 ## Bottom-up forcing hypotheses
 
-A prevailing bottom-up forcing hypothesis in marine ecosystems posits that
-vertical transport processes modulates surface primary production. In
-particular, processes controlling water column stratification and the movement
-of deep nutrient rich water to the surface are frequently cited as key elements
-driving phytoplankton dynamics. For example, in coastal upwelling areas, winds
-drive surface waters offshore through Ekman dynamics, causing deep nutrient rich
-water to upwell into the photic zone, providing the necessary nutrients for
-primary production. In turn, this primary production provides grazing
-opportunities for zooplankton, and thus provides a pathway between vertical
-ocean transport and salmon productivity.
+The effects of environmental change, including abiotic (e.g., temperature,
+climate) and biotic (e.g., prey availability, competition, and predation)
+processes are largely hypothesized to influence survival of pre-recruit life
+stages of marine and anadromous fish population [@Hare2014]. For example, the
+critical-period hypothesis, first introduced by @Hjort1914, proposes that
+year-class success of marine fish populations is largely determined by prey
+availability when fish larvae start exogenous feeding, i.e., mortality during
+this critical life stage due to poor feeding conditions may disproportionately
+affect overall year-class success. For anadromous Pacific salmon, the first year
+of ocean residency if often considered a critical period where mortality is
+frequently observed to be size selective, indicating that processes regulating
+food resource availability during this period likely have a strong impact on
+individual salmon stock productivities [@Perry1996a; @Armstrong2005a;
+@Parker1968a; @Peterman1985a; @Beamish2001a; @Wertheimer2007a].
 
-For Pacific salmon, testing this vertical transport hypothesis has mainly
-focused on the relationships between average upwelling intensity and
-productivity of individual salmon stocks with mixed results.  A key assumption
-of this previous work on the links between vertical transport and productivity
-of higher-trophic-level species is that there is a strong relationship between
-phytoplankton dynamics and salmon productivity, however, this assumption is
-largely untested.  In chapter 1, I explore this vertical transport hypothesis by
-asking whether the phenology or intensity of the spring phytoplankton bloom can
-explain variability in salmon productivity. In particular, I use hierarchical
-models to estimate the effects of spring bloom initiation date and phytoplankton
-biomass on productivity of 27 pink salmon populations. I find strong evidence
-for effects of the spring bloom on pink salmon productivity with the phenology
-of bloom consistently being a better predictor of salmon productivity than
-phytoplankton biomass.
+A prevalent bottom-up forcing pathway in marine ecosystems posits that vertical
+transport processes mediate the effects of climate variability on phytoplankton
+dynamics in coastal ecosystems and subsequently, food resource availability for
+higher-trophic-level species [@DiLorenzo2013b; @Rykaczewski2008a; @Ware1991a].
+In particular, climate processes controlling water column stability and the near
+surface nutrient supply are frequently cited as key elements driving
+phytoplankton dynamics in coastal ecosystems [@Henson2007a; @Gargett1997a]. For
+example, in coastal upwelling areas, winds drive surface waters offshore through
+Ekman dynamics, causing deep nutrient rich water to upwell into the euphotic
+zone, providing the necessary nutrients for primary production [@Huyer1983]. In
+turn, this primary production is thought to provide grazing opportunities for
+zooplankton, which are a critical food resource for juvenile Pacific salmon.
+
+Over the past two decades, considerable evidence has indicated strong
+connections between climate variability, vertical ocean transport processes, and
+phytoplankton dynamics [@Chenillat2012; @Polovina1995a; @Henson2007a;
+@Henson2007b; @Stabeno2004a; @Weingartner2002a]. However, relationships between
+lower-trophic-level process, such as phytoplankton dynamics in coastal
+ecosystems, and productivity of Pacific salmon populations largely remains an
+untested assumption. In chapter 1, I investigate this assumption of the vertical
+transport hypothesis by asking whether the phenology or intensity of the spring
+phytoplankton bloom can explain variability in salmon productivity. In
+particular, I use satellite derived chl-a estimates to examine the effects of
+spring bloom initiation date and phytoplankton biomass on productivity of 27
+pink salmon populations. Results from this chapter indicate that spring bloom
+dynamics can have a strong effect on salmon productivity with the phenology of
+the bloom consistently being a better predictor of salmon productivity than
+phytoplankton biomass. Thus, chapter 1 provides some evidence that vertical
+transport processes that influence phytoplankton phenology can strongly
+influence productivity of Pacific salmon populations.
+
 
 Recently, an alternative bottom-up forcing hypothesis has emerged that suggests
 that horizontal ocean transport may be as equally important as vertical
