@@ -1,7 +1,7 @@
 ---
 title: PhD Thesis General Introduction
 author: Michael Malick
-date: 2016-10-17
+date: 2016-10-26
 tags: phd
 ---
 
@@ -18,7 +18,223 @@ tags: phd
 - DONE @Hare2014        -> multiple hypotheses
 - DONE @Wang2015 + @DiLorenzo2015 -> upwelling
 
+
+# Gems
+
+- strong coherence
+
+- Effective decision-making in the presence of profound environmental change is
+  a critical challenge of managing living marine resources. Large uncertainties
+  about the effects of environmental change, whether due to anthropogenic or
+  natural sources, on exploited marine and anadromous fish species
+
+- Although it is widely recognized that variability in the structure and
+  function of marine ecosystems, is in part, driven by environmental
+  stochasticity, there continues to be deep uncertainties about the effects of
+  environmental conditions on higher-trophic-level species.
+
+- For example, ocean temperatures in the Gulf of Maine have been increasing at
+  an unprecedented rate over the past two decades and a failure to account for
+  the effects of this warming on cod stock productivity likely contributed to
+  the collapse of the Gulf of Maine cod fishery [@Pershing2015]. Thus, avoiding
+  similar undesirable management outcomes in the future will likely require
+  understanding and anticipating how environmental change will impact marine and
+  anadromous fish populations.
+
+- Indeed, three lines of evidence suggests that environmental change is a
+  leading driver of variability in population productivity for many exploited
+  marine and anadromous fish populations, and thereby affecting a populations
+  response to harvesting and its speed of recovery from depletion [CITE]. First,
+  paleo-ecological studies have shown that fish populations experienced large
+  fluctuations in abundance prior to the onset of commercial fishing
+  [@Finney2000; @Rogers2013a]. Second, within-stock density-dependent effects
+  often explain little of the observed variability in stock productivity
+  [@Peterman1987a; @Szuwalski2015a; @Cury2014]. Finally, shifts in the
+  underlying mean productivity of stocks often coincide with environmental
+  regime shifts [@Anderson1999a; @Chavez2003a; @Rothschild2000a].
+
+
+# Research overview
+
+In this thesis, I aim to add to that quantitative understanding by using a
+cross-system comparative approach to examine ecological pathways[^2] linking
+climate and ocean processes to spatial and temporal variability in productivity
+of North American Pacific salmon (*Oncorhynchus* spp.) populations. In the first
+two chapters, I use a macro-scale perspective to examine the effects of two
+alternative bottom-up forcing pathways on salmon productivity across a variety
+of systems. This cross-scale comparative approach has the advantage of allowing
+the simultaneous estimation of environmental effects at multiple spatial scales.
+In the third chapter, I focus on the Northern California Current system to
+examine the cumulative impacts of multiple ecological pathways linking climate
+variability and salmon productivity through the use of ecological network
+analysis. Finally, in the fourth chapter I use a policy perspective to examine
+challenges, and solutions, to integrating highly migratory Pacific into
+localized ecosystem-based management plans.
+
+# Footnote definitions
+
+[^1]: Throughout this thesis, the term productivity refers to the per capita
+      growth rate for a population, which for Pacific salmon is estimated as the
+      number of recruits produced per spawner.
+
+[^2]: The term 'ecological pathway' is used throughout this thesis to describe a
+      series of connected ecological processes (abiotic and/or biotic) where one
+      process (e.g., dynamics of the spring phytoplankton bloom) is thought to
+      be at least partially affected by the process directly prior to it in the
+      pathway (e.g., water column stability).
+
+# Intro results
+
+Results from this chapter indicate that spring bloom dynamics can have a strong
+effect on salmon productivity with the phenology of the bloom consistently being
+a better predictor of salmon productivity than phytoplankton biomass. Thus,
+chapter 1 provides some evidence that vertical transport processes that
+influence phytoplankton phenology can strongly influence productivity of Pacific
+salmon populations.
+
+I find that stocks of these species in the southern part of their North American
+range (i.e., throughout British Columbia and Washington) are most strongly
+affected by variability in horizontal ocean transport and the effect attenuates
+for stocks that enter the ocean at higher latitudes. Thus, chapter 2 provides
+some evidence that horizontal transport processes can strongly influence
+productivity of Pacific salmon populations in the southern part of their North
+American range.
+
+
+- NPC and spring bloom chapters provide some evidence that different
+  pathways/mechanisms may drive productivity in N/S areas
+
+- In the first two chapters, I use a macro-scale perspective to examine
+  environmental effects on salmon productivity across a variety of systems. This
+  cross-scale comparative approach has the advantage of allowing the
+  simultaneous estimation of environmental effects at multiple spatial scales.
+  In particular, in both of these chapters I use hierarchical modeling methods
+  that allow leveraging data from many salmon populations across their North
+  American ranges to help reduce uncertainties in the effects of environmental
+  change on the dynamics of higher-trophic-level species. Further,
+
 # Intro paragraph
+
+Productivity[^1] of exploited marine and anadromous fish populations varies over
+time and space by orders of magnitude, with 3-fold changes not being unusual.
+For Pacific salmon (*Oncorhynchus* spp.), as well as several pelagic and
+demersal marine fish species, three lines of evidence suggest that environmental
+stochasticity is a leading driver of this variability in stock productivity, and
+thereby the populations response to harvesting. First, paleo-ecological studies
+have shown that fish populations experienced large fluctuations in abundance
+prior to the onset of commercial fishing [@Finney2000; @Rogers2013a]. Second,
+within-stock density-dependent effects often explain little of the observed
+variability in stock productivity [@Peterman1987a; @Szuwalski2015a; @Cury2014].
+Finally, shifts in the underlying mean productivity of stocks often coincide
+with environmental regime shifts [@Anderson1999a; @Chavez2003a;
+@Rothschild2000a].  Despite these multiple lines of evidence, maintaining viable
+and productive fish populations in the face of unprecedented environmental
+change requires a quantitative understanding of the mechanisms driving the
+observed variability in stock productivity.
+
+The effects of environmental conditions, including abiotic (e.g., temperature,
+climate) and biotic (e.g., prey availability, competition, and predation)
+processes are largely hypothesized to influence survival of pre-recruit life
+stages, and thus overall stock productivity [@Hare2014]. For example, the
+critical-period hypothesis, first introduced by @Hjort1914, proposes that
+year-class success is largely determined by prey availability when fish larvae
+start exogenous feeding, i.e., mortality during this critical life stage due to
+poor feeding conditions may disproportionately affect overall year-class
+success. Since the seminal publication of @Hjort1914, dozens of alternative
+hypotheses have been developed to explain the effects of environmental processes
+on fish stock productivity including the match-mismatch hypothesis, the stable
+ocean hypothesis, and the optimal environmental window hypothesis
+[@Cushing1990a; @Cury1989a; @Peterman1987b; @Lasker1978]. A critical challenge
+to estimating the effects of environmental processes on stock productivity is
+separating the effects of these competing hypotheses.
+
+[^1]: Throughout this thesis, the term productivity refers to the per capita
+      growth rate for a population, which for Pacific salmon is estimated as the
+      number of recruits produced per spawner.
+
+- Effective decision-making in the presence of unprecedented environmental
+  change is a fundamental challenge of managing living marine resources.
+
+- Effective decision-making in the presence of large uncertainties is a
+  fundamental challenge of managing living marine resources.
+
+- Effective decision-making in the presence of large uncertainties is a
+  fundamental challenge of managing living marine resources.
+
+- One of the central challenges in fisheries science is understanding how
+  environmental change influences demographic rates of marine and anadromous
+  fish populations [@Chavez2003a; @Vert-pre2013a].
+
+Effective decision-making in the presence of large uncertainties is a
+fundamental challenge of managing living marine resources.
+
+Among the sources of these uncertainties,
+
+Uncertainties about the magnitude and rate of change in productivity of marine
+and anadromous fish populations are particularly challenging because a
+populations productivity affects its response to harvesting and environmental
+change and affects the speed of recovery from depletion.
+
+Uncertainties about how environmental change influences demographics rates of
+marine and anadromous fish populations are particularly challenging because
+populations productivity affects its response to harvesting and environmental
+change and affects the speed of recovery from depletion.
+
+
+- Environmental change, whether due to natural perturbations or anthropogenic
+  sources, presents a significant challenge for
+
+- Uncertainties about a populations response to environmental change
+
+Productivity[^1] of exploited marine and anadromous fish populations varies over
+time and space by orders of magnitude, with 3-fold changes not being unusual.
+
+Understanding the drivers of these large changes in productivity is important
+because a populations productivity affects its response to harvesting and
+environmental change and affects the speed of recovery from depletion.
+
+Deep uncertainties about the coupling among climate variability, physical and
+biological ocean processes, and the productivity of higher-trophic-level species
+reduces our ability to anticipate or quickly detect impacts from environmental
+change on commercially valuable species.
+
+Fundamental to minimizing these uncertainties is development of a quantitative
+understanding of the inter-connections of climate, ocean, and population
+dynamics that occur across multiple spatial and temporal scales.
+
+In this thesis, I use a cross-system comparative approach to examine mechanisms
+linking climate and ocean processes to spatial and temporal variability in
+Pacific salmon productivity.
+
+
+  In particular, uncertainty in the productivity of exploited marine and
+  anadromous fish populations can increase risks for fish populations, managers,
+  and user of the resource.
+
+The rate of change for many of these abiotic
+ecosystem components is unprecedented at the scale of decades to millenia.
+
+
+- Deep uncertainties about the coupling among climate variability, physical and
+  biological ocean processes, and the productivity of higher-trophic-level
+  species reduces our ability to anticipate or quickly detect impacts from
+  environmental change on commercially valuable species.
+
+- Fundamental to minimizing these uncertainties is development of a quantitative
+  understanding of the inter-connections of climate, ocean, and population
+  dynamics that occur across multiple spatial and temporal scales.
+
+- In this thesis, I use a cross-system comparative approach to examine
+  mechanisms linking climate and ocean processes to spatial and temporal
+  variability in Pacific salmon productivity.
+
+- Productivity is important because:
+    -Affects population response to harvesting and environmental change
+    -Affects the speed of recovery from depletion
+- Understanding the drivers of the variability in productivity is critical for
+  anticipating how perturbations to the marine ecosystem will impact salmon
+  populations (i.e., forecasting)
+
 
 Effective decision-making in the presence of pervasive uncertainties is a
 critical challenge of managing living marine resources. Productivity[^1] of
@@ -85,6 +301,10 @@ to productivity of Pacific salmon populations
 
 # Climatic Change Rewrite
 
+- Environmental change, whether due to natural perturbations or anthropogenic
+  sources, presents a significant challenge for
+
+
 One of the central challenges in fisheries science is understanding how
 environmental change influences demographic rates of marine and anadromous fish
 populations [@Chavez2003a; @Vert-pre2013a]. Changes in climate systems over the
@@ -128,7 +348,7 @@ affect on overall stock productivity. Mortality of juvenile salmon in the ocean
 is widely recognized to be size selective [@Parker1971a; @Holtby1990a;
 @McGurk1996a; @Moss2005a], with a large fraction of the mortality (e.g., > 70%)
 occurring during the first year of ocean residency [@Parker1968a;
-@Peterman1985a; @Beamish2001a; @Wertheimer2007a].  During this critical period,
+@Peterman1985a; @Beamish2001a; @Wertheimer2007a]. During this critical period,
 food resources, and in particular zooplankton abundances, have been shown to be
 important factors in determining salmon growth rates, as well as productivity,
 indicating that processes regulating food resource availability likely have a
@@ -161,6 +381,25 @@ coastal areas is largely determined by advection processes.
 
 # Outline
 
+
+1.  Decision-making, uncertainty, and productivity changes
+2.  Environmental stochasticity as drivers of productivity changes
+3.  Critical-period hypothesis and Pacific salmon
+4.  Ecological pathways
+        - present the challenge (over-arching question of the thesis)
+        - critical uncertainties in links
+5.  Chapter: spring bloom
+6.  Chapter: NPC
+7.  Chapter: Bayesian network
+8.  Ecosystem-based management
+9.  Chapter: policy
+
+- Macro-scale perspective
+- Cross-system comparative approaches
+- Spatial covariation
+
+---
+
 1. Importance of understanding drivers of productivity
     - Productivity determines a populations response to harvesting
     - Large shifts in productivity create management and conservation risks
@@ -189,40 +428,6 @@ coastal areas is largely determined by advection processes.
     - Summarize Bayesian network chapter results
 
 8. Managing for environmental change
-
-
-
-
-
-
-
-
-
-Implications for...
- - Conservation
- - Harvest Management
- - Users
-
-Understanding the drivers of the variability is important for anticipating how
-perturbations to the marine ecosystem will impact salmon populations
-
-
-
-Mortality of juvenile salmon in the ocean is widely recognized to be size
-selective [@Parker1971a; @Holtby1990a; @McGurk1996a; @Moss2005a], with a large
-fraction of the mortality (e.g., > 70%) occurring during the first year of ocean
-residency [@Parker1968a; @Peterman1985a; @Beamish2001a; @Wertheimer2007a].
-
-
-The effects of environmental conditions, including abiotic (e.g., temperature,
-climate) and biotic (e.g., prey availability, competition, and predation)
-processes are largely hypothesized to influence survival of pre-recruit life
-stages. For Pacific salmon, the first year of ocean residency is often
-considered a critical period with mortality during this life stage having a
-disproportionately large affect on overall stock productivity. During this
-critical period mortality of juvenile salmon is widely recognized to be size
-selective
-
 
 # Test rewrite
 
@@ -813,39 +1018,54 @@ populations.
   - Environment
   - Disease???
 
+
 Demographic rates of fish populations often fluctuate synchronously across space
-with the strength of synchrony declining with increasing geographic distance
-between populations. For Pacific salmon, stock productivity time series tend to
-be synchronous at the regional-scale with synchrony among populations being
-greatest at distances less than 500 km. This work on spatial synchrony provides
-an important first step in differentiating between alternative hypotheses of
-how biotic and abiotic factors drive local population dynamics.  In particular,
-the spatial scale of the hypothesized drivers of the population dynamics should
-match the observed extent of synchrony across populations.
+and determining the extent of spatial synchrony across populations is an
+important first step in differentiating between alternative hypotheses of how
+abiotic and biotic factors drive local population dynamics [@Koenig1999a;
+@Bjornstad1999a]. In particular, the spatial scale of the hypothesized drivers
+of the population dynamics should approximately match the observed extent of
+synchrony across populations. For example, Pacific salmon productivity trends
+tend to be synchronous at the regional-scale with synchrony among populations
+being greatest at distances less than 500 km [@Mueter2002b; @Pyper2005a]. This
+provides a first suggestion that regional-scale abiotic or biotic factors are
+likely drivers of salmon productivity.
 
-Demographic rates of fish populations often fluctuate synchronously across
-space and determining the extent of spatial synchrony across populations is an
-important first step in identifying important abiotic and biotic factors
-driving local population dynamics. In particular,
+Four processes have been hypothesized to drive spatial synchrony in animal
+populations including dispersal, disease, predation, and environmental
+stochasticity [@Koenig1999a; @Bjornstad1999a].  For Pacific salmon, dispersal
+occurs when adults from one population stray from their natal spawning area and
+reproduce with another population. Although salmon dispersal plays an important
+role in meta-population dynamics, dispersal rates are likely too low to
+synchronize populations across 100's of kilometers [@Schtickzelle2007;
+@Brenner2012; @Rogers2008]. In some areas, predation and host/parasite dynamics
+may be contributing factors to spatial synchrony across salmon populations. For
+example, along the southern British Columbia coast, infection of wild salmon
+with sea lice from Atlantic salmon farms has been shown to reduce population
+growth for wild pink and coho salmon population that migrate past the salmon
+farms [@Connors2010; @Krkosek2011]. Similarly, mobile predators such as birds,
+and marine mammals predate salmon across numerous populations, although it is
+unclear if predation rates from these predators are high enough to cause
+synchrony across population [@Ford2016; @Springer2014].  However, in many areas
+(e.g., Alaska) the prevalence of disease and spatial extent of predation within
+and across populations is largely unknown due to the lack of pertinent data,
+making it difficult to estimate the relative importance of these mechanisms in
+driving the observed spatial synchrony.
 
-Four processes could explain the observed regional-scale spatial synchrony among
-salmon population productivity rates [@Koenig1999a; @Bjornstad1999a].
-First, dispersal of individuals across populations could result in
-regional-scale synchrony by linking locally regulated populations
-[@Ranta1998]. For Pacific salmon, dispersal occurs when adults from one
-population stray from their natal spawning area and reproduce with another
-population. Although salmon dispersal plays an important role in meta-population
-dynamics, dispersal rates are likely too low to synchronize populations across
-100's of kilometers [@Schtickzelle2007; @Brenner2012; @Rogers2008].
-Second, predators could give rise to regional-scale synchrony if the mobility of
-the predator population matches that of salmon productivity. For Pacific salmon,
-mobile predators may include birds, marine mammals, or sharks. Although it is
-possible that predation may play a large role in spatial synchrony, predation
-rates of salmon across large-spatial scales is largely unknown.
-
-Third, food resources (or some other critical resource) may drive regional-scale
-synchrony
-
+Synchronous environmental conditions have long been cited as a likely mechanism
+driving spatial synchrony in animal populations. Although the Moran effect was
+originally formulated using abiotic factors (e.g., temperature), it is now often
+broadened to also include biotic factors such as food resource availability.
+For Pacific salmon, mortality during the ocean life phase is widely recognized
+to be size selective [@Parker1971a; @Holtby1990a; @McGurk1996a; @Moss2005a],
+with a large fraction of the mortality (e.g., > 70%) occurring during the first
+year of ocean residency [@Parker1968a; @Peterman1985a; @Beamish2001a;
+@Wertheimer2007a].  During this critical period, food resources, and in
+particular zooplankton abundances, have been shown to be important factors in
+determining salmon growth rates, as well as productivity, indicating that
+processes regulating food resource availability likely have a strong impact on
+individual stock productivities, and may be a key driver of spatial synchrony in
+productivity across stocks [@Perry1996a; @Armstrong2005a].
 
 # Multiple working hypotheses
 

@@ -3,206 +3,180 @@ General Introduction
 Michael Malick
 
 ~10 paragraphs
--->
-
-Date: 2016-10-24
-
-<!--
 
 Title 1: Ecological drivers of spatial and temporal variability in Pacific
          salmon productivity
 
 Title 2: Ecological pathways as drivers of Pacific salmon productivity
-
-1.  Decision-making, uncertainty, and productivity changes
-2.  Environmental stochasticity as drivers of productivity changes
-3.  Critical-period hypothesis and Pacific salmon
-4.  Ecological pathways
-        - present the challenge (over-arching question of the thesis)
-        - critical uncertainties in links
-5.  Chapter: spring bloom
-6.  Chapter: NPC
-7.  Chapter: Bayesian network
-8.  Ecosystem-based management
-9.  Chapter: policy
-
-- Macro-scale perspective
-- Cross-system comparative approaches
-- Spatial covariation
-
-- NPC and spring bloom chapters provide some evidence that different
-  pathways/mechanisms may drive productivity in N/S areas
-
-- In the first two chapters, I use a macro-scale perspective to examine
-  evironmental effects on salmon productivity across a variety of systems. This
-  cross-scale comparative approach has the advantage of allowing the
-  simultaneous estimation of environmental effects at multiple spatial scales.
-  In particular, in both of these chapters I use hierarchical modeling methods
-  that allow leveraging data from many salmon populations across their North
-  American ranges to help reduce uncertainties in the effects of environmental
-  change on the dynamics of higher-trophic-level species. Further,
-
 -->
 
 
+Date: 2016-10-26
 
 
 # General Introduction
 
-Productivity[^1] of exploited marine and anadromous fish populations varies over
-time and space by orders of magnitude, with 3-fold changes not being unusual.
-For Pacific salmon (*Oncorhynchus* spp.), as well as several pelagic and
-demersal marine fish species, three lines of evidence suggest that environmental
-stochasticity is a leading driver of this variability in stock productivity, and
-thereby the populations response to harvesting. First, paleo-ecological studies
-have shown that fish populations experienced large fluctuations in abundance
-prior to the onset of commercial fishing [@Finney2000; @Rogers2013a]. Second,
-within-stock density-dependent effects often explain little of the observed
-variability in stock productivity [@Peterman1987a; @Szuwalski2015a; @Cury2014].
-Finally, shifts in the underlying mean productivity of stocks often coincide
-with environmental regime shifts [@Anderson1999a; @Chavez2003a;
-@Rothschild2000a].  Despite these multiple lines of evidence, maintaining viable
-and productive fish populations in the face of unprecedented environmental
-change requires a quantitative understanding of the mechanisms driving the
-observed variability in stock productivity.
-
-The effects of environmental conditions, including abiotic (e.g., temperature,
-climate) and biotic (e.g., prey availability, competition, and predation)
-processes are largely hypothesized to influence survival of pre-recruit life
-stages, and thus overall stock productivity [@Hare2014]. For example, the
-critical-period hypothesis, first introduced by @Hjort1914, proposes that
-year-class success is largely determined by prey availability when fish larvae
-start exogenous feeding, i.e., mortality during this critical life stage due to
-poor feeding conditions may disproportionately affect overall year-class
-success. Since the seminal publication of @Hjort1914, dozens of alternative
-hypotheses have been developed to explain the effects of environmental processes
-on fish stock productivity including the match-mismatch hypothesis, the stable
-ocean hypothesis, and the optimal environmental window hypothesis
-[@Cushing1990a; @Cury1989a; @Peterman1987b; @Lasker1978]. A critical challenge
-to estimating the effects of environmental processes on stock productivity is
-separating the effects of these competing hypotheses.
-
-[^1]: Throughout this thesis, the term productivity refers to the per capita
-      growth rate for a population, which for Pacific salmon is estimated as the
-      number of recruits produced per spawner.
+Environmental change can have profound impacts on the provisioning of ecosystem
+services provided by marine and coastal ecosystems. Yet, deep uncertainties
+about the coupling among climatic change, physical and biological ocean
+processes, and the productivity of higher-trophic-level species limits our
+ability to anticipate or quickly detect impacts from environmental change on
+commercially valuable species. These uncertainties contribute to risks, which
+have implications for conservation, harvest management, and users of the
+resource. Fundamental to minimizing the uncertainties about the effects of
+environmental change on higher-trophic-level species is developing a
+quantitative understanding about how perturbations in large-scale climatic and
+atmospheric conditions propagate to regional and local scale changes in the
+population dynamics of exploited species. In this thesis, I aim to add to that
+quantitative understanding by using a cross-system comparative approach to
+examine ecological pathways linking climate and ocean processes to spatial and
+temporal variability in productivity of North American Pacific salmon
+(*Oncorhynchus* spp.) populations.
 
 
-## Bottom-up forcing hypotheses
+## Cross-scale environmental change
 
-The effects of environmental change, including abiotic (e.g., temperature,
-climate) and biotic (e.g., prey availability, competition, and predation)
-processes are largely hypothesized to influence survival of pre-recruit life
-stages of marine and anadromous fish population [@Hare2014]. For example, the
-critical-period hypothesis, first introduced by @Hjort1914, proposes that
-year-class success of marine fish populations is largely determined by prey
-availability when fish larvae start exogenous feeding, i.e., mortality during
-this critical life stage due to poor feeding conditions may disproportionately
-affect overall year-class success. For anadromous Pacific salmon, the first year
-of ocean residency if often considered a critical period where mortality is
-frequently observed to be size selective, indicating that processes regulating
-food resource availability during this period likely have a strong impact on
-individual salmon stock productivities [@Perry1996a; @Armstrong2005a;
-@Parker1968a; @Peterman1985a; @Beamish2001a; @Wertheimer2007a].
+Changes in environmental conditions can arise from natural or anthropogenic
+sources and can manifest as gradual or abrupt changes in mean conditions or
+changes in the frequency or distribution of extreme events. For example, changes
+in climate systems over the past five decades due to increased carbon dioxide
+concentrations in the atmosphere have resulted in warmer mean atmosphere and
+ocean temperatures, decreased snow and ice pack, rising sea levels, changes in
+precipitation patterns, increased ocean acidification, and increased frequency
+of extreme temperature events [CITE]. The rate of change for many of these
+abiotic ecosystem components is unprecedented at the scale of decades to
+millenia with equally rapid changes also being observed for biological processes
+including shifts in phenology, species distributions, and fish stock
+productivity [CITE].
 
-A prevalent bottom-up forcing pathway in marine ecosystems posits that vertical
-transport processes mediate the effects of climate variability on phytoplankton
-dynamics in coastal ecosystems and subsequently, food resource availability for
-higher-trophic-level species [@DiLorenzo2013b; @Rykaczewski2008a; @Ware1991a].
-In particular, climate processes controlling water column stability and the near
-surface nutrient supply are frequently cited as key elements driving
-phytoplankton dynamics in coastal ecosystems [@Henson2007a; @Gargett1997a]. For
-example, in coastal upwelling areas, winds drive surface waters offshore through
-Ekman dynamics, causing deep nutrient rich water to upwell into the euphotic
-zone, providing the necessary nutrients for primary production [@Huyer1983]. In
-turn, this primary production is thought to provide grazing opportunities for
-zooplankton, which are a critical food resource for juvenile Pacific salmon.
+Concurrent with climate and ecosystem changes from anthropogenic sources, are
+changes resulting from natural climate variability. In the North Pacific,
+large-scale climate patterns, including, the Pacific Decadal Oscillation and
+North Pacific Gyre Oscillation, at least partially control the dynamics of
+marine and coastal ecosystems. Fluctuations in these patterns, often referred to
+as regime shifts, can substantially alter the structure and function of
+ecosystems that comprise the North Pacific [@Chavez2003a]. For instance,
+following a major reversal of the PDO in 1976/77 the species composition of the
+North Pacific shifted from a crustacean-dominated system to a gadid and
+flatfish-dominated system [@Anderson1999a; @Mueter2000a]. Also, the abundances
+of wild adult sockeye salmon (O. nerka) and pink salmon (O. gorbuscha) in the
+North Pacific increased by more than 65% after the regime shift
+[@Ruggerone2010a].
 
-Over the past two decades, considerable evidence has indicated strong
-connections between climate variability, vertical ocean transport processes, and
-phytoplankton dynamics [@Chenillat2012; @Polovina1995a; @Henson2007a;
-@Henson2007b; @Stabeno2004a; @Weingartner2002a]. However, relationships between
-lower-trophic-level process, such as phytoplankton dynamics in coastal
-ecosystems, and productivity of Pacific salmon populations largely remains an
-untested assumption. In chapter 1, I investigate this assumption of the vertical
-transport hypothesis by asking whether the phenology or intensity of the spring
-phytoplankton bloom can explain variability in salmon productivity. In
-particular, I use satellite derived chl-a estimates to examine the effects of
-spring bloom initiation date and phytoplankton biomass on productivity of 27
-pink salmon populations. Results from this chapter indicate that spring bloom
-dynamics can have a strong effect on salmon productivity with the phenology of
-the bloom consistently being a better predictor of salmon productivity than
-phytoplankton biomass. Thus, chapter 1 provides some evidence that vertical
-transport processes that influence phytoplankton phenology can strongly
-influence productivity of Pacific salmon populations.
-
-
-Recently, an alternative bottom-up forcing hypothesis has emerged that suggests
-that horizontal ocean transport may be as equally important as vertical
-transport in determining productivity of higher-trophic-level species. The
-horizontal transport hypothesis suggests that food resources available to
-juvenile salmon is driven by changes in horizontal transport processes, e.g.,
-ocean currents or eddies, that cause zooplankton or other weakly/passive
-drifters to be advected into or out of coastal areas. For example, in the
-California Current, research has indicated that the composition of copepods in
-coastal areas is largely determined by advection processes.
-
-For Pacific salmon, the effects of horizontal transport on productivity has
-largely not been tested, except for a few local scale studies.  In chapter 2, I
-develop a method for indexing variability in the NPC and estimate relationships
-between variability in the positioning and intensity of the NPC on 163 North
-American pink, chum, and sockeye salmon stocks. I find that stocks of these
-species in the southern part of their North American range (i.e., throughout
-British Columbia and Washington) are most strongly affected by variability in
-horizontal ocean transport and the effect attenuates for stocks that enter the
-ocean at higher latitudes.
+For Pacific salmon, effects of environmental change due to perturbations in
+climatic conditions are largely hypothesized to influence survival of
+pre-recruit life stages. In particular, the first year of ocean residency for
+Pacific salmon is considered a critical period, i.e., mortality during this
+life-stage can have a disproportionately large affect on overall stock
+productivity [@Parker1968a; @Peterman1985a; @Beamish2001a; @Wertheimer2007a].
+Although both top-down (i.e., ) and bottom-up (i.e., ) forcing likely contribute
+to mortality during this critical period, two pieces of evidence suggest that
+processes controlling food resource availability are particularly important.
+First, juvenile salmon mortality during the early marine life stage is size
+selective, with larger juveniles tending to survive to adult life stages in
+higher proportions than smaller juvenile salmon [@Parker1971a; @Holtby1990a;
+@McGurk1996a; @Moss2005a]. Second, growth rates during the early marine
+life-stage are strongly and positively associated with overall marine survival
+rates [@Cross2008a; @Duffy2011; @Farley2007b]. Together, this suggests that
+large-scale climatic perturbations likely have a strong impact on Pacific salmon
+year class strength through bottom-up forcing pathways [@Perry1996a;
+@Armstrong2005a].
 
 
 ## Ecological pathways
 
-In chapters 1 and 2, I find evidence for two competing bottom-up forcing
-hypotheses; the vertical transport hypothesis and the horizontal transport
-hypothesis. However, these hypotheses are not mutually exclusive and may have
-additive or multiplicative effects on salmon productivity. Because both the
-vertical and horizontal transport hypotheses focus on ocean processes that occur
-at the regional spatial scale, both hypotheses may be affected by larger scale
-processes, such as climate processes. Indeed, hierarchy theory suggests that
-large-scale processes likely 'set the stage' for smaller scale processes by
-defining boundaries that constrain the smaller-scale processes [@Allen1982a].
+A prevailing bottom-up forcing pathway in marine ecosystems posits that vertical
+transport processes mediate the effects of climate variability on phytoplankton
+dynamics in coastal ecosystems and subsequently, food resource availability for
+juvenile Pacific salmon [@DiLorenzo2013b; @Rykaczewski2008a; @Ware1991a]. In
+particular, atmospheric and ocean processes controlling water column stability
+and the near surface nutrient supply are frequently cited as key elements
+driving phytoplankton dynamics in coastal North Pacific ecosystems
+[@Henson2007a; @Gargett1997a]. For example, in coastal upwelling areas, winds
+drive surface waters offshore through Ekman dynamics, causing nutrient rich
+subsurface water to upwell into the euphotic zone, providing necessary nutrients
+for primary production [@Huyer1983]. In turn, this primary production provides
+grazing opportunities for copepods and other zooplankton, which are a critical
+food resource for juvenile Pacific salmon. Over the past two decades,
+considerable evidence has indicated strong connections between climate
+variability, vertical ocean transport processes, and phytoplankton dynamics
+[@Chenillat2012; @Polovina1995a; @Henson2007a; @Henson2007b; @Stabeno2004a;
+@Weingartner2002a]. However, relationships between lower-trophic-level process,
+such as phytoplankton dynamics in coastal ecosystems, and productivity of
+Pacific salmon populations largely remains an untested assumption. In chapter 1,
+I investigate this assumption of the vertical transport hypothesis by asking
+whether the phenology or intensity of the spring phytoplankton bloom can explain
+variability in salmon productivity. In particular, I use satellite derived chl-a
+estimates to examine the effects of spring bloom initiation date and
+phytoplankton biomass on productivity of 27 pink salmon populations.
 
-It is widely recognized that the dynamics of the North Pacific are partially
-controlled by inter-decadal fluctuations in large-scale climate and ocean
-processes [@Mantua1997a; @Hare1999a].  The Pacific Decadal Oscillation (PDO) and
-the North Pacific Gyre Oscillation (NPGO) represent two of the major modes of
-large-scale variability in the North Pacific [@Mantua2002a; @Di-Lorenzo2008a].
-Fluctuations in these patterns, often referred to as regime shifts, can
-substantially alter the physical and biological processes in the North Pacific
-[@Chavez2003a]. A major reversal of the PDO in 1976/77 is one of the best
-documented cases of the impacts of regime shifts on the dynamics of the North
-Pacific [@Mantua1997a; @Anderson1999a; @Mueter2000a; @Hunt2002a].  Following
-this regime shift, the species composition of the North Pacific shifted from a
-crustacean-dominated system to a gadid and flatfish-dominated system
-[@Anderson1999a; @Mueter2000a].  Moreover, the abundances of wild adult sockeye
-salmon (O. nerka) and pink salmon (O. gorbuscha) in the North Pacific increased
-by more than 65% after the regime shift [@Ruggerone2010a].
+Recently, an alternative bottom-up forcing pathway has emerged that suggests
+that horizontal ocean transport may be equally important as vertical transport
+in mediating the effects of climate variability on higher-trophic-level species
+[@DiLorenzo2013b]. The horizontal transport hypothesis suggests that food
+resources available to juvenile salmon is driven by climate-induced changes in
+horizontal transport processes, e.g., ocean currents or eddies, that cause
+zooplankton or other weakly/passive drifters to be advected into or out of
+coastal ecosystems. For example, off the central Oregon Coast, research has
+indicated that the negative phase of the Pacific Decadal Oscillation is
+associated with increased advection of large-bodied lipid-rich zooplankton into
+the region from northern areas, which in turn is associated with increased
+marine survival of coho salmon [@Keister2011a; @Bi2011a]. Beyond the Northern
+California Current area, however, the effects of variability in horizontal ocean
+transport on Pacific salmon productivity are largely untested. In chapter 2, I
+examine the effects of two modes of variability in horizontal ocean transport in
+the North Pacific on productivity of 163 North American pink, chum, and sockeye
+salmon stocks.
 
-While, changes in large-spatial-scale climate patterns, such as the PDO, are
-often correlated with indices of salmon productivity, there are many
-intermediate-scale linkages between climate patterns and salmon productivity, as
-well as multiple pathways that can connect climate and salmon [@Mueter2002a;
-@Beamish2004b; @Drinkwater2010a]. For example, the vertical transport hypothesis
-represents one pathway in which large-scale climate processes may impact
-higher-trophic-level dynamics and the horizontal transport hypothesis represents
-an alternative pathway. In chapter 3, I estimate the cumulative effects of these
-pathways on productivity of coho salmon in the Northern California Current using
-Bayesian network. Results of this analysis strongly indicated that both the
-vertical and horizontal transport pathways simultaneously affect salmon
-productivity and indicate the need to account for the cumulative effects of
-competing hypothesis of how environmental stochasticity affects
-higher-trophic-level species.
+Although the vertical and horizontal transport pathways are individually
+appealing to explain how climate forcing downscales to affect local dynamics of
+higher-trophic-level species, these hypotheses are not mutually exclusive and
+may have additive or multiplicative effects on salmon productivity. In
+particular, regional-scale vertical and horizontal transport processes both
+mediate the effects of large-scale climate variability on lower- and
+higher-trophic level species. Thus, large-scale climate patterns, such as the
+PDO, NPGO, or ENSO, may simultaneously influence regional-scale vertical and
+horizontal transport pathways. Indeed, the PDO has been shown to influence both
+ocean current patterns in the Northern California ecosystem and affect the
+magnitude of upwelling-favorable winds in the region. The coupling among
+different ecological pathways thus creates a complex ecological network that
+links climate patterns, ocean conditions, and salmon population dynamics and
+estimating the cumulative effects and relative importance of the pathways within
+this network is a necessary component of understanding how environmental change
+impacts higher-trophic-level species. In chapter 3, I estimate the cumulative
+effects of these pathways on productivity of coho salmon in the Northern
+California Current using Bayesian network.
 
 
 ## Managing for environmental change
-- "Balancing harvest opportunities with conservation needs"
+
+A better understanding of how salmon and the environment interact is a necessary
+but not sufficient condition for maintaining healthy and productive salmon
+stocks. We also need to develop a parallel understanding of how this ecological
+information can be incorporated into management decision making [@Link2002a].
+Due to complex and non-linear interactions of ecosystem components, management
+of living marine resources is increasingly moving towards a more holistic
+ecosystem-based approach to management. Ecosystem-based management (EBM)
+approaches are often recommended to overcome perceived failures of traditional
+single-sector resource management by explicitly taking into account cumulative
+impacts of human activities on ecosystem structure and function [@Grumbine1994;
+@Murawski2007a; @Long2015]. Implementing an EBM approach that is holistic and
+integrative across sectors requires defining boundaries that delimit the spatial
+extent of the decision-making process [@Engler2015; @Yaffee1999]. In other
+words, EBM is a type of place-based (or area-based) management that ideally has
+ecologically defined boundaries. Ecosystem boundaries, whether defined for
+management purposes or research purposes, are porous, allowing organisms,
+materials, and energy to move across the defined boundaries [@ONeill2001]. In
+particular, migratory marine and anadromous fish species often move across
+management and jurisdictional boundaries throughout their life cycles,
+potentially leading to mismatches between the scale of management and the
+biology of a fish stock [@Cash2006a]. Because migratory species may spend a
+considerable portion of time outside the human defined boundaries of an
+ecosystem, factors external to the management area may strongly contribute to
+the cumulative impacts of human activities for these species [@Dallimer2015]. In
+chapter 4, I investigate challenges associated with integrating highly migratory
+Pacific salmon into ecosystem-based management policies and outline potential
+solutions to these challenges.
 
 
 ## Contributions
@@ -223,5 +197,6 @@ Franz Mueter, and Brigitte Dorner. The idea for chapter (bn) came out of
 discussions between myself and Randall Peterman following a presentation on
 Bayesian networks by Catherine Michielsens. The ideas presented in chapter
 (policy) were initially developed by myself, Murray Rutherford, and Sean Cox.
+
 
 # References
