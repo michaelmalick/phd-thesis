@@ -1,26 +1,41 @@
-% latex table generated in R 3.2.2 by xtable 1.7-4 package
-% Tue Oct 13 11:06:50 2015
+% Variable Summary Table
+% 2016-10-31
+
+
 {\small
-\begin{longtable}{lllll}
-\caption[Summary of environmental variables used to construct the probabilistic
-         networks.]{Summary of environmental variables used to construct the probabilistic
-         networks. Seasonal average indicates the period over which each
-         variable was averaged. Extent refers to the north-south spatial area
-         that the variable covers (degrees latitude).} \\ 
-  \hline
-Variable & Seasonal Average & Extent & Years & Source\textsuperscript{a} \\ 
-  \hline
-ONI & December-March & 5N-5S & 1970-2011 & 1 \\ 
-  PDO & December-March & 20-65N & 1970-2011 & 2 \\ 
-  NPGO & December-March & 25-62N & 1970-2011 & 3 \\ 
-  SST & January-June & 43-45N & 1970-2011 & 4 \\ 
-  Upwelling & March-April & 43.5-46.5N & 1970-2011 & 5 \\ 
-  Spring Transition &  & 43.5-46.5N & 1970-2011 & 5 \\ 
-  Deep Temperature & May-September & 44.6N & 1998-2011 & 6 \\ 
-  Ichthyoplankton & January-March & 44.6N & 1998-2011 & 6 \\ 
-  Copepod Biomass & May-September & 44.6N & 1998-2011 & 6 \\ 
-  Coho Recruitment &  & 43-46N & 1970-2011 & 7 \\ 
-  \hline
-\label{tab:bn:1}
-\end{longtable}
+  \libertineLF
+
+  \begin{ThreePartTable}
+    \begin{TableNotes}
+      {\footnotesize
+        \item[a] 1: \url{http://www.cpc.ncep.noaa.gov}; 
+          2: \url{http://jisao.washington.edu/pdo/PDO.latest}; 
+          3: \url{http://www.o3d.org/npgo/npgo.php}; 
+          4: \url{http://www.ncdc.noaa.gov/ersst/}; 
+          5: \url{http://www.pfel.noaa.gov}; 
+          6: \citet{Peterson2012a}; 
+          7: \citet{PFMC2013}.
+        }
+    \end{TableNotes}
+  
+    \begin{longtable}{lllll}
+      \caption[Summary of environmental variables used to construct the
+        probabilistic networks.]{Summary of environmental variables used to
+        construct the probabilistic networks. Seasonal average indicates the period
+        over which each variable was averaged. Extent refers to the north-south
+        spatial area that the variable covers (degrees latitude).} \\ 
+      \hline
+      \input{./4_bayesnetwork/tables/R_p3r_b3r_table_var_summary.tex}
+      \hline
+      \insertTableNotes
+      \label{tab:bn:1}
+    \end{longtable}
+
+  \end{ThreePartTable}
 }
+
+% \noindent \textsuperscript{a} 1: \url{http://www.cpc.ncep.noaa.gov}; 
+%   2: \url{http://jisao.washington.edu/pdo/PDO.latest}; 3:
+%   \url{http://www.o3d.org/npgo/npgo.php}; 4:
+%   \url{http://www.ncdc.noaa.gov/ersst/}; 5: \url{http://www.pfel.noaa.gov}; 6:
+%   \citet{Peterson2012a}; 7: \citet{PFMC2013}.

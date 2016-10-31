@@ -1,32 +1,40 @@
-% latex table generated in R 3.2.2 by xtable 1.7-4 package
-% Mon Oct 12 16:09:28 2015
+% LME Coefficient Table
+% 2016-10-31
+
 {\small
-\begin{longtable}{llllllllll}
-\caption[Summary of the best-fit multi-stock Ricker model coefficients.]{Summary of the best-fit multi-stock Ricker model coefficients (eq.
-\ref{eq:bloom:3}). The Subset column identifies the stocks included in the
-hierarchical model (North = stocks 1-9, South = stocks 10-27, and All = stocks
-1-27). The Stocks column indicates the number of stocks used
-to fit the model; N is the total number of data points across all stocks used to
-fit the model; $\alpha$ is the intercept representing average productivity of
-pink salmon at low spawner abundance (fixed effect; see eq. \ref{eq:bloom:3});
-$\gamma$ is the fixed effect corresponding to either the bloom initiation or
-mean chl-a concentration (see eq. \ref{eq:bloom:3}); and SE is the standard
-error for the fixed-effect coefficients.  AIC\textsubscript{C} is the Akaike
-Information Criterion, corrected for small sample size.} \\ 
-  \hline
-Subset & Covariate & Stocks & N & $\alpha$ & SE\textsubscript{$\alpha$} & $\gamma$ & SE\textsubscript{$\gamma$} & AIC\textsubscript{C} & $\Delta$AIC\textsubscript{C} \\ 
-  \hline
-North & Null & 18 & 232.00 & 1.25** & 0.11 &  &  & 566.0 & 5.6 \\ 
-   & Bloom Initiation & 18 & 232.00 & 1.25** & 0.11 & -0.12** & 0.04 & 560.3 & 0.0 \\ 
-   & Mean Chl-a (Apr-May) & 18 & 232.00 & 1.07** & 0.16 & 0.51 & 0.32 & 565.7 & 5.4 \\ 
-  South & Null & 9 & 108.00 & 0.71** & 0.15 &  &  & 266.6 & 13.8 \\ 
-   & Bloom Initiation & 9 & 108.00 & 0.69** & 0.15 & 0.12** & 0.03 & 252.8 & 0.0 \\ 
-   & Mean Chl-a (Apr-May) & 9 & 108.00 & 1.16** & 0.28 & -0.87* & 0.45 & 265.4 & 12.5 \\ 
-  All & Null & 27 & 340.00 & 1.05** & 0.10 &  &  & 834.8 & 22.1 \\ 
-   & Bloom Initiation & 27 & 340.00 &  &  &  &  & 812.7 & 0.0 \\ 
-   & Mean Chl-a (Apr-May) & 27 & 340.00 &  &  &  &  & 830.7 & 17.9 \\ 
-   & Mean Chl-a (July-Sept) & 27 & 340.00 & 1.65** & 0.18 & -1.69** & 0.43 & 820.3 & 7.5 \\ 
-  \hline
-\label{tab:bloom:2}
-\end{longtable}
+  \libertineLF
+
+  \begin{ThreePartTable}
+    \begin{TableNotes}
+      {\footnotesize
+        \item[*] Significantly different from zero at P \textless{} 0.05. 
+        \item[**] Significantly different from zero at P \textless{} 0.01. 
+      }
+    \end{TableNotes}
+
+    \begin{longtable}{llllllllll}
+      \caption[Summary of the best-fit multi-stock Ricker model
+        coefficients.]{Summary of the best-fit multi-stock Ricker model
+        coefficients (eq. \ref{eq:bloom:3}). The Subset column identifies the
+        stocks included in the hierarchical model (North = stocks 1-9, South =
+        stocks 10-27, and All = stocks 1-27). The Stocks column indicates the
+        number of stocks used to fit the model; N is the total number of data
+        points across all stocks used to fit the model; $\alpha$ is the
+        intercept representing average productivity of pink salmon at low
+        spawner abundance (fixed effect; see eq. \ref{eq:bloom:3}); $\gamma$ is
+        the fixed effect corresponding to either the bloom initiation or mean
+        chl-a concentration (see eq. \ref{eq:bloom:3}); and SE is the standard
+        error for the fixed-effect coefficients. AIC\textsubscript{C} is the
+        Akaike Information Criterion, corrected for small sample size.} \\ 
+      \hline
+      \input{./3_springbloom/tables/R_table_lme.tex}
+      \hline
+      \insertTableNotes
+      \label{tab:bloom:2}
+    \end{longtable}
+
+  \end{ThreePartTable}
 }
+
+% \noindent * Significantly different from zero at P \textless{} 0.05; **
+% significant at P \textless{} 0.01.
