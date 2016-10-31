@@ -110,32 +110,32 @@
 
 % Title page
 \pagenumbering{gobble}
-\input{./1_frontmatter/titlepage.tex}
+\input{./0_frontmatter/titlepage.tex}
 \clearpage
 \pagenumbering{roman}
 \setcounter{page}{2}
 
 % Approval
 \phantomsection
-\input{./1_frontmatter/approval.tex}
+\input{./0_frontmatter/approval.tex}
 \clearpage
 
 % Partial copyright
 \phantomsection
 \addcontentsline{toc}{chapter}{Partial Copyright License}
 \includepdf[pagecommand={\thispagestyle{plain}}, pages={1}]
-  {./1_frontmatter/partial-copyright.pdf}
+  {./0_frontmatter/partial-copyright.pdf}
 
 % Abstract
-\input{./1_frontmatter/abstract.tex}
+\input{./0_frontmatter/abstract.tex}
 \clearpage
 
 % Quote
-\input{./1_frontmatter/quote.tex}
+\input{./0_frontmatter/quote.tex}
 \clearpage
 
 % Acknowledgements
-\input{./1_frontmatter/acknowledgements.tex}
+\input{./0_frontmatter/acknowledgements.tex}
 \clearpage
 
 % TOC
@@ -170,16 +170,24 @@
 
 
 % Introduction
-\input{./2_introduction/intro.tex}
+\input{./1_introduction/intro.tex}
 \clearpage
 
 % Spring-bloom
-\input{./3_springbloom/springbloom.tex}
+\input{./2_springbloom/springbloom.tex}
 \clearpage
+
+% North Pacific Current
+% \input{./3_npcurrent/npcurrent.tex}
+% \clearpage
 
 % Bayesian-network
 \input{./4_bayesnetwork/bayesnetwork.tex}
 \clearpage
+
+% Policy
+% \input{./6_policy/policy.tex}
+% \clearpage
 
 % Discussion
 % \input{./7_discussion/discussion.tex}

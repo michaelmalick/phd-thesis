@@ -4,17 +4,18 @@ export PATH := /usr/local/bin:$(PATH)
 PANDOC = pandoc
 
 pdf: \
-	./2_introduction/intro.tex \
-	./7_discussion/discussion.tex \
+	./1_introduction/intro.tex \
+	./6_discussion/discussion.tex \
 	master.pdf
-	# ./3_springbloom/springbloom.tex \
 
 # Files
-ACKNO = ./1_frontmatter/acknowledgements.tex
-INTRO = ./2_introduction/intro.md
-SPBLM = ./3_springbloom/springbloom.tex
+ACKNO = ./0_frontmatter/acknowledgements.tex
+INTRO = ./1_introduction/intro.md
+SPBLM = ./2_springbloom/springbloom.tex
+# NPCRT = ./2_npcurrent/npcurrent.tex
 BYNET = ./4_bayesnetwork/bayesnetwork.tex
-DISCU = ./7_discussion/discussion.md
+# POLCY = ./5_policy/policy.tex
+DISCU = ./6_discussion/discussion.md
 
 # Pandoc
 BIB  = --bibliography ~/Documents/pandoc/bibtex-files/master.bib
@@ -22,19 +23,15 @@ CSL  = --csl ~/Documents/pandoc/csl-citations/cjfas.csl
 ABV  = --citation-abbreviations ~/Documents/pandoc/csl-citations/abbrev.json
 
 
-./2_introduction/intro.tex: $(INTRO) makefile
+./1_introduction/intro.tex: $(INTRO) makefile
 	$(PANDOC) --chapters -o  $@ $<
 
-# ./3_springbloom/springbloom.tex: $(SPBLM) makefile
-	# $(PANDOC) --chapters -S $(BIB) $(CSL) $(ABV) -o $@ $<
-	# $(PANDOC) --chapters -S $(BIB) --natbib -o $@ $<
-
-./7_discussion/discussion.tex: $(DISCU) makefile
+./6_discussion/discussion.tex: $(DISCU) makefile
 	$(PANDOC) --chapters -o $@ $<
 
 master.pdf: master.tex $(ACKNO) $(INTRO) $(DISCU) $(SPBLM) $(BYNET) makefile *.tex 
-	cp -r ~/Documents/research/phd-spring-bloom/thesis/figures ./3_springbloom
-	cp -r ~/Documents/research/phd-spring-bloom/thesis/tables ./3_springbloom
+	cp -r ~/Documents/research/phd-spring-bloom/thesis/figures ./2_springbloom
+	cp -r ~/Documents/research/phd-spring-bloom/thesis/tables ./2_springbloom
 	cp -r ~/Documents/research/phd-bayesian-network/thesis/figures ./4_bayesnetwork
 	cp -r ~/Documents/research/phd-bayesian-network/thesis/tables ./4_bayesnetwork
 	latexmk -pdf $<
