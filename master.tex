@@ -3,7 +3,7 @@
 %
 %
 % Michael Malick
-% 10 Feb 2015
+% 2016-10-30
 % v0.01
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -15,7 +15,7 @@
 % ----------------------------
 % {{{
 
-\documentclass[11pt]{report}
+\documentclass[12pt]{report}
 \usepackage{natbib}
 \usepackage{pdflscape}
 \usepackage{fancyhdr}
@@ -42,18 +42,22 @@
 \usepackage{amsmath}
 
 
-% Latin Modern Font
+%% Latin Modern Font
 % \usepackage[T1]{fontenc}
 % \usepackage{lmodern}
+% \usepackage{cfr-lm} % latin-modern with old-style numbers
 
-% Palatino font
-% \usepackage[T1]{fontenc}
-% \usepackage{palatino}
-% \usepackage[osf]{mathpazo} % math and oldstyle figures
+%% Free Bembo
+% \usepackage[full]{textcomp}
+% \usepackage[sups,osf]{fbb} % osf (or tosf) for text, not math
+% \usepackage[scaled=.95]{cabin} % sans serif
+% \usepackage[varqu,varl]{inconsolata} % sans serif typewriter
+% \usepackage[libertine,bigdelims,vvarbb]{newtxmath} % bb from STIX
+% \usepackage[cal=boondoxo]{mathalfa} % mathcal
 
-% Libertine font
-% http://get-software.net/fonts/newtx/doc/newtxdoc.pdf (pg. 7)
-\usepackage[lining,semibold]{libertine} % no osf in math
+%% Libertine font
+%% http://get-software.net/fonts/newtx/doc/newtxdoc.pdf (pg. 7)
+\usepackage[lining,semibold]{libertine} % a bit lighter than Times--no osf in math
 \usepackage[T1]{fontenc} % best for Western European languages
 \usepackage{textcomp} % required to get special symbols
 \usepackage[varqu,varl]{inconsolata}% a typewriter font must be defined
@@ -61,9 +65,8 @@
 \usepackage[libertine,cmintegrals,bigdelims,vvarbb]{newtxmath}
 \usepackage[scr=rsfso]{mathalfa}
 \usepackage{bm}% load after all math to give access to bold math
-%After loading math package, switch to osf in text.
+%% After loading math package, switch to osf in text.
 \useosf % for osf in normal text
-
 
 % Left justify the captions
 \usepackage{caption}
@@ -178,15 +181,15 @@
 \clearpage
 
 % Discussion
-\input{./7_discussion/discussion.tex}
-\clearpage
+% \input{./7_discussion/discussion.tex}
+% \clearpage
 
 
 % Bibliography
 \phantomsection
 \addcontentsline{toc}{chapter}{Bibliography}
 \bibliographystyle{tafs_v1}
-\bibliography{/Users/malickmj/Documents/pandoc/bibtex-files/master}
+\bibliography{/Users/malickmj/Documents/literature/bibtex/library}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}

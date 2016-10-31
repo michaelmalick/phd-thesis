@@ -1,5 +1,5 @@
 # add LaTeX and Rscript paths
-export PATH := /usr/local/texlive/2015basic/bin/universal-darwin:$(PATH) 
+export PATH := /usr/local/texlive/2016basic/bin/universal-darwin:$(PATH) 
 export PATH := /usr/local/bin:$(PATH) 
 PANDOC = pandoc
 
