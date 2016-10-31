@@ -38,7 +38,7 @@ master.pdf: master.tex $(ACKNO) $(INTRO) $(DISCU) $(SPBLM) $(BYNET) makefile *.t
 	cp -r ~/Documents/research/phd-bayesian-network/thesis/figures ./4_bayesnetwork
 	cp -r ~/Documents/research/phd-bayesian-network/thesis/tables ./4_bayesnetwork
 	latexmk -pdf $<
-	rm -f *.{aux,bbl,blg,log,fls,fdb_latexmk,lof,lot,toc,out}
+	rm -f *.{aux,bbl,blg,fls,fdb_latexmk,lof,lot,toc,out}
 
 clean:
 	rm -f *.{pdf,doc,docx}
