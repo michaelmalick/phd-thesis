@@ -1,0 +1,884 @@
+% Thesis North Pacific Current Chapter
+% Michael Malick
+% 2016-11-01
+
+% DONE add publication footnote
+% DONE format main text
+% DONE add equation environments
+% DONE equation labels
+% DONE paragraph after equation indent
+% DONE degree signs
+% DONE add figures
+% DONE figure labels
+% DONE figure short titles
+% DONE table short titles
+% DONE add tables
+% DONE table labels
+% DONE add supporting materials
+% DONE supporting materials table and figure labels
+% TODO Drifter grid movie --> graphic
+
+\chapter[Horizontal transport and salmon productivity]{Effects of the North
+Pacific Current on productivity of 163 Pacific salmon stocks\footnotemark[1]}
+
+\footnotetext[1]{A version of this chapter appears as Malick, M.J., S.P. Cox,
+F.J. Mueter, B. Dorner, R.M. Peterman. In Press. Effects of the North Pacific
+Current on productivity of 163 Pacific salmon stocks. Fisheries Oceanography.}
+
+
+
+\section{Abstract}
+
+Horizontal ocean transport can influence the dynamics of higher-trophic-level
+species in coastal ecosystems by altering either physical oceanographic
+conditions or the advection of food resources into coastal areas. In this study,
+we investigated whether variability in two North Pacific Current (NPC) indices
+was associated with changes in productivity of North American Pacific salmon
+stocks. Specifically, we used Bayesian hierarchical models to estimate the
+effects of the north-south location of the NPC bifurcation (BI) and the NPC
+strength, indexed by the North Pacific Gyre Oscillation (NPGO), on productivity
+of 163 pink, chum, and sockeye salmon stocks. We found that for salmon stocks
+located in Washington (WA) and British Columbia (BC), both the BI and NPGO had
+significant positive effects on productivity, indicating that a
+northward-shifted bifurcation and a stronger NPC are associated with increased
+salmon productivity. For the WA and BC regions, the estimated NPGO effect was
+over two times larger than the BI effect for pink and chum salmon, whereas for
+sockeye salmon the BI effect was 2.4 times higher than the NPGO. In contrast to
+WA and BC stocks, we found weak effects of both horizontal ocean transport
+processes on productivity of salmon stocks in Alaska. Our results indicated that
+horizontal transport pathways may strongly influence population dynamics of
+Pacific salmon in the southern part of their North American ranges, but not the
+northern part, suggesting that different environmental pathways may underlie
+changes in salmon productivity in northern and southern areas for the species
+under consideration.
+
+
+\section{Introduction}
+
+Environmental change can influence demographic rates of marine and anadromous
+fish populations through multiple environmental pathways \citep{Ottersen2010a,
+Drinkwater2010a}. It is often hypothesized that changes in atmospheric and
+physical ocean conditions influence higher-trophic-level species via bottom-up
+forcing that is mediated by vertical ocean transport \citep{Malick2015b,
+DiLorenzo2013b, Ottersen2010a}. For example, upwelling of nutrient-rich water in
+coastal areas is often assumed to drive primary and secondary production, which
+in turn provide food for higher-trophic-level species \citep{Rykaczewski2008a}.
+However, recent evidence from the California Current \citep{Bi2011b,
+Keister2011a, Sydeman2011a} and Gulf of Alaska \citep{Stabeno2004a, Combes2009a,
+Kline2010, Kline2008a} suggests that bottom-up forcing mediated by horizontal
+transport (e.g., cross-shore or along-shore transport) may be equally important
+for higher-trophic-level species \citep{DiLorenzo2013b}.
+
+Changes in horizontal ocean transport, such as changes in ocean current
+patterns, could influence higher-trophic-level species production by altering
+foraging conditions. For Pacific salmon (\emph{Oncorhynchus} spp.), feeding
+conditions and growth rates during the early marine life phase can strongly
+influence stock productivity (i.e., the number of adult recruits produced per
+spawner) \citep{McGurk1996a, Farley2007b, Duffy2011, Malick2011a}. During this
+critical period, juvenile salmon diets are largely composed of zooplankton and
+other weakly-swimming or passive drifters \citep{Armstrong2008a, Beauchamp2007a,
+Brodeur2007a}. Therefore, changes in ocean currents and subsequent advection of
+potential prey into coastal areas may strongly influence juvenile salmon prey
+availability or prey quality.
+
+Indeed, in the Northern California Current region, a large-bodied lipid-rich
+zooplankton community is associated with alongshore movement of cooler water
+from northern areas into the region, whereas a small-bodied lipid-poor
+zooplankton community is associated with the movement of warmer water from
+southern and offshore areas into the region \citep{Bi2011b, Keister2011a}. The
+lipid-rich northern zooplankton community, in particular, is associated with
+higher coho salmon (\emph{O. kisutch}) survival in the Northern California
+Current region \citep{Bi2011a}, suggesting that horizontal transport may be
+important for salmon productivity in other regions. In addition, horizontal
+transport may also be important for other salmon species, especially pink
+(\emph{O. gorbuscha}), chum (\emph{O. keta}) and sockeye (\emph{O. nerka})
+salmon, which tend to feed at a lower trophic level than coho salmon
+\citep{Brodeur2007}.
+
+In the Northeast Pacific Ocean, circulation is at least partially controlled by
+the North Pacific Current (NPC) \citep{Ware1989a, Cummins2007a}, which flows
+approximately along 50$^{\circ}$N from west to east, bifurcating at the west
+coast of North America into the northward flowing Alaska Current and the
+southward flowing California Current (Fig. \ref{fig:npc:1}a) \citep{Ware1989a,
+Chelton1982a}. On average, the NPC bifurcates near the latitude of Vancouver,
+BC, but the latitudinal position varies annually from southern Southeast Alaska
+to southern Washington \citep{Cummins2007a, Sydeman2011a}. In addition to
+variability in the positioning of the bifurcation, there is also inter-annual
+variability in the strength of the NPC, measured as volume of water transported
+per unit time \citep{Freeland2006a, Cummins2007a}. This volume is likely driven
+by large-scale atmospheric and oceanographic patterns such as the North Pacific
+Oscillation and the North Pacific Gyre Oscillation (NPGO)
+\citep{Di-Lorenzo2008a}.
+
+In this study, we asked whether variability in the NPC can explain inter-annual
+changes in productivity of 163 North American pink, chum, and sockeye salmon
+stocks. Specifically, we evaluated the relationships between two indices of
+variability in the NPC and productivity of those salmon stocks. One NPC index
+represented inter-annual variability in the north-south positioning of the
+bifurcation and the other represented inter-annual variability in strength.
+Because the oceanography of coastal ecosystems in the Northeast Pacific differs
+among geographic locations, we evaluated the relationships between salmon
+productivity and the NPC indices separately for three large marine ecosystems in
+the Northeast Pacific: the west coast of Washington and British Columbia, Gulf
+of Alaska, and Bering Sea \citep{Sherman1999, Longhurst1995}. We used a Bayesian
+hierarchical modeling approach to estimate both stock-specific and
+ecosystem-level effects of the NPC on salmon productivity, which allowed us to
+leverage the large number of available salmon data sets by using the stocks as
+replicates within the analysis, reducing the chances of finding spurious
+relationships between salmon productivity and the NPC indices \citep{Myers1998c,
+Thorson2015b, Mueter2002a}.
+
+
+\section{Methods}
+
+\subsection{Salmon data}
+
+We used spawner (escapement) and total recruitment data (catch plus escapement)
+for 163 wild sockeye (64 stocks), pink (46 stocks), and chum (53 stocks) salmon
+stocks throughout their North American ranges (Fig. \ref{fig:npc:1}). The
+duration of stock-specific data sets ranged from 12 to 56 brood years (i.e.,
+years of spawning) 1950--2009, with mean time series lengths of 34 years for
+pink salmon, 33 years for chum salmon, and 38 years for sockeye salmon. For pink
+and chum salmon, data sets generally represented aggregations of adjacent salmon
+populations, which helped ensure that catch records were properly attributed to
+the correct spawning population. Details of the data sets can be found in
+\citet{Peterman2012} and \citet{Malick2016a}.
+
+We organized the salmon data sets into three large marine ecosystems based on
+the ocean entry locations of each stock. All stocks that enter the ocean along
+the west coast of Washington and British Columbia were grouped into the West
+Coast ecosystem (WC). Stocks entering the ocean in Southeast Alaska and South
+Central Alaska were grouped into the Gulf of Alaska ecosystem (GOA), and Western
+Alaska stocks were grouped into the Bering Sea ecosystem (BS; Fig.
+\ref{fig:npc:1}). Organization of the salmon data sets into three large marine
+ecosystems was based on two pieces of information. First, the underlying
+oceanographic processes tend to be substantially different across these regions
+with the WC ecosystem being primarily an upwelling domain and the GOA ecosystem
+being primarily a downwelling domain \citep{Ware1989a}. Second, several previous
+studies, e.g., \citet{Malick2015a} and \citet{Mueter2002a}, have indicated that
+regional-scale ocean conditions can have opposite effects on salmon productivity
+in northern and southern regions with the dividing line occurring approximately
+at the border between Southeast Alaska and British Columbia.
+
+
+\subsection{North Pacific Current indices}
+
+We used the Ocean Surface Current Simulations (OSCURS) model to compute
+inter-annual variability in the north-south location of the NPC bifurcation
+\citep{Ingraham1997a} and the NPGO to index broad-scale variability in the
+strength of the NPC \citep{Di-Lorenzo2008a}.
+
+The OSCURS model simulates trajectories of surface currents in the North Pacific
+by adding wind velocity fields (derived from daily atmospheric
+sea-level-pressure data) to the long-term mean geostrophic current fields. The
+resulting simulated surface current trajectories have been shown to closely
+match satellite-tracked drifters in the North Pacific \citep{Ingraham1997a}. We
+developed an index for the north-south location of the NPC bifurcation by
+generating annual trajectories for 215 simulated drifters for all years between
+1967 and 2010, inclusive, using a procedure analogous to that of
+\citet{Watters2008a}. In our case, drifters were seeded on a 1-degree grid in
+the area bounded by -140$^{\circ}$W longitude eastward to the coast of North
+America and from 40$^{\circ}$N to 55$^{\circ}$N latitude (Supplemental Fig.
+\ref{fig:npc:s1}). Simulated drifters were released annually on February 1 and
+the daily trajectory was tracked until June 30 to reflect ocean conditions
+relevant to seaward-migrating juvenile salmon \citep{DiLorenzo2013a}. We indexed
+the location of the bifurcation based on differences between the starting and
+ending latitude of each drifter within a year. The annual bifurcation index (BI)
+was calculated as the proportion of the 215 simulated drifters that ended south
+of their starting latitude in a particular year (Supplemental Fig.
+\ref{fig:npc:s2}). Positive values of the index indicate a northward-shifted
+bifurcation (majority of drifters ending south of their starting latitude),
+whereas negative values of the index indicate a southward-shifted bifurcation
+(majority of drifters ending north of their starting latitude).
+
+The NPGO, defined as the second principal component of monthly sea surface
+height anomalies in the North Pacific over the region
+25$^{\circ}$N-62$^{\circ}$N, 180$^{\circ}$-110$^{\circ}$W
+\citep{Di-Lorenzo2008a}, is thought to represent variability in sub-polar and
+sub-tropical gyre strengths in the North Pacific, where higher NPGO values
+indicate a strengthening of the gyres and increased NPC transport
+\citep{Chhak2009a, Di-Lorenzo2009a, Di-Lorenzo2008a}. Positive values of the
+NPGO are also associated with higher nutrient concentrations (e.g.,
+NO\textsubscript{3}), higher salinity, and higher survival of both coho and
+chinook salmon \citep{Di-Lorenzo2008a, Di-Lorenzo2009a, Kilduff2015}. Salmon
+survival during the early marine life phase is believed to be the dominant
+driver of overall stock productivity, and ocean conditions prior to salmon ocean
+entry may strongly influence conditions experienced by salmon during this period
+\citep{Parker1968a, Wertheimer2007a, Yeh2011, DiLorenzo2013a}. Therefore, we
+averaged the NPGO over the months of December--March, which represents the
+winter period just prior to ocean entry of salmon smolts.
+
+For pink and chum salmon, which enter the ocean the first spring following
+spawning, the BI and NPGO indices were offset by 1 year (e.g., salmon spawning
+in 2000 were lined up with the BI for 2001 and the NPGO for the December 2000 to
+March 2001 period). For sockeye salmon, which rear in lakes for one or two years
+before entering the ocean, we used a weighted average of index values offset by
+2 years and 3 years, respectively, with the weights equal to the stock-specific
+average proportion of juveniles entering the ocean at either age two or three
+\citep{Mueter2002a}.
+
+
+\subsection{Modeling the data}
+
+We modeled salmon stock productivity as a function of spawner abundance using
+the standard Ricker model \citep{Ricker1954a},
+
+\begin{equation}
+y_{i,t} = \alpha_i + \beta_i S_{i,t} + \epsilon_{i,t},
+\label{eq:npc:1}
+\end{equation}
+
+\noindent where \(y_{i,t}\) is the log\textsubscript{e} of recruits per spawner,
+\(log_e({R_{i,t} / S_{i,t}})\), for stock \(i\) in year \(t\), \(\alpha_i\) is
+the density-independent stock productivity at low spawning stock sizes,
+\(\beta_i\) is the coefficient representing the strength of density-dependence,
+and \(\epsilon_{i,t}\) is the residual error term assumed to be normally
+distributed with mean 0 and variance \(\sigma^2_{\epsilon}\).
+
+We estimated BI and NPGO effects on salmon productivity using a generalized
+Ricker model in which the oceanographic variables were included as additional
+predictor variables \citep{Quinn1999}, i.e.,
+
+\begin{equation}
+y_{i,t} = \alpha_i + \beta_i S_{i,t} + \gamma_{BI,i} BI_{t} +
+\gamma_{NPGO,i} NPGO_{t} + \epsilon_{i,t},
+\label{eq:npc:2}
+\end{equation}
+
+\noindent where \(\gamma_{BI,i}\) is the stock-specific coefficient for the BI and
+\(\gamma_{NPGO, i}\) is the stock-specific coefficient for the NPGO index. The
+annual value of the BI index was the same for all pink and chum salmon stocks,
+as was the value of the NPGO index, but index values for sockeye salmon stocks
+were stock-specific, as explained above. In addition, both the BI and NPGO
+indices were standardized to a mean of 0 and a standard deviation (SD) of 1.
+
+We included both the standard and generalized Ricker models in the analysis for
+model comparison purposes, which allowed us to compare models with and without
+the NPC indices to determine the relative importance of these terms in the model
+(see model comparison section for details). Because data were not available to
+calculate the BI prior to 1967, we fit both the standard and generalized Ricker
+models using data from brood years 1966 and after.
+
+We included a first-order autocorrelation model for residuals, i.e.,
+\(\epsilon_{i,t} = \phi_i \epsilon_{i,t-1} + \delta_{i,t}\), where
+\(\delta_{i,t} \sim N(0,\sigma_i^2)\) and \(\phi_i\) is the first-order
+autocorrelation coefficient for stock \(i\) \citep{Mueter2002a, Chatfield2004}.
+For both the standard and generalized forms of the Ricker model, the
+autoregressive process was modeled as,
+
+\begin{equation}
+y_{i,t} = \left\{
+    \begin{array}{ll}
+    \hat{y}_{i,t} + \phi_i \epsilon_{i,t-1} + \delta_{i,t} & \text{for } t>1 \\
+    \hat{y}_{i,t} + \delta_{i,t} & \text{for } t=1
+    \end{array}
+  \right.
+\label{eq:npc:3}
+\end{equation}
+
+\noindent where \(\hat{y}_{i,t}\) is the predicted stock productivity from
+either the standard Ricker model (eq. \ref{eq:npc:1}) or the generalized Ricker
+model (eq. \ref{eq:npc:2}).
+
+
+\subsection{Modeling the parameters}
+
+The Bayesian hierarchical modeling approach is increasingly common in
+multi-stock population dynamics research, in part because allowing dependence
+among stock-specific parameters can improve parameter estimates
+\citep{Gelman2004a, Thorson2015b}. In particular, modeling stock-specific
+parameters (e.g., \(\alpha_i\) or \(\gamma_{BI,i}\)) as arising from a common
+prior distribution (i.e., assuming stocks are exchangeable units) improves the
+mean of parameter estimates where hyperparameters for the common distribution
+are informed by data from all stocks \citep{Gauch2006}. In this study, we fit
+species-specific Bayesian hierarchical models that used hierarchical prior
+distributions for \(\alpha_i\), \(\gamma_{BI,i}\), and \(\gamma_{NPGO,i}\)
+parameters, where the hierarchical priors were further defined by a set of
+hyperprior distributions \citep{Gelman2004a}.
+
+For each species-specific model, we assumed that the \(\alpha_i\) were
+exchangeable across all stocks within a species and we used a normal prior
+distribution, i.e., \(\alpha_i \sim N(\mu_{\alpha}, \tau^2_{\alpha})\) with
+hyperparameters \(\mu_{\alpha}\) and \(\tau^2_{\alpha}\) representing the
+overall mean and variance, respectively. We used a diffuse normal distribution,
+\(\mu_{\alpha} \sim N(0, 10^3)\), for the hypermean \(\mu_{\alpha}\) and an
+improper uniform prior for the hypervariance, \(\tau^2_{\alpha} \sim U(0, 25)\)
+\citep{Gelman2006}.
+
+We assumed that the \(\gamma_{BI,i}\), and \(\gamma_{NPGO,i}\) parameters were
+only exchangeable among stocks within the same ecosystem (WC, GOA, BS) for each
+of the BI and NPGO because ocean conditions can influence salmon stocks in
+different ecosystems in opposite ways \citep{Mueter2002a, Malick2015a}. As
+examples of our exchangeability assumption, parameters for all pink salmon
+stocks in the WC ecosystem were assumed exchangeable and were assigned one prior
+distribution (i.e., \(\gamma_{i,WC} \sim N(\mu_{\gamma_{WC}},
+\tau^2_{\gamma_{WC}})\)), whereas all pink salmon stocks in the GOA ecosystem
+were assumed exchangeable and were assigned a separate prior distribution (i.e.,
+\(\gamma_{i,GOA} \sim N(\mu_{\gamma_{GOA}}, \tau^2_{\gamma_{GOA}})\)). For a
+particular ecosystem and oceanographic variable, the hypermean \(\mu_{\gamma}\)
+represents the mean ecosystem-level effect and the hypervariance
+\(\tau^2_{\gamma}\) represents the ecosystem-level variance. Diffuse normal
+prior distributions, \(\mu_{\gamma} \sim N(0, 10^3)\), and uniform prior
+distributions, \(\tau^2_{\gamma} \sim U(0, 25)\), were used for the
+ecosystem-level hypermeans and hypervariances, respectively \citep{Gelman2006}.
+
+In contrast to the \(\alpha\) and \(\gamma\) parameters, which we assumed were
+exchangeable across salmon stocks within a species or ecosystem, we treated the
+remaining parameters, i.e., \(\beta_i, \sigma_i\), and \(\phi_i\), as
+non-exchangeable (i.e., stock-specific) because the magnitudes of these
+parameters can vary greatly among salmon stocks within a species and ecosystem
+\citep{Mueter2002a, Malick2015a, Su2004a}. We assigned diffuse independent
+priors for the density-dependence parameters, \(\beta_i \sim N(0, 10^3)\), and
+assigned the variances, \(\sigma_i^2\), and autocorrelation coefficients,
+\(\phi_i\), to be uniform priors, \(\sigma_i^2 \sim U(0, 25)\) and \(\phi_i \sim
+U(-1, 1)\), respectively.
+
+Because we were uncertain about the similarity of the \(\sigma_i^2\) and
+\(\phi_i\) parameters across stocks within a species, we also fit several
+simpler models in which \(\sigma_i^2\) and \(\phi_i\) were shared across stocks,
+i.e., they were not stock specific. In total, for each species we fit five
+standard Ricker models and five generalized Ricker models that differed in their
+assumptions about \(\sigma_i^2\) and \(\phi_i\) (Table \ref{tab:npc:1}).
+
+To better demonstrate the effects of the NPGO and BI on salmon productivity, we
+also calculated the percent change in productivity given a one unit change in
+the NPGO or BI. More specifically, we used the estimated ecosystem-level effects
+of the NPGO and BI (i.e., \(\mu_{\gamma}\)) to calculate the estimated percent
+change in productivity that would result from an increase in the BI or NPGO
+corresponding to one SD above their respective long-term means (1967--2010).
+
+
+\subsection{Model fitting and diagnostics}
+
+We estimated all model parameters using the Gibbs sampling algorithm implemented
+in JAGS version 3.4.0 \citep{Plummer2003}. For each model, we ran five chains
+with dispersed starting values. Each chain had a burn-in period of 10 000
+iterations followed by 75 000 iterations that were monitored with a thinning
+interval of 15, where the thinning interval was determined by monitoring
+within-chain autocorrelation. We based posterior inference on a total of 25 000
+posterior samples per parameter obtained by sampling 5 000 iterations per chain.
+Gibbs chain convergence was assessed graphically (e.g., traceplots, histograms)
+and via the Gelman-Rubin statistic \citep{Gelman1992, Brooks1998}. We assessed
+model fits using posterior predictive checks, including fitted values, realized
+residuals, and posterior predictive distributions \citep{Gelman2004a}.
+
+
+\subsection{Model comparison}
+
+We used the Watanabe-Akaike information criterion (WAIC) for model comparison
+and model selection within species \citep{Watanabe2010, Gelman2013a}. The WAIC
+measures the fit of a model to the data while also accounting for model
+complexity. Both the ``fit'' and ``complexity'' terms of the WAIC were readily
+computed from posterior samples of the parameters. The model fit was assessed
+using the log-pointwise predictive density (\(lppd\)), whereas model complexity
+was estimated as the effective number of model parameters (\(pD\))
+\citep{Watanabe2010, Gelman2013a}. The WAIC was then calculated as \(\text{WAIC}
+= -2 * (lppd - pD)\). The model with the lowest WAIC value was considered the
+most parsimonious and models within 3 WAIC units of the minimum were considered
+equally plausible. Models with WAIC values greater than 10 more than the minimum
+were rejected.
+
+
+\subsection{Sensitivity analysis}
+
+We tested the sensitivity of our results to two assumptions underlying the
+oceanographic variables. First, to check whether our grid of simulated OSCURS
+model drifters captured broad-scale surface current patterns in the North
+Pacific, we re-calculated the BI using an expanded 1-degree grid that extended
+from -145$^{\circ}$W longitude eastward to the west coast of North America and
+from 35$^{\circ}$N to 59$^{\circ}$N latitude (Supplemental Fig.
+\ref{fig:npc:s1}). Second, we checked the sensitivity of our results to the
+manner in which the BI was calculated. Specifically, we re-calculated the BI
+following the method of \citet{Watters2008a}, where the annual index values were
+calculated as the sum of the differences in the longitude of the drifter
+ensemble (i.e, all drifters released at the same longitude) between the median
+starting latitude on February 1 and the median ending latitude on June 30. This
+contrasts with our original BI index, which was calculated as the proportion of
+drifters that ended south of their starting latitude, by summarizing the start
+and end latitudes of the drifters prior to calculating the BI index. We assessed
+the sensitivity of our analysis to specifics of BI calculation by determining
+strength of correlation between our original BI time series and the alternate BI
+series, as well as by comparing model coefficients and rankings for models fit
+using the alternate BI time series.
+
+We also conducted an additional sensitivity analysis to test if our grouping of
+salmon stocks into three large marine ecosystems adequately captured the spatial
+distribution of the effects of the BI and NPGO. In particular, we fit
+single-stock generalized Ricker models (i.e., eq. \ref{eq:npc:2}) to each of the
+163 salmon stocks separately using maximum likelihood to identify potential
+differences among stocks within our three ecosystem groupings. Unlike the
+Bayesian hierarchical models where the \(\gamma_i\) coefficients are centered
+around a common mean, in the single-stock models each stock is independent of
+the other stocks, which allowed us to better determine if smaller spatial-scale
+patterns were evident in the \(\gamma_{BI,i}\) and \(\gamma_{NPGO,i}\)
+coefficients.
+
+
+\section{Results}
+
+\subsection{BI and NPGO indices}
+
+The BI time series indicated substantial inter-annual variability in the
+latitude of the NPC bifurcation ranging from 11\% of all drifters ending south
+of their starting latitude in 1993 (i.e., the bifurcation was shifted southward)
+to 74\% of all drifters ending south of their starting latitude in 2009 (i.e.,
+the bifurcation was shifted northward; Fig. \ref{fig:npc:2}; Supplemental Fig.
+\ref{fig:npc:s2}). The BI index tended to have more inter-annual variability than
+the NPGO with fewer series of consecutive positive or negative values. For
+example, years with a northward-shifted bifurcation were often followed by years
+with a southward shifted bifurcation, such as 1982--83, 1985--86, and 2009--10.
+The BI and NPGO indices were only weakly correlated (\(r\) = 0.24), suggesting
+that they capture different modes of NPC variability.
+
+
+\subsection{BI and NPGO effects}
+
+Hierarchical models that included the BI and NPGO indices fit the data
+substantially better than models without these terms for all species, as
+indicated by the WAIC (Table \ref{tab:npc:2}). The best models (i.e., models
+with the lowest WAIC) showed that the strongest effects of the BI and NPGO were
+on stocks in the WC ecosystem, where a northward-shifted bifurcation (i.e.,
+positive BI values) and a stronger NPC (i.e., positive NPGO values) were
+consistently associated with increased productivity of pink, chum, and sockeye
+salmon, i.e., positive \(\gamma_{BI,i}\) and \(\gamma_{NPGO,i}\) values (Figs.
+\ref{fig:npc:3} and \ref{fig:npc:4}). In contrast, the BI and NPGO effects on
+salmon productivity tended to be weaker for stocks in the GOA ecosystem and less
+consistent across species in the BS ecosystem than in the WC ecosystem (Figs.
+\ref{fig:npc:3} and \ref{fig:npc:4}).
+
+For pink and chum salmon stocks in the WC ecosystem, the estimated median
+ecosystem-level effect (i.e., \(\mu_{\gamma}\)) for the NPGO was 2.4 times
+higher than the BI for pink salmon and 2.5 times higher for chum salmon (Table
+\ref{tab:npc:3}; Fig. \ref{fig:npc:4}). Similarly, the estimated median
+stock-specific effects (i.e., \(\gamma_i\)) for the NPGO (which are centered
+around the mean ecosystem-level effect) were consistently higher than for the
+median stock-specific effects of the BI (Fig. \ref{fig:npc:3}; pink salmon:
+\(\gamma_{NPGO}\) range = 0.22--0.29 vs. \(\gamma_{BI}\) range = 0.06--0.13;
+chum salmon: \(\gamma_{NPGO}\) range = 0.12--0.15 vs. \(\gamma_{BI}\) range =
+0.03--0.08). An increase in the NPGO by one SD above the long-term mean
+(1967--2010) in any given year would be expected to result in 28.5\% and 15.1\%
+higher recruits-per-spawner for pink and chum salmon, respectively (Fig.
+\ref{fig:npc:5}).
+
+In contrast to pink and chum salmon, sockeye salmon productivity in the WC
+ecosystem was more strongly related to changes in the BI than the NPGO,
+indicating that the location of the bifurcation has a stronger effect on sockeye
+salmon productivity than NPC strength. The estimated median ecosystem-level
+effect of the BI on WC sockeye salmon productivity was 2.4 times higher than for
+the NPGO (Table \ref{tab:npc:3}; Fig. \ref{fig:npc:4}). Furthermore, the median
+stock-specific effects of the BI on sockeye salmon productivity (i.e.,
+\(\gamma_{BI}\) range = 0.09--0.13) were consistently higher than stock-specific
+effects of the NPGO (\(\gamma_{NPGO}\) range = 0.02--0.08; Fig.
+\ref{fig:npc:3}c). This stronger effect of the BI on sockeye salmon productivity
+corresponded to an 11.7\% increase in productivity given a one SD-unit increase
+in the BI compared to a 4.8\% increase in productivity given a one SD-unit
+increase in the NPGO index (Fig. \ref{fig:npc:5}).
+
+In the GOA ecosystem, there was no evidence for consistent stock-specific or
+ecosystem-level effects of either the BI or NPGO on productivity of all three
+species (Figs. \ref{fig:npc:3} and \ref{fig:npc:4}; Table \ref{tab:npc:3}). The
+95\% credibility intervals for stock-specific effects included zero for all
+species, stocks, and both the BI and NPGO indices (Fig. \ref{fig:npc:3}).
+Similarly, the posterior distributions for the GOA ecosystem-level effects of
+the BI and NPGO on salmon productivity were close to zero for all species (Fig.
+\ref{fig:npc:4}; Table \ref{tab:npc:3}).
+
+In the BS ecosystem, the effects of the BI and NPGO on salmon productivity were
+quite variable across species. For BS pink salmon, the effects of the NPGO were
+close to zero, and the effects of the BI were consistently positive
+(\(\gamma_{BI}\) range = 0.08--0.54), although there was considerable
+uncertainty associated with the pink salmon \(\gamma_i\) parameter estimates
+(Figs. \ref{fig:npc:3} and \ref{fig:npc:4}; Table \ref{tab:npc:3}). In contrast,
+for BS chum salmon the estimated effects of the NPGO were consistently positive
+(\(\gamma_{NPGO}\) range = 0.08--0.12), but the BI effects were close to zero
+(\(\gamma_{BI}\) range = -0.06--0.002). For sockeye salmon in the BS ecosystem,
+the posterior distributions for the stock-specific and ecosystem-level effects
+of the BI and NPGO were both near zero (Figs. \ref{fig:npc:3} and
+\ref{fig:npc:4}; Table \ref{tab:npc:3}), indicating neither index has strong
+effects on productivity of sockeye salmon in the Bering Sea.
+
+Model selection results indicated that for all three species there were no
+alternative models with a WAIC within three units of the minimum WAIC (Table
+\ref{tab:npc:2}). In addition, for pink and chum salmon, no models had a WAIC
+within 10 units of the minimum WAIC, whereas sockeye salmon had two models that
+had WAIC values within 10 units of the minimum (models 4 and 10; Table
+\ref{tab:npc:2}). Models that included a stock-specific autocorrelation term
+tended to fit the data better for chum salmon, whereas for pink and sockeye
+salmon there was more support for an autocorrelation term shared across stocks
+(Table \ref{tab:npc:2}). For all three species, there was also greater support
+for models that included a stock-specific variance term compared to models that
+only included a shared variance term (Table \ref{tab:npc:2}). Furthermore, all
+models showed a lower number of effective parameters compared to the nominal
+number of parameters, suggesting considerable borrowing of information across
+stocks within the models (Table \ref{tab:npc:2}).
+
+
+\subsection{Sensitivity analysis}
+
+Estimated BI effects on salmon productivity were mostly insensitive to the
+methods we used to calculate the index. For instance, our original BI index was
+highly correlated with the alternative index calculated using a larger grid of
+drifters (\(r\) = 0.94) and with the index calculated using the methods outlined
+in \citet{Watters2008a} (\(r\) = 0.94). For the index calculated using a larger
+grid of drifters, the rank order of the fitted models did not change compared to
+the models fitted using the original BI index for all three species
+(Supplemental Table \ref{tab:npc:s1}). For the index based on
+\citet{Watters2008a}, the rank order of models did not change for pink and chum
+salmon, but were moderately sensitive for sockeye salmon (Supplemental Table
+\ref{tab:npc:s2}). In particular, the top three models were the same for sockeye
+salmon for both indices, although the order was different, with a model without
+the BI or NPGO having the lowest WAIC when the alternate \citet{Watters2008a} BI
+index was used (model 4; Supplemental Table \ref{tab:npc:s2}). In addition, the
+single-stock model analysis did not indicate substantial differences in the
+effects of the BI and NPGO across stocks at smaller spatial scales than those of
+the three large marine ecosystems (Supplemental Fig. \ref{fig:npc:s3}).
+
+
+\section{Discussion}
+
+In this study, we estimated the effects of two modes of variability in the NPC
+on productivity of 163 pink, chum, and sockeye salmon stocks to better
+understand how horizontal ocean transport pathways could influence population
+dynamics of Pacific salmon. We found that indices of north-south positioning of
+the NPC bifurcation and the NPC strength both had strong estimated effects on
+pink, chum, and sockeye salmon productivity and were included in the best-fit
+hierarchical models for each species. We also found that the most consistent
+effects of the BI and NPGO were on salmon stocks in the WC ecosystem. There a
+northward-shifted bifurcation and increased NPC strength was associated with
+increased salmon productivity. Finally, we found that neither index was
+correlated with salmon productivity for stocks in the Gulf of Alaska, and there
+were less consistent effects for salmon stocks in the Bering Sea than in the
+West Coast ecosystem.
+
+Our result that variability associated with the NPC is an important driver of
+changes in Pacific salmon productivity, particularly for stocks in the WC
+ecosystem, is consistent with the results of several previous studies that have
+indicated that horizontal transport pathways can strongly influence coastal
+marine ecosystems in the Northeast Pacific \citep{Kilduff2015, Sydeman2011a,
+Batten2007a}. In particular, our finding that a stronger NPC (i.e., a positive
+NPGO) is associated with increased salmon productivity in the WC ecosystem
+corresponds with the result of \citet{Kilduff2015}, which showed that the
+dominant modes of variability for hatchery coho and chinook salmon survival
+rates along the west coast of North America are significantly and positively
+related to the NPGO index. Although the mechanisms linking variability in the
+NPGO and salmon productivity are not clear, several studies have indicated that
+broad-scale variability in the strength of the sub-polar and sub-tropical gyres,
+as indexed by the NPGO, is linked with changes in salinity, nutrients, and chl-a
+concentrations in coastal ecosystems in the Northeast Pacific
+\citep{Di-Lorenzo2008a, Chenillat2012}. This suggests that the effects of the
+NPGO on salmon productivity may be mediated by changes in physical and
+biological oceanographic conditions that affect prey availability in those
+ecosystems.
+
+Our results further suggested that a northward-shifted positioning of the NPC
+was associated with increased salmon productivity in the WC ecosystem. This is
+consistent with previous research that indicated that the majority
+(\textasciitilde{}64\%) of variability in biological productivity in the
+Northern California Current is related to the north-south location of the NPC
+bifurcation, with higher productivity being associated with a northward-shifted
+positioning of the NPC \citep{Sydeman2011a}. One possible explanation for this
+result is that shifts in the location of the NPC may influence the advection of
+zooplankton communities into coastal ecosystems, which are a key food resource
+for juvenile salmon \citep{Armstrong2008a, Beauchamp2007a, Brodeur2007a}. For
+example, \citet{Keister2011a} and \citet{Bi2011b} indicated that changes in
+along-shore transport can strongly influence zooplankton communities in the
+Northern California Current with the transport of cooler water from northern
+areas into the Northern California Current being associated with a more
+lipid-rich copepod community.
+
+Alternatively, the location of the bifurcation may also have indirect effects on
+high-trophic-level species by altering physical or biological oceanographic
+conditions such as inorganic nutrient concentrations, water column stability, or
+thermal regimes \citep{Di-Lorenzo2009a, Sydeman2011a, Keister2011a}. These
+indirect effects may be particularly important for salmon stocks that enter the
+ocean in areas sheltered from coastal currents. For example, within the WC
+ecosystem, the Salish Sea (which includes the Strait of Georgia east of
+Vancouver Island, B.C. and Puget Sound, Washington) is largely isolated from
+coastal ocean currents and the oceanography of this region is strongly
+influenced by freshwater discharge from the Fraser River, which brings
+land-derived nutrients into coastal waters and can influence water column
+stability \citep{Hickey2008a}. Despite this difference in oceanographic
+conditions in the Salish Sea compared to other parts of the West Coast
+ecosystem, we found that the single-stock effects of the BI and NPGO did not
+differ substantially between stocks that first enter salt water in the Salish
+Sea and stocks that enter the ocean elsewhere within the West Coast ecosystem.
+Thus, the effects of conditions encountered by Salish Sea stocks outside of the
+Salish Sea appear to dominate the effects of oceanographic conditions that are
+unique to the Salish Sea.
+
+Horizontal transport pathways that are controlled by changes in the NPC do not
+appear to substantially contribute to variability in salmon productivity for
+stocks in what we called the GOA ecosystem. For instance, we found no support
+for consistent effects of either NPC index on productivity of salmon stocks in
+this region. This finding is in contrast to the strong and consistent positive
+effects of the NPC indices on productivity in the WC ecosystem, which further
+suggests that different environmental pathways may control productivity of
+higher-trophic-level species in these two ecosystems. This hypothesis, that
+different mechanisms may control salmon productivity in different ecosystems, is
+supported by several previous studies that have also indicated differences in
+the effects of environmental variables on salmon productivity between the WC and
+GOA ecosystems. For example, \citet{Mueter2002a} showed opposite effects of SST
+on pink, chum, and sockeye salmon in northern and southern areas, with the
+dividing line occurring around southern Southeast Alaska. Similarly,
+\citet{Malick2015a} indicated that the phenology of the spring bloom of
+phytoplankton has effects of opposite sign on pink salmon stocks in Alaska
+compared to stocks in British Columbia. Both \citet{Mueter2002a} and
+\citet{Malick2015a} suggested that the different effects may be driven by
+differences in oceanography between the WC and GOA ecosystems, which is further
+supported by our results. Differences in the effects of the NPC between northern
+and southern areas further suggests that prey availability for salmon in the GOA
+may either not be affected by variability in horizontal transport or prey
+availability may not be limiting.
+
+In the Bering Sea, we found less consistent effects of the BI and NPGO on salmon
+productivity than in the West Coast ecosystem. For example, we found that (1)
+neither index had a strong effect on sockeye salmon productivity, (2) the NPGO
+was positively related to chum salmon productivity, and (3) the estimated
+effects of both indices on pink salmon productivity were highly uncertain.
+Because the BS ecosystem is geographically isolated from the NPC, it is unlikely
+that variability associated with the NPC has a direct effect on salmon
+productivity in this region. Instead, the BI and NPGO likely represent indirect
+indicators of broad atmospheric or oceanographic patterns, such as changes in
+the North Pacific Oscillation, that link conditions in the Bering Sea to the
+mid-latitude conditions driving variability in the NPC \citep{DiLorenzo2013a}.
+
+Finally, our results demonstrate that ocean current patterns and horizontal
+transport pathways can strongly influence Pacific salmon stocks, with the
+strongest effects being observed for stocks in Washington and British Columbia.
+This conclusion, combined with previous research, indicates that in some areas
+multiple environmental pathways may underlie changes in salmon productivity,
+where one set of pathways is mediated by vertical ocean transport (e.g.,
+upwelling) and another set is mediated by horizontal ocean transport
+\citep{Ottersen2010a, Malick2015b, DiLorenzo2013b}. Furthermore, our results
+provide some evidence that the relative importance of horizontal transport
+pathways may differ between northern and southern areas for the species we
+considered. Taken together, this suggests that quantifying the relative
+importance and cumulative effects of multiple environmental pathways is
+important for understanding how future environmental change will influence
+production of higher-trophic-level species.
+
+
+\section{Acknowledgments}
+
+We are thankful to the many scientists from the Alaska Department of Fish and
+Game, Fisheries and Oceans Canada, and Washington Department of Fish \& Wildlife
+who collected and provided us with the salmon data sets. Funding for this
+research was provided by Simon Fraser University. We also thank Marc Trudel and
+an anonymous referee for their useful comments on our manuscript.
+
+
+\section{Tables}
+
+{\small
+  \libertineLF
+  \begin{longtable}{llllllll}
+    \caption[Summary of Bayesian hierarchical models fit for each
+      species]{Summary of Bayesian hierarchical models fit for each species. \#
+      gives the model number; type indicates whether the model is a standard or
+      generalized Ricker model; ``exchange'' indicates the parameters were
+      exchangeable across all stocks; ``ecosystem'' indicates the parameters were
+      exchangeable across stocks within an ecosystem; ``same'' indicates the
+      parameter was shared (i.e., the same) across stocks and ecosystems;
+      ``different'' indicates the parameter was stock-specific.} \\ 
+    \hline
+    \input{./3_npcurrent/tables/R_table_models.tex}
+    \hline
+    \label{tab:npc:1}
+  \end{longtable}
+}
+\newpage
+
+{\small
+  \libertineLF
+  \begin{longtable}{llllllllll}
+    \caption[Model selection quantities for each fitted model]{Model selection
+      quantities for each fitted model. \# gives the model number as defined in
+      Table 1; Np gives the nominal number of parameters in a model; pD gives
+      the effective number of parameters; and $\Delta$WAIC gives the WAIC value
+      for each model relative to the model with the minimum WAIC value.} \\
+    \hline
+    % \input{./3_npcurrent/tables/R_table_waic_bi_pa_sm.tex}
+    % The normal latex \input command doesn't work for files that 
+    %   start with \multicolumn{} for some reason. I can get it to work by
+    %   either putting \\ as the first line of the input file file or using the
+    %   below primitive input function. See: https://goo.gl/oX6BLH 
+    \csname @@input\endcsname ./3_npcurrent/tables/R_table_waic_bi_pa_sm.tex
+    \hline
+    \label{tab:npc:2}
+  \end{longtable}
+}
+\newpage
+
+{\small
+  \libertineLF
+  \begin{longtable}{llll}
+    \caption[Ecosystem-wide effects for the BI and NPGO indices from the
+      best-fit models]{Ecosystem-wide effects (i.e., $\mu_{\gamma}$) for the BI
+      and NPGO indices from the best-fit models (9 and 10 in Table
+      \ref{tab:npc:1}). Values are in standard deviation units and show the
+      median for $\mu_{\gamma}$ with 95\% credible intervals given in
+      parentheses.} \\
+    \hline
+    \input{./3_npcurrent/tables/R_table_gamma.tex}
+    \hline
+    \label{tab:npc:3}
+  \end{longtable}
+}
+\newpage
+
+
+\section{Figures}
+
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.9]{3_npcurrent/figures/map-npc.pdf}
+  \caption[Study area indicating the ocean entry locations for salmon
+    stocks by species]{Study area indicating the ocean entry locations for (a)
+    pink salmon stocks, (b) chum salmon stocks, and (c) sockeye salmon stocks.
+    Solid circles (red) indicate stocks located in the West Coast ecosystem;
+    solid squares (blue) indicate stocks located in the Gulf of Alaska
+    ecosystem; solid triangles (green) indicate stocks in the Bering Sea
+    ecosystem. Stocks are numbered consecutively from south to north for each
+    species. In panel (a), the thick black arrow shows the North Pacific
+    Current, which flows from west-southwest to east-northeast and the grey
+    arrows show the bifurcation of the North Pacific Current into the northward
+    flowing Alaska Current and southward flowing California Current.}
+  \label{fig:npc:1}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.9]{3_npcurrent/figures/bi_npgo_line.pdf}
+  \caption[Time series for the bifurcation index and North Pacific Gyre
+    Oscillation]{Time series for the bifurcation index (BI; upper panel) and
+    North Pacific Gyre Oscillation (NPGO; bottom panel). Both time series are
+    standardized to a mean of 0 and a standard deviation of 1 (i.e., standard
+    deviation units, SDUs). Positive values of the BI reflect a
+    northward-shifted bifurcation in the NPC, whereas negative BI values
+    indicate a southward-shifted bifurcation. Positive values of the NPGO
+    indicate a stronger NPC, whereas negative NPGO values indicate a weaker
+    NPC.}
+  \label{fig:npc:2}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.9]{3_npcurrent/figures/gamma_all.pdf}
+  \caption[Posterior medians and 95\% credible intervals for the stock-specific
+    bifurcation index and North Pacific Gyre Oscillation effects]{Posterior
+    medians and 95\% credible intervals for the stock-specific bifurcation index
+    (BI) and North Pacific Gyre Oscillation (NPGO) effects, \(\gamma_{BI,i}\)
+    and \(\gamma_{NPGO,i}\), respectively, as derived from the best-fit models
+    (9 and 10 in Table 1). Coefficients (in standard deviation units) are shown
+    for pink salmon (panel a), chum salmon (panel b), and sockeye salmon (panel
+    c). Within each panel, stock-specific estimates are grouped by ecosystem and
+    stocks are ordered south (left) to north (right) where the stock number
+    (x-axis) corresponds to the numbers in Fig. \ref{fig:npc:1}. Solid circles
+    (black) indicate \(\gamma_{BI,i}\) median values and dashed black lines
+    indicate the 95\% credible intervals for the BI effect. Solid squares (red)
+    indicate \(\gamma_{NPGO,i}\) median values and dashed red lines indicate the
+    95\% credible intervals for the NPGO effect. Solid horizontal lines indicate
+    posterior medians for the ecosystem-level effects, \(\mu_{\gamma}\).}
+  \label{fig:npc:3}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.9]{3_npcurrent/figures/gamma_density.pdf}
+  \caption[Posterior distributions for the ecosystem-level effects of the
+    bifurcation index and North Pacific Gyre Oscillation]{Posterior
+    distributions for the ecosystem-level effects, \(\mu_{\gamma}\), of the
+    bifurcation index (BI) and North Pacific Gyre Oscillation (NPGO) in standard
+    deviation units. Distributions are shown for pink salmon (top row), chum
+    salmon (middle row), and sockeye salmon (bottom row), as well as for the
+    West Coast ecosystem (left column), Gulf of Alaska ecosystem (middle column)
+    and Bering Sea ecosystem (right column). Solid lines (black) indicate
+    distributions for the ecosystem-level BI effect and dashed lines (red)
+    indicate distributions for the NPGO ecosystem-level effect.}
+  \label{fig:npc:4}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.9]{3_npcurrent/figures/effect_size.pdf}
+  \caption[Percent change in productivity given a one unit increase in either
+    the bifurcation index or North Pacific Gyre Oscillation]{Percent change in
+    productivity given a one unit increase in either the bifurcation index (BI;
+    grey) or North Pacific Gyre Oscillation (NPGO; red) for stocks in the (a)
+    West Coast ecosystem, (b) Gulf of Alaska ecosystem, and (c) Bering Sea
+    ecosystem. Vertical bars indicate the 95\% credible interval for the
+    estimated percent change.}
+    \label{fig:npc:5}
+\end{figure}
+
+
+
+\newpage
+\section{Supporting materials}
+
+\subsection{Supporting Figures and Tables}
+
+{\small
+  \libertineLF
+  \begin{longtable}{llllllllll}
+    \caption[Model selection quantities for models fit with the bifurcation index
+      calculated using an expanded grid of drifters]{Model selection quantities
+      from the sensitivity analysis that used the bifurcation index calculated
+      using an expanded grid of drifters. \# gives the model number as defined
+      in Table 1 of the main text; Np gives the nominal number of parameters; pD
+      gives the effective number of parameters; and $\Delta$WAIC gives the WAIC
+      value for each model relative to the model with the minimum WAIC value.} \\ 
+    \hline
+    % \input{./3_npcurrent/tables/R_table_waic_bi_pa_lg.tex}
+    \csname @@input\endcsname ./3_npcurrent/tables/R_table_waic_bi_pa_lg.tex
+    \hline
+    \label{tab:npc:s1}
+  \end{longtable}
+}
+
+
+{\small
+  \libertineLF
+  \begin{longtable}{llllllllll}
+    \caption[Model selection quantities for models fit with the alternative
+      bifurcation index]{Model selection quantities from the sensitivity
+      analysis that used the bifurcation index calculated using the methods
+      outlined in \citet{Watters2008a}. \# gives the model number as defined in
+      Table 1 of the main text; Np gives the nominal number of parameters; pD
+      gives the effective number of parameters; and $\Delta$WAIC gives the WAIC
+      value for each model relative to the model with the minimum WAIC value.}
+      \\ 
+    \hline
+    % \input{./3_npcurrent/tables/R_table_waic_bi_wb_sm.tex}
+    \csname @@input\endcsname ./3_npcurrent/tables/R_table_waic_bi_wb_sm.tex
+    \hline
+    \label{tab:npc:s2}
+  \end{longtable}
+}
+
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.9]{3_npcurrent/figures/S_drifter_grid.pdf}
+  \caption[Starting location for the OSCURS model drifters used to calculate the
+    bifurcation index]{Starting location for the OSCURS model drifters used to
+    calculate the bifurcation index. Black dots show the locations where the
+    drifters were seeded for the main bifurcation index and grey plus signs
+    indicate the additional drifter starting locations for the bifurcation index
+    calculated using the expanded grid of drifters, which was part of a
+    sensitivity analysis examining changes in assumptions underlying the
+    bifurcation index.}
+    \label{fig:npc:s1}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.9]{3_npcurrent/figures/S_gamma_single.pdf}
+  \caption[Single-stock model coefficients for the BI and NPGO]{Single-stock
+    model coefficients for the BI and NPGO (i.e., $\gamma_i$). Gamma
+    coefficients were estimated by fitting generalized Ricker models (i.e., eq.
+    \ref{eq:npc:2}) to each of the 163 salmon stocks separately using maximum
+    likelihood. Coefficients (in standard deviation units) are shown for pink
+    salmon (panel a), chum salmon (panel b), and sockeye salmon (panel c).
+    Within each panel, stock-specific estimates are grouped by ecosystem and
+    stocks are ordered south (left) to north (right) where the stock number
+    (x-axis) corresponds to the numbers in Fig. 1 of the main text. Solid
+    circles (black) indicate the maximum likelihood estimate for the BI effect,
+    $\gamma_{BI,i}$, and solid squares (red) indicate the NPGO effect,
+    $\gamma_{NPGO,i}$. Points inside the grey boxes indicate salmon stocks that
+    enter the ocean in the Salish Sea.} \label{fig:npc:s3}
+\end{figure}
+
+

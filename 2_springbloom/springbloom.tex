@@ -772,12 +772,93 @@ Program to R.M.  Peterman.
 \section{Tables}
 
 \begin{landscape}
+{\small
+  \libertineLF
 
-\input{./2_springbloom/tables/table_sr_data.tex}
+  \begin{ThreePartTable}
+    \begin{TableNotes}
+     {\footnotesize
+        \item[a] Sources of data by stock number: 1: Pieter Van Will, Fisheries
+          and Oceans Canada (DFO), Port Hardy, BC; 2-8: David Peacock, Fisheries
+          and Oceans Canada (DFO), Prince Rupert, BC; 9-11: Steve Heinl, Alaska
+          Department of Fish and Game (ADFG), Ketchikan, AK and
+          \citet{Piston2011a}; 12: Steve Moffitt, Alaska Department of Fish and
+          Game (ADFG), Cordova, AK; 13-15: Ted Otis, Alaska Department of Fish
+          and Game (ADFG), Homer, AK; 16-20: Matt Foster, Alaska Department of
+          Fish and Game (ADFG), Kodiak, AK; 21-25: Charles Russell, Alaska
+          Department of Fish and Game (ADFG), Kodiak, AK; 26-27: Matt Foster,
+          Alaska Department of Fish and Game (ADFG), Kodiak, AK.
+        \item[b] Includes statistical areas 11-16; Excludes Fraser River
+        \item[c] Includes districts 101-108
+        \item[d] Includes districts 109-112, 114, 115
+        \item[e] Includes district 113
+        \item[f] Sum of Humpy Creek and Seldovia Bay data sets
+        \item[g] Sum of Port Chatham, Port Dick, Rocky River, Windy Creek, and
+          South Nuka data sets 
+        \item[h] Sum of Bruin River, Sunday Creek, and Brown's Peak Creek data
+          sets 
+        \item[i] Sum of Southeast and Southcentral districts data sets
+      }
+    \end{TableNotes}
+
+    \begin{longtable}{lllllllll}
+      \caption[Summary of pink salmon stock-recruit data sets.]{Summary of pink
+        salmon stock-recruit data sets. Brood years indicate the temporal range
+        of spawning years; N is the number of non-missing years within that
+        range; R is the annual average recruitment (catch plus escapement) in
+        millions across all brood years; S is the average number of spawners in
+        millions across all brood years; $\alpha$ and $\beta$ are maximum
+        likelihood estimates of the intercept (i.e., stock productivity at low
+        spawner abundances) and slope (i.e., density-dependent effect),
+        respectively, of the single-stock Ricker models (eq. \ref{eq:bloom:1}).} \\ 
+      \hline
+      \input{./2_springbloom/tables/R_table_sr_data.tex}
+      \hline
+      \insertTableNotes
+      \label{tab:bloom:1}
+    \end{longtable}
+
+  \end{ThreePartTable}
+}
+\end{landscape}
 \newpage
 
-\input{./2_springbloom/tables/table_lme.tex}
 
+\begin{landscape}
+{\small
+  \libertineLF
+
+  \begin{ThreePartTable}
+    \begin{TableNotes}
+      {\footnotesize
+        \item[*] Significantly different from zero at P \textless{} 0.05. 
+        \item[**] Significantly different from zero at P \textless{} 0.01. 
+      }
+    \end{TableNotes}
+
+    \begin{longtable}{llllllllll}
+      \caption[Summary of the best-fit multi-stock Ricker model
+        coefficients.]{Summary of the best-fit multi-stock Ricker model
+        coefficients (eq. \ref{eq:bloom:3}). The Subset column identifies the
+        stocks included in the hierarchical model (North = stocks 1-9, South =
+        stocks 10-27, and All = stocks 1-27). The Stocks column indicates the
+        number of stocks used to fit the model; N is the total number of data
+        points across all stocks used to fit the model; $\alpha$ is the
+        intercept representing average productivity of pink salmon at low
+        spawner abundance (fixed effect; see eq. \ref{eq:bloom:3}); $\gamma$ is
+        the fixed effect corresponding to either the bloom initiation or mean
+        chl-a concentration (see eq. \ref{eq:bloom:3}); and SE is the standard
+        error for the fixed-effect coefficients. AIC\textsubscript{C} is the
+        Akaike Information Criterion, corrected for small sample size.} \\ 
+      \hline
+      \input{./2_springbloom/tables/R_table_lme.tex}
+      \hline
+      \insertTableNotes
+      \label{tab:bloom:2}
+    \end{longtable}
+
+  \end{ThreePartTable}
+}
 \end{landscape}
 \newpage
 

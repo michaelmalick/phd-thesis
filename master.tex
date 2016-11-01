@@ -3,11 +3,14 @@
 %
 %
 % Michael Malick
-% 2016-10-31
+% 2016-11-01
 % v0.01
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% TODO convert long tables --> tabular if the table is a single page
+% TODO integrate supporting materials to main text if no text?
+% TODO floating tables and figures
 
 
 % ----------------------------
@@ -23,6 +26,7 @@
 \usepackage{setspace}
 \usepackage{pdfpages}
 \usepackage{longtable}
+\usepackage{booktabs}
 \usepackage{threeparttable}  % provides table notes
 \usepackage{threeparttablex} % enables table notes with long tables
 \usepackage[showframe=false, 
@@ -178,8 +182,8 @@
 \clearpage
 
 % North Pacific Current
-% \input{./3_npcurrent/npcurrent.tex}
-% \clearpage
+\input{./3_npcurrent/npcurrent.tex}
+\clearpage
 
 % Bayesian-network
 \input{./4_bayesnetwork/bayesnetwork.tex}

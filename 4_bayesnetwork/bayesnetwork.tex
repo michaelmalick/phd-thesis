@@ -775,10 +775,55 @@ Mueter and two anonymous referees for helpful comments and discussions.
 
 \section{Tables}
 
-\input{./4_bayesnetwork/tables/p3r_b3r_table_var_summary.tex}
+{\small
+  \libertineLF
+
+  \begin{ThreePartTable}
+    \begin{TableNotes}
+      {\footnotesize
+        \item[a] 1: \url{http://www.cpc.ncep.noaa.gov}; 
+          2: \url{http://jisao.washington.edu/pdo/PDO.latest}; 
+          3: \url{http://www.o3d.org/npgo/npgo.php}; 
+          4: \url{http://www.ncdc.noaa.gov/ersst/}; 
+          5: \url{http://www.pfel.noaa.gov}; 
+          6: \citet{Peterson2012a}; 
+          7: \citet{PFMC2013}.
+        }
+    \end{TableNotes}
+  
+    \begin{longtable}{lllll}
+      \caption[Summary of environmental variables used to construct the
+        probabilistic networks.]{Summary of environmental variables used to
+        construct the probabilistic networks. Seasonal average indicates the
+        period over which each variable was averaged. Extent refers to the
+        north-south spatial area that the variable covers (degrees latitude).}
+        \\ 
+      \hline
+      \input{./4_bayesnetwork/tables/R_p3r_b3r_table_var_summary.tex}
+      \hline
+      \insertTableNotes
+      \label{tab:bn:1}
+    \end{longtable}
+
+  \end{ThreePartTable}
+}
 \newpage
 
-\input{./4_bayesnetwork/tables/p3r_b3r_table_path_strength.tex}
+{\small
+  \libertineLF
+  \begin{longtable}{lll}
+    \caption[Relative pathway strength for each pathway connecting large-scale
+      climate variables and coho salmon recruitment.]{Relative pathway strength
+      for each pathway connecting large-scale climate variables and coho salmon
+      recruitment in the physical and biophysical networks; $\overline{r}$ gives
+      the average of the absolute value of the partial correlation coefficients
+      for each link in a pathway.} \\ 
+    \hline
+    \input{./4_bayesnetwork/tables/R_p3r_b3r_table_path_strength.tex}
+    \hline
+    \label{tab:bn:2}
+  \end{longtable}
+}
 \newpage
 
 
@@ -903,14 +948,29 @@ Mueter and two anonymous referees for helpful comments and discussions.
     or below average within a panel.}
   \label{fig:bn:8}
 \end{figure}
-
 \newpage
+
+
+
 \section{Supporting materials}
 
 \subsection{Supporting Figures and Tables}
 
-\input{./4_bayesnetwork/tables/S_p3e_b3e_table_path_strength.tex}
-
+{\small
+  \libertineLF
+  \begin{longtable}{lll}
+    \caption[Relative pathway strength for each pathway connecting large-scale
+      climate variables and the coho salmon productivity index.]{Relative
+      pathway strength for each pathway connecting large-scale climate variables
+      and the \emph{coho salmon productivity index} in the physical and
+      biophysical networks; $\overline{r}$ gives the average of the absolute
+      value of the partial correlation coefficients for each link in a pathway.} \\ 
+    \hline
+    \input{./4_bayesnetwork/tables/R_S_p3e_b3e_table_path_strength.tex}
+    \hline
+    \label{tab:bn:s1}
+  \end{longtable}
+}
 
 
 \begin{figure}[htbp]

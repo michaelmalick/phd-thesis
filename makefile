@@ -12,7 +12,7 @@ pdf: \
 ACKNO = ./0_frontmatter/acknowledgements.tex
 INTRO = ./1_introduction/intro.md
 SPBLM = ./2_springbloom/springbloom.tex
-# NPCRT = ./2_npcurrent/npcurrent.tex
+NPCUR = ./3_npcurrent/npcurrent.tex
 BYNET = ./4_bayesnetwork/bayesnetwork.tex
 # POLCY = ./5_policy/policy.tex
 DISCU = ./6_discussion/discussion.md
@@ -29,9 +29,11 @@ ABV  = --citation-abbreviations ~/Documents/pandoc/csl-citations/abbrev.json
 ./6_discussion/discussion.tex: $(DISCU) makefile
 	$(PANDOC) --chapters -o $@ $<
 
-master.pdf: master.tex $(ACKNO) $(INTRO) $(DISCU) $(SPBLM) $(BYNET) makefile *.tex 
+master.pdf: master.tex $(ACKNO) $(INTRO) $(DISCU) $(SPBLM) $(NPCUR) $(BYNET) makefile *.tex 
 	cp -r ~/Documents/research/phd-spring-bloom/thesis/figures ./2_springbloom
 	cp -r ~/Documents/research/phd-spring-bloom/thesis/tables ./2_springbloom
+	cp -r ~/Documents/research/phd-np-current/thesis/figures ./3_npcurrent
+	cp -r ~/Documents/research/phd-np-current/thesis/tables ./3_npcurrent
 	cp -r ~/Documents/research/phd-bayesian-network/thesis/figures ./4_bayesnetwork
 	cp -r ~/Documents/research/phd-bayesian-network/thesis/tables ./4_bayesnetwork
 	latexmk -pdf $<
