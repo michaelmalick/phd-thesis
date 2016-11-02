@@ -3,7 +3,7 @@
 %
 %
 % Michael Malick
-% 2016-11-01
+% 2016-11-02
 % v0.01
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -26,12 +26,12 @@
 \usepackage{setspace}
 \usepackage{pdfpages}
 \usepackage{longtable}
-\usepackage{booktabs}
-\usepackage{threeparttable}  % provides table notes
+\usepackage{booktabs}        % provides cmidrule
+\usepackage{threeparttable}  % provides tablenotes
 \usepackage{threeparttablex} % enables table notes with long tables
-\usepackage[showframe=false, 
-            includefoot, % ensure page numbers do not extend into margins
-            includehead, % ensure page numbers do not extend into margins
+\usepackage[showframe=true, 
+            includefoot,       % ensure page numbers do not extend into margins
+            includehead,       % ensure page numbers do not extend into margins
             headheight=13.6pt, % need for fancyhdr
             top=1.0in, 
             bottom=1.0in, 
@@ -80,6 +80,8 @@
 
 \widowpenalty=1000
 \clubpenalty=1000
+
+
 
 % 1.5 line spacing
 \onehalfspacing

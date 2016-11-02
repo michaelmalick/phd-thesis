@@ -775,56 +775,43 @@ Mueter and two anonymous referees for helpful comments and discussions.
 
 \section{Tables}
 
-{\small
-  \libertineLF
-
-  \begin{ThreePartTable}
-    \begin{TableNotes}
+\begin{table}[!ht]
+  \small \centering \libertineLF
+  \caption[Summary of environmental variables used to construct the
+           probabilistic networks.]{Summary of environmental variables used to
+           construct the probabilistic networks. Seasonal average indicates
+           the period over which each variable was averaged. Extent refers to
+           the north-south spatial area that the variable covers (degrees
+           latitude).}
+  \begin{threeparttable}
+    \input{./4_bayesnetwork/tables/R_p3r_b3r_table_var_summary.tex}
+    \begin{tablenotes}
       {\footnotesize
         \item[a] 1: \url{http://www.cpc.ncep.noaa.gov}; 
-          2: \url{http://jisao.washington.edu/pdo/PDO.latest}; 
-          3: \url{http://www.o3d.org/npgo/npgo.php}; 
-          4: \url{http://www.ncdc.noaa.gov/ersst/}; 
-          5: \url{http://www.pfel.noaa.gov}; 
-          6: \citet{Peterson2012a}; 
-          7: \citet{PFMC2013}.
+                 2: \url{http://jisao.washington.edu/pdo/PDO.latest}; 
+                 3: \url{http://www.o3d.org/npgo/npgo.php}; 
+                 4: \url{http://www.ncdc.noaa.gov/ersst/}; 
+                 5: \url{http://www.pfel.noaa.gov}; 
+                 6: \citet{Peterson2012a}; 
+                 7: \citet{PFMC2013}.
         }
-    \end{TableNotes}
-  
-    \begin{longtable}{lllll}
-      \caption[Summary of environmental variables used to construct the
-        probabilistic networks.]{Summary of environmental variables used to
-        construct the probabilistic networks. Seasonal average indicates the
-        period over which each variable was averaged. Extent refers to the
-        north-south spatial area that the variable covers (degrees latitude).}
-        \\ 
-      \hline
-      \input{./4_bayesnetwork/tables/R_p3r_b3r_table_var_summary.tex}
-      \hline
-      \insertTableNotes
-      \label{tab:bn:1}
-    \end{longtable}
+    \end{tablenotes}
+  \end{threeparttable}
+  \label{tab:bn:1}
+\end{table}
 
-  \end{ThreePartTable}
-}
 \newpage
-
-{\small
-  \libertineLF
-  \begin{longtable}{lll}
-    \caption[Relative pathway strength for each pathway connecting large-scale
-      climate variables and coho salmon recruitment.]{Relative pathway strength
-      for each pathway connecting large-scale climate variables and coho salmon
-      recruitment in the physical and biophysical networks; $\overline{r}$ gives
-      the average of the absolute value of the partial correlation coefficients
-      for each link in a pathway.} \\ 
-    \hline
-    \input{./4_bayesnetwork/tables/R_p3r_b3r_table_path_strength.tex}
-    \hline
-    \label{tab:bn:2}
-  \end{longtable}
-}
-\newpage
+\begin{table}[!ht]
+  \small \centering \libertineLF
+  \caption[Relative pathway strength for each pathway connecting large-scale
+           climate variables and coho salmon recruitment.]{Relative pathway
+           strength for each pathway connecting large-scale climate variables
+           and coho salmon recruitment in the physical and biophysical networks;
+           $\overline{r}$ gives the average of the absolute value of the partial
+           correlation coefficients for each link in a pathway.}
+  \input{./4_bayesnetwork/tables/R_p3r_b3r_table_path_strength.tex}
+  \label{tab:bn:2}
+\end{table}
 
 
 
@@ -833,119 +820,125 @@ Mueter and two anonymous referees for helpful comments and discussions.
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.75]{./4_bayesnetwork/figures/fig1_intro_path.pdf}
   \caption[Schematic of pathways linking large-scale climate processes and
-    Pacific salmon recruitment.]{Schematic of pathways linking large-scale
-    climate processes and Pacific salmon recruitment; (a) pathway where
-    climate has a direct effect on recruitment, (b) pathway where climate
-    effects on recruitment are mediated by a regional-scale oceanographic
-    process (e.g., upwelling), (c) climate effects are mediated by multiple
-    regional-scale variables resulting in two pathways connecting climate and
-    recruitment.}
+           Pacific salmon recruitment.]{Schematic of pathways linking
+           large-scale climate processes and Pacific salmon recruitment; (a)
+           pathway where climate has a direct effect on recruitment, (b) pathway
+           where climate effects on recruitment are mediated by a regional-scale
+           oceanographic process (e.g., upwelling), (c) climate effects are
+           mediated by multiple regional-scale variables resulting in two
+           pathways connecting climate and recruitment.}
   \label{fig:bn:1}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.9]{./4_bayesnetwork/figures/map.pdf}
   \caption[Study area showing the ocean-entry locations of the ten largest river
-    basins in the Oregon Coast ESU.]{Study area showing the ocean-entry
-    locations of the ten largest river basins located within the Oregon Coast
-    coho salmon evolutionarily significant unit (ESU).}
+           basins in the Oregon Coast ESU.]{Study area showing the ocean-entry
+           locations of the ten largest river basins located within the Oregon
+           Coast coho salmon evolutionarily significant unit (ESU).}
   \label{fig:bn:2}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.9]{./4_bayesnetwork/figures/recruit_ts.pdf}
   \caption[Time series of spawning stock size and the resulting
-    total recruitment.]{Time series of spawning stock size (dashed line) and the
-    resulting total recruitment (solid line) for Oregon Coast coho salmon.
-    Grey shaded region indicates the period used for the biophysical network.}
+           total recruitment.]{Time series of spawning stock size (dashed line)
+           and the resulting total recruitment (solid line) for Oregon Coast
+           coho salmon. Grey shaded region indicates the period used for the
+           biophysical network.}
   \label{fig:bn:3}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.75]{./4_bayesnetwork/figures/fig3_p3r.pdf}
   \caption[Directed acyclic graph for the probabilistic network fit using only
-    physical environmental variables.]{Directed acyclic graph for the
-    probabilistic network fit using only
-    physical environmental variables (called the physical network here). Ovals
-    represent variables and arrows indicate dependencies among variables within
-    the network. Numbers next to each arrow are the partial correlation
-    coefficients. Thick solid arrows indicate the pathway with the highest
-    average partial correlations (``link strength'', i.e., PDO to SST to coho
-    recruitment), whereas the thick dashed arrow indicates the first link in the
-    pathway with the second-highest average link strength.}
+           physical environmental variables.]{Directed acyclic graph for the
+           probabilistic network fit using only physical environmental variables
+           (called the physical network here). Ovals represent variables and
+           arrows indicate dependencies among variables within the network.
+           Numbers next to each arrow are the partial correlation coefficients.
+           Thick solid arrows indicate the pathway with the highest average
+           partial correlations (``link strength'', i.e., PDO to SST to coho
+           recruitment), whereas the thick dashed arrow indicates the first link
+           in the pathway with the second-highest average link strength.}
   \label{fig:bn:4}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.75]{./4_bayesnetwork/figures/fig4_b3r.pdf}
   \caption[Directed acyclic graph for the probabilistic network fit using both
-    physical and biological environmental variables.]{Directed acyclic graph for
-    the probabilistic network fit using both physical and biological
-    environmental variables (called the biophysical
-    network here). Ovals represent variables and arrows indicate dependencies
-    among variables within the network. Numbers next to each arrow are the
-    partial correlation coefficients. Thick solid arrows indicate the pathway
-    with the highest average partial correlations (i.e., link strength), whereas
-    thick dashed arrows indicate the pathway with the second highest average
-    link strength.}
+           physical and biological environmental variables.]{Directed acyclic
+           graph for the probabilistic network fit using both physical and
+           biological environmental variables (called the biophysical network
+           here). Ovals represent variables and arrows indicate dependencies
+           among variables within the network. Numbers next to each arrow are
+           the partial correlation coefficients. Thick solid arrows indicate the
+           pathway with the highest average partial correlations (i.e., link
+           strength), whereas thick dashed arrows indicate the pathway with the
+           second highest average link strength.}
   \label{fig:bn:5}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.9]{./4_bayesnetwork/figures/p3r_post_vars.pdf}
   \caption[Cumulative probability distributions of coho salmon recruitment for
-    the physical network conditioned on each variable in the
-    network.]{Cumulative probability distributions of coho salmon recruitment for
-    the physical network conditioned on each variable in the network. Thick grey
-    curves indicate the cumulative probability for recruitment given that the
-    environmental variable is greater than average, whereas thick black dashed
-    curves show cumulative probability when the environmental variable is less
-    than average. Thin dotted lines indicate the cumulative probabilities for
-    150 000 salmon. The \(\Delta p\) gives the maximum vertical difference in
-    probability between the two cumulative distributions within a panel.}
+           the physical network conditioned on each variable in the
+           network.]{Cumulative probability distributions of coho salmon
+           recruitment for the physical network conditioned on each variable in
+           the network. Thick grey curves indicate the cumulative probability
+           for recruitment given that the environmental variable is greater than
+           average, whereas thick black dashed curves show cumulative
+           probability when the environmental variable is less than average.
+           Thin dotted lines indicate the cumulative probabilities for
+           150 000 salmon. The \(\Delta p\) gives the maximum vertical
+           difference in probability between the two cumulative distributions
+           within a panel.}
   \label{fig:bn:6}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.9]{./4_bayesnetwork/figures/b3r_post_vars.pdf}
   \caption[Cumulative probability distributions of coho salmon recruitment for
-    the biophysical network conditioned on each variable in the
-    network.]{Cumulative probability distributions of coho salmon recruitment
-    for the biophysical network conditioned on each variable in the network.
-    Thick grey curves indicate the cumulative probability for recruitment given
-    that the environmental variable is greater than average, whereas thick black
-    dashed curves show cumulative probability when the environmental variable is
-    less than average. Thin dotted lines indicate the cumulative probabilities
-    for 150 000 salmon. The \(\Delta p\) gives the maximum vertical difference
-    in probability between the two cumulative distributions within a panel.}
+           the biophysical network conditioned on each variable in the
+           network.]{Cumulative probability distributions of coho salmon
+           recruitment for the biophysical network conditioned on each variable
+           in the network. Thick grey curves indicate the cumulative probability
+           for recruitment given that the environmental variable is greater than
+           average, whereas thick black dashed curves show cumulative
+           probability when the environmental variable is less than average.
+           Thin dotted lines indicate the cumulative probabilities for 150 000
+           salmon. The \(\Delta p\) gives the maximum vertical difference in
+           probability between the two cumulative distributions within a panel.}
   \label{fig:bn:7}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.9]{./4_bayesnetwork/figures/p3r_b3r_coho_post_parents.pdf}
   \caption[Cumulative conditional posterior probability distributions for coho
-    salmon recruitment conditioned on the parent variables of
-    recruitment.]{Cumulative conditional posterior probability distributions for
-    coho salmon recruitment conditioned on the parent variables of recruitment
-    for (a) the physical network (conditioned on sea surface temperature (SST)
-    and spring transition (ST) date) and (b) the biophysical network
-    (conditioned on ichthyoplankton biomass (Ich) and copepod biomass (Cope)).
-    Thick solid grey curves indicate the cumulative probability for recruitment
-    given that both conditioning variables are greater than average (+). Thick
-    solid black curves show cumulative probabilities when both variables are
-    less than their long-term averages (-). Thick dashed curves indicate
-    scenarios when the conditioning variables are mixed. For the physical
-    network, the grey dashed curve indicates cumulative probabilities when SST
-    is above average and the spring transition is below average, whereas the
-    dashed black curve shows the cumulative probabilities for the opposite
-    conditions. For the biophysical network, the grey dashed curve indicates
-    cumulative probabilities when ichthyoplankton biomass is above average and
-    copepod biomass is below average, whereas the dashed black curve shows the
-    cumulative probabilities for the opposite conditions. Thin dotted lines
-    indicate the cumulative probabilities for 150 000 salmon.  The \(\Delta p\)
-    gives the maximum vertical difference in probability between the two
-    cumulative distributions where both conditioning variables are either above
-    or below average within a panel.}
+           salmon recruitment conditioned on the parent variables of
+           recruitment.]{Cumulative conditional posterior probability
+           distributions for coho salmon recruitment conditioned on the parent
+           variables of recruitment for (a) the physical network (conditioned on
+           sea surface temperature (SST) and spring transition (ST) date) and
+           (b) the biophysical network (conditioned on ichthyoplankton biomass
+           (Ich) and copepod biomass (Cope)). Thick solid grey curves indicate
+           the cumulative probability for recruitment given that both
+           conditioning variables are greater than average (+). Thick solid
+           black curves show cumulative probabilities when both variables are
+           less than their long-term averages (-). Thick dashed curves indicate
+           scenarios when the conditioning variables are mixed. For the physical
+           network, the grey dashed curve indicates cumulative probabilities
+           when SST is above average and the spring transition is below average,
+           whereas the dashed black curve shows the cumulative probabilities for
+           the opposite conditions. For the biophysical network, the grey dashed
+           curve indicates cumulative probabilities when ichthyoplankton biomass
+           is above average and copepod biomass is below average, whereas the
+           dashed black curve shows the cumulative probabilities for the
+           opposite conditions. Thin dotted lines indicate the cumulative
+           probabilities for 150 000 salmon.  The \(\Delta p\) gives the maximum
+           vertical difference in probability between the two cumulative
+           distributions where both conditioning variables are either above or
+           below average within a panel.}
   \label{fig:bn:8}
 \end{figure}
 \newpage
@@ -956,89 +949,94 @@ Mueter and two anonymous referees for helpful comments and discussions.
 
 \subsection{Supporting Figures and Tables}
 
-{\small
-  \libertineLF
-  \begin{longtable}{lll}
-    \caption[Relative pathway strength for each pathway connecting large-scale
-      climate variables and the coho salmon productivity index.]{Relative
-      pathway strength for each pathway connecting large-scale climate variables
-      and the \emph{coho salmon productivity index} in the physical and
-      biophysical networks; $\overline{r}$ gives the average of the absolute
-      value of the partial correlation coefficients for each link in a pathway.} \\ 
-    \hline
-    \input{./4_bayesnetwork/tables/R_S_p3e_b3e_table_path_strength.tex}
-    \hline
-    \label{tab:bn:s1}
-  \end{longtable}
-}
+
+\newpage
+\begin{table}[!ht]
+  \small \centering \libertineLF
+  \caption[Relative pathway strength for each pathway connecting large-scale
+           climate variables and the coho salmon productivity index.]{Relative
+           pathway strength for each pathway connecting large-scale climate
+           variables and the \emph{coho salmon productivity index} in the
+           physical and biophysical networks; $\overline{r}$ gives the average
+           of the absolute value of the partial correlation coefficients for
+           each link in a pathway.}
+  \input{./4_bayesnetwork/tables/R_S_p3e_b3e_table_path_strength.tex}
+  \label{tab:bn:s1}
+\end{table}
+
 
 
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.9]{./4_bayesnetwork/figures/S_productivity_ts.pdf}
   \caption[Time series of the coho salmon productivity index.]{Time series of
-    the coho salmon productivity index. The productivity index was calculated as
-    the residuals from a Beverton-Holt spawner-recruit model. Grey shaded region
-    indicates the period used for the biophysical network.}
+           the coho salmon productivity index. The productivity index was
+           calculated as the residuals from a Beverton-Holt spawner-recruit
+           model. Grey shaded region indicates the period used for the
+           biophysical network.}
   \label{fig:bn:s1}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.9]{./4_bayesnetwork/figures/S_p3e_post_vars.pdf}
   \caption[Cumulative probability distributions of the coho salmon
-    productivity index for the physical network conditioned on each variable in
-    the network.]{Cumulative probability distributions of the \emph{coho salmon
-    productivity index} for the physical network conditioned on each variable in
-    the network. Thick grey curves indicate the cumulative probability for the
-    productivity index given that the environmental variable is greater than
-    average, whereas thick black dashed curves show cumulative probability when
-    the environmental variable is less than average. Thin dotted lines indicate
-    the cumulative probabilities for average productivity. The \(\Delta p\)
-    gives the maximum vertical difference in probability between the two
-    cumulative distributions within a panel.}
+           productivity index for the physical network conditioned on each
+           variable in the network.]{Cumulative probability distributions of the
+           \emph{coho salmon productivity index} for the physical network
+           conditioned on each variable in the network. Thick grey curves
+           indicate the cumulative probability for the productivity index given
+           that the environmental variable is greater than average, whereas
+           thick black dashed curves show cumulative probability when the
+           environmental variable is less than average. Thin dotted lines
+           indicate the cumulative probabilities for average productivity. The
+           \(\Delta p\) gives the maximum vertical difference in probability
+           between the two cumulative distributions within a panel.}
   \label{fig:bn:s2}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.9]{./4_bayesnetwork/figures/S_b3e_post_vars.pdf}
   \caption[Cumulative probability distributions of the coho salmon productivity
-    index for the biophysical network conditioned on each variable in the
-    network.]{Cumulative probability distributions of the \emph{coho salmon
-    productivity index} for the biophysical network conditioned on each variable
-    in the network. Thick grey curves indicate the cumulative probability for
-    the productivity index given that the environmental variable is greater than
-    average, whereas thick black dashed curves show cumulative probability when
-    the environmental variable is less than average. Thin dotted lines indicate
-    the cumulative probabilities for average productivity. The \(\Delta p\)
-    gives the maximum vertical difference in probability between the two
-    cumulative distributions within a panel.}
+           index for the biophysical network conditioned on each variable in the
+           network.]{Cumulative probability distributions of the \emph{coho
+           salmon productivity index} for the biophysical network conditioned on
+           each variable in the network. Thick grey curves indicate the
+           cumulative probability for the productivity index given that the
+           environmental variable is greater than average, whereas thick black
+           dashed curves show cumulative probability when the environmental
+           variable is less than average. Thin dotted lines indicate the
+           cumulative probabilities for average productivity. The \(\Delta p\)
+           gives the maximum vertical difference in probability between the two
+           cumulative distributions within a panel.}
   \label{fig:bn:s3}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.9]{./4_bayesnetwork/figures/S_p3e_b3e_coho_post_parents.pdf}
   \caption[Cumulative conditional posterior probability distributions for the
-    coho salmon productivity index conditioned on the parent variables of
-    recruitment.]{Cumulative conditional posterior probability distributions for
-    the \emph{coho salmon productivity index} conditioned on the parent
-    variables of recruitment for (a) the physical network (conditioned on sea
-    surface temperature (SST) and spring transition (ST) date) and (b) the
-    biophysical network (conditioned on ichthyoplankton biomass (Ich) and
-    copepod biomass (Cope)). Thick solid grey curves indicate the cumulative
-    probability for the productivity index given that both conditioning
-    variables are greater than average (+). Thick solid black curves show
-    cumulative probabilities when both variables are less than their long-term
-    averages (-). Thick dashed curves indicate scenarios when the conditioning
-    variables are mixed. For the physical network, the grey dashed curve
-    indicates cumulative probabilities when SST is above average and the spring
-    transition is below average, whereas the dashed black curve shows the
-    cumulative probabilities for the opposite conditions. For the biophysical
-    network, the grey dashed curve indicates cumulative probabilities when
-    ichthyoplankton biomass is above average and copepod biomass is below
-    average, whereas the dashed black curve shows the cumulative probabilities
-    for the opposite conditions.  Thin dotted lines indicate the cumulative
-    probabilities for average productivity. The \(\Delta p\) gives the maximum
-    vertical difference in probability between the two cumulative distributions
-    where both conditioning variables are either above or below average within a
-    panel.} 
+           coho salmon productivity index conditioned on the parent variables of
+           recruitment.]{Cumulative conditional posterior probability
+           distributions for the \emph{coho salmon productivity index}
+           conditioned on the parent variables of recruitment for (a) the
+           physical network (conditioned on sea surface temperature (SST) and
+           spring transition (ST) date) and (b) the biophysical network
+           (conditioned on ichthyoplankton biomass (Ich) and copepod biomass
+           (Cope)). Thick solid grey curves indicate the cumulative probability
+           for the productivity index given that both conditioning variables are
+           greater than average (+). Thick solid black curves show cumulative
+           probabilities when both variables are less than their long-term
+           averages (-). Thick dashed curves indicate scenarios when the
+           conditioning variables are mixed. For the physical network, the grey
+           dashed curve indicates cumulative probabilities when SST is above
+           average and the spring transition is below average, whereas the
+           dashed black curve shows the cumulative probabilities for the
+           opposite conditions. For the biophysical network, the grey dashed
+           curve indicates cumulative probabilities when ichthyoplankton biomass
+           is above average and copepod biomass is below average, whereas the
+           dashed black curve shows the cumulative probabilities for the
+           opposite conditions.  Thin dotted lines indicate the cumulative
+           probabilities for average productivity. The \(\Delta p\) gives the
+           maximum vertical difference in probability between the two cumulative
+           distributions where both conditioning variables are either above or
+           below average within a panel.} 
   \label{fig:bn:s4}
 \end{figure}

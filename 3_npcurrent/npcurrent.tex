@@ -669,62 +669,50 @@ an anonymous referee for their useful comments on our manuscript.
 
 \section{Tables}
 
-{\small
-  \libertineLF
-  \begin{longtable}{llllllll}
-    \caption[Summary of Bayesian hierarchical models fit for each
-      species]{Summary of Bayesian hierarchical models fit for each species. \#
-      gives the model number; type indicates whether the model is a standard or
-      generalized Ricker model; ``exchange'' indicates the parameters were
-      exchangeable across all stocks; ``ecosystem'' indicates the parameters were
-      exchangeable across stocks within an ecosystem; ``same'' indicates the
-      parameter was shared (i.e., the same) across stocks and ecosystems;
-      ``different'' indicates the parameter was stock-specific.} \\ 
-    \hline
-    \input{./3_npcurrent/tables/R_table_models.tex}
-    \hline
-    \label{tab:npc:1}
-  \end{longtable}
-}
-\newpage
+\begin{table}[!ht]
+  \small \centering \libertineLF
+  \caption[Summary of Bayesian hierarchical models fit for each
+           species]{Summary of Bayesian hierarchical models fit for each
+           species. \# gives the model number; type indicates whether the
+           model is a standard or generalized Ricker model; ``exchange''
+           indicates the parameters were exchangeable across all stocks;
+           ``ecosystem'' indicates the parameters were exchangeable across
+           stocks within an ecosystem; ``same'' indicates the parameter was
+           shared (i.e., the same) across stocks and ecosystems; ``different''
+           indicates the parameter was stock-specific.}
+  \input{./3_npcurrent/tables/R_table_models.tex}
+  \label{tab:npc:1}
+\end{table}
 
-{\small
-  \libertineLF
-  \begin{longtable}{llllllllll}
-    \caption[Model selection quantities for each fitted model]{Model selection
-      quantities for each fitted model. \# gives the model number as defined in
-      Table 1; Np gives the nominal number of parameters in a model; pD gives
-      the effective number of parameters; and $\Delta$WAIC gives the WAIC value
-      for each model relative to the model with the minimum WAIC value.} \\
-    \hline
-    % \input{./3_npcurrent/tables/R_table_waic_bi_pa_sm.tex}
-    % The normal latex \input command doesn't work for files that 
-    %   start with \multicolumn{} for some reason. I can get it to work by
-    %   either putting \\ as the first line of the input file file or using the
-    %   below primitive input function. See: https://goo.gl/oX6BLH 
-    \csname @@input\endcsname ./3_npcurrent/tables/R_table_waic_bi_pa_sm.tex
-    \hline
-    \label{tab:npc:2}
-  \end{longtable}
-}
-\newpage
 
-{\small
-  \libertineLF
-  \begin{longtable}{llll}
-    \caption[Ecosystem-wide effects for the BI and NPGO indices from the
-      best-fit models]{Ecosystem-wide effects (i.e., $\mu_{\gamma}$) for the BI
-      and NPGO indices from the best-fit models (9 and 10 in Table
-      \ref{tab:npc:1}). Values are in standard deviation units and show the
-      median for $\mu_{\gamma}$ with 95\% credible intervals given in
-      parentheses.} \\
-    \hline
-    \input{./3_npcurrent/tables/R_table_gamma.tex}
-    \hline
-    \label{tab:npc:3}
-  \end{longtable}
-}
 \newpage
+\begin{table}[!ht]
+  \small \centering \libertineLF
+  \caption[Model selection quantities for each fitted model]{Model selection
+           quantities for each fitted model. \# gives the model number as
+           defined in Table 1; Np gives the nominal number of parameters in a
+           model; pD gives the effective number of parameters; and $\Delta$WAIC
+           gives the WAIC value for each model relative to the model with the
+           minimum WAIC value.}
+  \input{./3_npcurrent/tables/R_table_waic_bi_pa_sm.tex}
+  \label{tab:npc:2}
+\end{table}
+
+
+\newpage
+\begin{table}[!ht]
+  \small \centering \libertineLF
+  \caption[Ecosystem-wide effects for the BI and NPGO indices from the
+           best-fit models]{Ecosystem-wide effects (i.e., $\mu_{\gamma}$) for
+           the BI and NPGO indices from the best-fit models (9 and 10 in Table
+           \ref{tab:npc:1}). Values are in standard deviation units and show the
+           median for $\mu_{\gamma}$ with 95\% credible intervals given in
+           parentheses.}
+  \input{./3_npcurrent/tables/R_table_gamma.tex}
+  \label{tab:npc:3}
+\end{table}
+
+
 
 
 \section{Figures}
@@ -732,77 +720,82 @@ an anonymous referee for their useful comments on our manuscript.
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.9]{3_npcurrent/figures/map-npc.pdf}
   \caption[Study area indicating the ocean entry locations for salmon
-    stocks by species]{Study area indicating the ocean entry locations for (a)
-    pink salmon stocks, (b) chum salmon stocks, and (c) sockeye salmon stocks.
-    Solid circles (red) indicate stocks located in the West Coast ecosystem;
-    solid squares (blue) indicate stocks located in the Gulf of Alaska
-    ecosystem; solid triangles (green) indicate stocks in the Bering Sea
-    ecosystem. Stocks are numbered consecutively from south to north for each
-    species. In panel (a), the thick black arrow shows the North Pacific
-    Current, which flows from west-southwest to east-northeast and the grey
-    arrows show the bifurcation of the North Pacific Current into the northward
-    flowing Alaska Current and southward flowing California Current.}
+           stocks by species]{Study area indicating the ocean entry locations
+           for (a) pink salmon stocks, (b) chum salmon stocks, and (c) sockeye
+           salmon stocks. Solid circles (red) indicate stocks located in the
+           West Coast ecosystem; solid squares (blue) indicate stocks located in
+           the Gulf of Alaska ecosystem; solid triangles (green) indicate stocks
+           in the Bering Sea ecosystem. Stocks are numbered consecutively from
+           south to north for each species. In panel (a), the thick black arrow
+           shows the North Pacific Current, which flows from west-southwest to
+           east-northeast and the grey arrows show the bifurcation of the North
+           Pacific Current into the northward flowing Alaska Current and
+           southward flowing California Current.}
   \label{fig:npc:1}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.9]{3_npcurrent/figures/bi_npgo_line.pdf}
   \caption[Time series for the bifurcation index and North Pacific Gyre
-    Oscillation]{Time series for the bifurcation index (BI; upper panel) and
-    North Pacific Gyre Oscillation (NPGO; bottom panel). Both time series are
-    standardized to a mean of 0 and a standard deviation of 1 (i.e., standard
-    deviation units, SDUs). Positive values of the BI reflect a
-    northward-shifted bifurcation in the NPC, whereas negative BI values
-    indicate a southward-shifted bifurcation. Positive values of the NPGO
-    indicate a stronger NPC, whereas negative NPGO values indicate a weaker
-    NPC.}
+           Oscillation]{Time series for the bifurcation index (BI; upper panel)
+           and North Pacific Gyre Oscillation (NPGO; bottom panel). Both time
+           series are standardized to a mean of 0 and a standard deviation of 1
+           (i.e., standard deviation units, SDUs). Positive values of the BI
+           reflect a northward-shifted bifurcation in the NPC, whereas negative
+           BI values indicate a southward-shifted bifurcation. Positive values
+           of the NPGO indicate a stronger NPC, whereas negative NPGO values
+           indicate a weaker NPC.}
   \label{fig:npc:2}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.9]{3_npcurrent/figures/gamma_all.pdf}
   \caption[Posterior medians and 95\% credible intervals for the stock-specific
-    bifurcation index and North Pacific Gyre Oscillation effects]{Posterior
-    medians and 95\% credible intervals for the stock-specific bifurcation index
-    (BI) and North Pacific Gyre Oscillation (NPGO) effects, \(\gamma_{BI,i}\)
-    and \(\gamma_{NPGO,i}\), respectively, as derived from the best-fit models
-    (9 and 10 in Table 1). Coefficients (in standard deviation units) are shown
-    for pink salmon (panel a), chum salmon (panel b), and sockeye salmon (panel
-    c). Within each panel, stock-specific estimates are grouped by ecosystem and
-    stocks are ordered south (left) to north (right) where the stock number
-    (x-axis) corresponds to the numbers in Fig. \ref{fig:npc:1}. Solid circles
-    (black) indicate \(\gamma_{BI,i}\) median values and dashed black lines
-    indicate the 95\% credible intervals for the BI effect. Solid squares (red)
-    indicate \(\gamma_{NPGO,i}\) median values and dashed red lines indicate the
-    95\% credible intervals for the NPGO effect. Solid horizontal lines indicate
-    posterior medians for the ecosystem-level effects, \(\mu_{\gamma}\).}
+           bifurcation index and North Pacific Gyre Oscillation
+           effects]{Posterior medians and 95\% credible intervals for the
+           stock-specific bifurcation index (BI) and North Pacific Gyre
+           Oscillation (NPGO) effects, \(\gamma_{BI,i}\) and
+           \(\gamma_{NPGO,i}\), respectively, as derived from the best-fit
+           models (9 and 10 in Table 1). Coefficients (in standard deviation
+           units) are shown for pink salmon (panel a), chum salmon (panel b),
+           and sockeye salmon (panel c). Within each panel, stock-specific
+           estimates are grouped by ecosystem and stocks are ordered south
+           (left) to north (right) where the stock number (x-axis) corresponds
+           to the numbers in Fig. \ref{fig:npc:1}. Solid circles (black)
+           indicate \(\gamma_{BI,i}\) median values and dashed black lines
+           indicate the 95\% credible intervals for the BI effect. Solid squares
+           (red) indicate \(\gamma_{NPGO,i}\) median values and dashed red lines
+           indicate the 95\% credible intervals for the NPGO effect. Solid
+           horizontal lines indicate posterior medians for the ecosystem-level
+           effects, \(\mu_{\gamma}\).}
   \label{fig:npc:3}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.9]{3_npcurrent/figures/gamma_density.pdf}
   \caption[Posterior distributions for the ecosystem-level effects of the
-    bifurcation index and North Pacific Gyre Oscillation]{Posterior
-    distributions for the ecosystem-level effects, \(\mu_{\gamma}\), of the
-    bifurcation index (BI) and North Pacific Gyre Oscillation (NPGO) in standard
-    deviation units. Distributions are shown for pink salmon (top row), chum
-    salmon (middle row), and sockeye salmon (bottom row), as well as for the
-    West Coast ecosystem (left column), Gulf of Alaska ecosystem (middle column)
-    and Bering Sea ecosystem (right column). Solid lines (black) indicate
-    distributions for the ecosystem-level BI effect and dashed lines (red)
-    indicate distributions for the NPGO ecosystem-level effect.}
+           bifurcation index and North Pacific Gyre Oscillation]{Posterior
+           distributions for the ecosystem-level effects, \(\mu_{\gamma}\), of
+           the bifurcation index (BI) and North Pacific Gyre Oscillation (NPGO)
+           in standard deviation units. Distributions are shown for pink salmon
+           (top row), chum salmon (middle row), and sockeye salmon (bottom row),
+           as well as for the West Coast ecosystem (left column), Gulf of Alaska
+           ecosystem (middle column) and Bering Sea ecosystem (right column).
+           Solid lines (black) indicate distributions for the ecosystem-level BI
+           effect and dashed lines (red) indicate distributions for the NPGO
+           ecosystem-level effect.}
   \label{fig:npc:4}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.9]{3_npcurrent/figures/effect_size.pdf}
   \caption[Percent change in productivity given a one unit increase in either
-    the bifurcation index or North Pacific Gyre Oscillation]{Percent change in
-    productivity given a one unit increase in either the bifurcation index (BI;
-    grey) or North Pacific Gyre Oscillation (NPGO; red) for stocks in the (a)
-    West Coast ecosystem, (b) Gulf of Alaska ecosystem, and (c) Bering Sea
-    ecosystem. Vertical bars indicate the 95\% credible interval for the
-    estimated percent change.}
+           the bifurcation index or North Pacific Gyre Oscillation]{Percent
+           change in productivity given a one unit increase in either the
+           bifurcation index (BI; grey) or North Pacific Gyre Oscillation (NPGO;
+           red) for stocks in the (a) West Coast ecosystem, (b) Gulf of Alaska
+           ecosystem, and (c) Bering Sea ecosystem. Vertical bars indicate the
+           95\% credible interval for the estimated percent change.}
     \label{fig:npc:5}
 \end{figure}
 
@@ -813,55 +806,49 @@ an anonymous referee for their useful comments on our manuscript.
 
 \subsection{Supporting Figures and Tables}
 
-{\small
-  \libertineLF
-  \begin{longtable}{llllllllll}
-    \caption[Model selection quantities for models fit with the bifurcation index
-      calculated using an expanded grid of drifters]{Model selection quantities
-      from the sensitivity analysis that used the bifurcation index calculated
-      using an expanded grid of drifters. \# gives the model number as defined
-      in Table 1 of the main text; Np gives the nominal number of parameters; pD
-      gives the effective number of parameters; and $\Delta$WAIC gives the WAIC
-      value for each model relative to the model with the minimum WAIC value.} \\ 
-    \hline
-    % \input{./3_npcurrent/tables/R_table_waic_bi_pa_lg.tex}
-    \csname @@input\endcsname ./3_npcurrent/tables/R_table_waic_bi_pa_lg.tex
-    \hline
-    \label{tab:npc:s1}
-  \end{longtable}
-}
+
+\begin{table}[!ht]
+  \small \centering \libertineLF
+  \caption[Model selection quantities for models fit with the bifurcation index
+           calculated using an expanded grid of drifters]{Model selection
+           quantities from the sensitivity analysis that used the bifurcation
+           index calculated using an expanded grid of drifters. \# gives the
+           model number as defined in Table 1 of the main text; Np gives the
+           nominal number of parameters; pD gives the effective number of
+           parameters; and $\Delta$WAIC gives the WAIC value for each model
+           relative to the model with the minimum WAIC value.}
+  \input{./3_npcurrent/tables/R_table_waic_bi_pa_lg.tex}
+  \label{tab:npc:s1}
+\end{table}
 
 
-{\small
-  \libertineLF
-  \begin{longtable}{llllllllll}
-    \caption[Model selection quantities for models fit with the alternative
-      bifurcation index]{Model selection quantities from the sensitivity
-      analysis that used the bifurcation index calculated using the methods
-      outlined in \citet{Watters2008a}. \# gives the model number as defined in
-      Table 1 of the main text; Np gives the nominal number of parameters; pD
-      gives the effective number of parameters; and $\Delta$WAIC gives the WAIC
-      value for each model relative to the model with the minimum WAIC value.}
-      \\ 
-    \hline
-    % \input{./3_npcurrent/tables/R_table_waic_bi_wb_sm.tex}
-    \csname @@input\endcsname ./3_npcurrent/tables/R_table_waic_bi_wb_sm.tex
-    \hline
-    \label{tab:npc:s2}
-  \end{longtable}
-}
+\newpage
+\begin{table}[!ht]
+  \small \centering \libertineLF
+  \caption[Model selection quantities for models fit with the alternative
+           bifurcation index]{Model selection quantities from the sensitivity
+           analysis that used the bifurcation index calculated using the methods
+           outlined in \citet{Watters2008a}. \# gives the model number as
+           defined in Table 1 of the main text; Np gives the nominal number of
+           parameters; pD gives the effective number of parameters; and
+           $\Delta$WAIC gives the WAIC value for each model relative to the
+           model with the minimum WAIC value.}
+  \input{./3_npcurrent/tables/R_table_waic_bi_wb_sm.tex}
+  \label{tab:npc:s2}
+\end{table}
+
 
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.9]{3_npcurrent/figures/S_drifter_grid.pdf}
   \caption[Starting location for the OSCURS model drifters used to calculate the
-    bifurcation index]{Starting location for the OSCURS model drifters used to
-    calculate the bifurcation index. Black dots show the locations where the
-    drifters were seeded for the main bifurcation index and grey plus signs
-    indicate the additional drifter starting locations for the bifurcation index
-    calculated using the expanded grid of drifters, which was part of a
-    sensitivity analysis examining changes in assumptions underlying the
-    bifurcation index.}
-    \label{fig:npc:s1}
+           bifurcation index]{Starting location for the OSCURS model drifters
+           used to calculate the bifurcation index. Black dots show the
+           locations where the drifters were seeded for the main bifurcation
+           index and grey plus signs indicate the additional drifter starting
+           locations for the bifurcation index calculated using the expanded
+           grid of drifters, which was part of a sensitivity analysis examining
+           changes in assumptions underlying the bifurcation index.}
+  \label{fig:npc:s1}
 \end{figure}
 
 
@@ -873,32 +860,34 @@ an anonymous referee for their useful comments on our manuscript.
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.20]{3_npcurrent/figures/drifter_tracks2.jpg}
   \caption[OSCURS model drifter trajectories for years 1967--2010]{OSCURS model
-    drifter trajectories for years 1967--2010. Each panel shows the
-    drifter tracks for a single year where the drifters were simulated from
-    February 1 to June 30. Red tracks indicate drifters that ended south of
-    their starting location and blue tracks indicate drifters that ended north
-    of their starting location. The lower left corner in each panel gives
-    the year and the bifurcation index (BI) for that year. The BI values are
-    standardized to a mean of 0 and a standard deviation of 1 (i.e., standard
-    deviation units, SDUs).}
-    \label{fig:npc:s2}
+           drifter trajectories for years 1967--2010. Each panel shows the
+           drifter tracks for a single year where the drifters were simulated
+           from February 1 to June 30. Red tracks indicate drifters that ended
+           south of their starting location and blue tracks indicate drifters
+           that ended north of their starting location. The lower left corner in
+           each panel gives the year and the bifurcation index (BI) for that
+           year. The BI values are standardized to a mean of 0 and a standard
+           deviation of 1 (i.e., standard deviation units, SDUs).}
+  \label{fig:npc:s2}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.9]{3_npcurrent/figures/S_gamma_single.pdf}
   \caption[Single-stock model coefficients for the BI and NPGO]{Single-stock
-    model coefficients for the BI and NPGO (i.e., $\gamma_i$). Gamma
-    coefficients were estimated by fitting generalized Ricker models (i.e., eq.
-    \ref{eq:npc:2}) to each of the 163 salmon stocks separately using maximum
-    likelihood. Coefficients (in standard deviation units) are shown for pink
-    salmon (panel a), chum salmon (panel b), and sockeye salmon (panel c).
-    Within each panel, stock-specific estimates are grouped by ecosystem and
-    stocks are ordered south (left) to north (right) where the stock number
-    (x-axis) corresponds to the numbers in Fig. 1 of the main text. Solid
-    circles (black) indicate the maximum likelihood estimate for the BI effect,
-    $\gamma_{BI,i}$, and solid squares (red) indicate the NPGO effect,
-    $\gamma_{NPGO,i}$. Points inside the grey boxes indicate salmon stocks that
-    enter the ocean in the Salish Sea.} \label{fig:npc:s3}
+           model coefficients for the BI and NPGO (i.e., $\gamma_i$). Gamma
+           coefficients were estimated by fitting generalized Ricker models
+           (i.e., eq. \ref{eq:npc:2}) to each of the 163 salmon stocks
+           separately using maximum likelihood. Coefficients (in standard
+           deviation units) are shown for pink salmon (panel a), chum salmon
+           (panel b), and sockeye salmon (panel c). Within each panel,
+           stock-specific estimates are grouped by ecosystem and stocks are
+           ordered south (left) to north (right) where the stock number (x-axis)
+           corresponds to the numbers in Fig. 1 of the main text. Solid circles
+           (black) indicate the maximum likelihood estimate for the BI effect,
+           $\gamma_{BI,i}$, and solid squares (red) indicate the NPGO effect,
+           $\gamma_{NPGO,i}$. Points inside the grey boxes indicate salmon
+           stocks that enter the ocean in the Salish Sea.} 
+  \label{fig:npc:s3}
 \end{figure}
 
 
