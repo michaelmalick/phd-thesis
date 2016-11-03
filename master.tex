@@ -8,9 +8,9 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% TODO convert long tables --> tabular if the table is a single page
-% TODO integrate supporting materials to main text if no text?
-% TODO floating tables and figures
+% DONE convert long tables --> tabular if the table is a single page
+% TODO double check eq, fig, and table reference labels
+% TODO integrate figures and tables into chapter text
 
 
 % ----------------------------
@@ -29,7 +29,8 @@
 \usepackage{booktabs}        % provides cmidrule
 \usepackage{threeparttable}  % provides tablenotes
 \usepackage{threeparttablex} % enables table notes with long tables
-\usepackage[showframe=true, 
+\usepackage[margin=1cm]{caption}
+\usepackage[showframe=false, 
             includefoot,       % ensure page numbers do not extend into margins
             includehead,       % ensure page numbers do not extend into margins
             headheight=13.6pt, % need for fancyhdr
