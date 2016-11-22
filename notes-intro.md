@@ -73,9 +73,6 @@ localized ecosystem-based management plans.
 
 # Footnote definitions
 
-[^1]: Throughout this thesis, the term productivity refers to the per capita
-      growth rate for a population, which for Pacific salmon is estimated as the
-      number of recruits produced per spawner.
 
 [^2]: The term 'ecological pathway' is used throughout this thesis to describe a
       series of connected ecological processes (abiotic and/or biotic) where one
@@ -1236,6 +1233,31 @@ indicated no relationship.
 
 # Managing for environmental change (ch. 4)
 
+A better understanding of how environmental forcing impacts salmon populations
+is a necessary but not sufficient condition for maintaining viable and
+productive salmon stocks. We also need to develop a parallel understanding of
+how these impacts interact with other anthropogenic disturbances, such as
+commercial harvesting, and how this information can be incorporated into
+management decisions [@Link2002a]. Increasingly, management of living marine
+resources is moving toward ecosystem-based approaches to management that shift
+the focus of management from a single-species to maintaining critical components
+of ecosystem structure and function [@Grumbine1994; @Murawski2007a; @Long2015].
+Implementing ecosystem-based management approaches requires defining boundaries
+that delimit the spatial extent of the decision-making process and most of the
+research examining the challenges to implementing ecosystem-based management
+assume that the anthropogenic (or natural) disturbances occur within the human
+defined boundaries of the decision-making area [@Engler2015; @Yaffee1999].
+However, for highly migratory marine and anadromous fish species, these impacts
+can occur across a continuum of spatial scales that frequently extend beyond the
+boundaries of the ecosystem-based management area [@Dallimer2015]. For example,
+management actions, such as decisions to increased commercial harvest, in
+locations that are geographically distance from the ecosystem-based management
+area may strongly impact the supply of ecosystem services provided by a
+migratory species within the bounds of the ecosystem-based management area. In
+chapter 4, I confront this assumption by examining challenges associated with
+integrating highly migratory Pacific salmon into regional and local scale
+ecosystem-based management policies and outline potential strategies to overcome
+the challenges.
 
 # Contributions
 - See Sean Anderson's thesis for an example
