@@ -1,13 +1,13 @@
 ---
 title:  PhD Thesis General Introduction
 author: Michael Malick
-date:   2016-10-26
+date:   2016-11-22
 tags:   phd
 ---
 
 
-- TODO Add chapter reference labels
-- TODO Species scientific names
+- TODO Add chapter reference labels for latex
+- DONE Species scientific names
 
 - TODO @Woodson2015     -> ocean fronts
 - TODO @Cury2014        -> recruitment

@@ -134,16 +134,17 @@ higher-trophic-level species [@DiLorenzo2013b]. This horizontal transport
 hypothesis proposes that food resources available to juvenile salmon is driven
 by climate-induced changes in horizontal transport processes, e.g., ocean
 currents or eddies, that cause zooplankton or other weakly/passive drifters to
-be advected into or out of coastal ecosystems (Fig. 1). For example, off the central
-Oregon Coast, research has indicated that the negative phase of the Pacific
-Decadal Oscillation is associated with increased advection of large-bodied
-lipid-rich zooplankton into the region from northern areas, which in turn is
-associated with increased marine survival of coho salmon [@Keister2011a;
-@Bi2011a]. Beyond the Northern California Current area, however, the effects of
-variability in horizontal ocean transport on Pacific salmon productivity are
-largely untested. In chapter 2, I examine the effects of two modes of
-variability in horizontal ocean transport in the North Pacific on productivity
-of 163 North American pink, chum, and sockeye salmon stocks.
+be advected into or out of coastal ecosystems (Fig. 1). For example, off the
+central Oregon Coast, research has indicated that the negative phase of the
+Pacific Decadal Oscillation is associated with increased advection of
+large-bodied lipid-rich zooplankton into the region from northern areas, which
+in turn is associated with increased marine survival of coho salmon (*O.
+kisutch*) [@Keister2011a; @Bi2011a]. Beyond the Northern California Current
+area, however, the effects of variability in horizontal ocean transport on
+Pacific salmon productivity are largely untested. In chapter 2, I examine the
+effects of two modes of variability in horizontal ocean transport in the North
+Pacific on productivity of 163 North American pink, chum (*O. keta*), and
+sockeye salmon stocks.
 
 Although the vertical and horizontal transport pathways are individually
 appealing to explain how climate forcing downscales to affect regional and local
@@ -155,15 +156,15 @@ and higher-trophic level species. Thus, perturbations to climatic systems from
 anthropogenic or natural sources may simultaneously influence regional-scale
 vertical and horizontal transport pathways. Indeed, the Pacific Decadal
 Oscillation has been shown to influence both ocean current patterns in the
-Northern California Current ecosystem and affect the magnitude of upwelling-favorable
-winds in the region [@Keister2011a; @Chhak2007]. The coupling among different environmental
-pathways thus creates a complex ecological network that links climate patterns,
-ocean conditions, and salmon population dynamics. Estimating the cumulative
-effects and relative importance of the pathways within this network is a
-necessary component of understanding how environmental change impacts
-higher-trophic-level species. In chapter 3, I estimate the cumulative effects of
-these pathways on productivity of coho salmon in the Northern California Current
-using Bayesian network.
+Northern California Current ecosystem and affect the magnitude of
+upwelling-favorable winds in the region [@Keister2011a; @Chhak2007]. The
+coupling among different environmental pathways thus creates a complex
+ecological network that links climate patterns, ocean conditions, and salmon
+population dynamics. Estimating the cumulative effects and relative importance
+of the pathways within this network is a necessary component of understanding
+how environmental change impacts higher-trophic-level species. In chapter 3, I
+estimate the cumulative effects of these pathways on productivity of coho salmon
+in the Northern California Current using Bayesian network.
 
 
 ## Managing for environmental change
@@ -202,31 +203,30 @@ interdisciplinarity. First is the incorporation of research ideas, perspectives,
 and approaches from both oceanography and fisheries. Although both fields are
 firmly rooted in the natural sciences, the research approaches and the types of
 questions important to researchers in both fields have diverged over time
-[@Platt2007a]. The first three chapters of my research attempt to bring
-together some of the knowledge and research questions important to both
-fisheries scientists and oceanographers. The second level of interdisciplinarity
-involves a bridge between the natural and social sciences. One-quarter of the
-research presented in this thesis is focused on this bridging by taking a
-policy perspective in order to answer an important fisheries question.
+[@Platt2007a]. The first three chapters of my research attempt to bring together
+some of the knowledge and research questions important to both fisheries
+scientists and oceanographers. The second level of interdisciplinarity involves
+a bridge between the natural and social sciences. One-quarter of the research
+presented in this thesis is focused on this bridging by taking a policy
+perspective in order to answer an important fisheries question.
 
 
 ## Contributions
 
-I am the sole author of the general introduction and
-discussion and these chapters are written in the first-person
-singular. Chapters 1--4 are derived from either published manuscripts or
-submitted manuscripts with co-authors and these chapters are written in the
-first-person plural. For each of the chapters deriving from multi-authored
-manuscripts (chapters 1--4), I am the first-author of the work and performed
-the data analysis and wrote the first draft of the text. These chapters,
-however, benefited greatly from discussions, editing, and comments from the
-co-author. The original published sources of these chapters are provided at the
-beginning of each chapter. The initial ideas for chapter 1 were developed
-by myself, Randall Peterman, Franz Mueter and Sean Cox. Chapter 2 builds on
-ideas originally presented in an unpublished manuscript by Randall Peterman,
-Franz Mueter, and Brigitte Dorner. The main idea for chapter 3 came out of
-discussions between myself and Randall Peterman following a presentation on
-using Bayesian networks for ecological research by Catherine Michielsens. The
+I am the sole author of the general introduction and discussion and these
+chapters are written in the first-person singular. Chapters 1--4 are derived
+from either published manuscripts or submitted manuscripts with co-authors and
+these chapters are written in the first-person plural. For each of the chapters
+deriving from multi-authored manuscripts (chapters 1--4), I am the first-author
+of the work and performed the data analysis and wrote the first draft of the
+text. These chapters, however, benefited greatly from discussions, editing, and
+comments from the co-author. The original published sources of these chapters
+are provided at the beginning of each chapter. The initial ideas for chapter 1
+were developed by myself, Randall Peterman, Franz Mueter and Sean Cox. Chapter 2
+builds on ideas originally presented in an unpublished manuscript by Randall
+Peterman, Franz Mueter, and Brigitte Dorner. The main idea for chapter 3 came
+out of discussions between myself and Randall Peterman following a presentation
+on using Bayesian networks for ecological research by Catherine Michielsens. The
 ideas presented in chapter 4 were initially developed by myself, Murray
 Rutherford, and Sean Cox.
 
@@ -251,3 +251,4 @@ Rutherford, and Sean Cox.
 -->
 
 # References
+
