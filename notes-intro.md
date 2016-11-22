@@ -1,8 +1,8 @@
 ---
-title: PhD Thesis General Introduction
+title:  PhD Thesis General Introduction
 author: Michael Malick
-date: 2016-10-26
-tags: phd
+date:   2016-10-26
+tags:   phd
 ---
 
 

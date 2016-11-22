@@ -5,5 +5,7 @@
 /forms
 master.pdf
 intro.pdf
+figures.pdf
 *.key
+*.docx
 */figures

@@ -1,11 +1,10 @@
+---
+title:  Environmental forcing of Pacific salmon population dynamics
+author: Michael Malick
+date:   22 Nov 2016
+---
+
 <!--
-General Introduction
-Michael Malick
-
-~10 paragraphs
-
-Title: Environmental forcing of Pacific salmon population dynamics
-
 Title 1: Ecological drivers of spatial and temporal variability in Pacific
          salmon productivity
 
@@ -13,9 +12,6 @@ Title 2: Ecological pathways as drivers of Pacific salmon productivity
 
 Title 3: Ecological pathways as drivers of Pacific salmon population ecology
 -->
-
-
-Date: 2016-11-22
 
 
 # General Introduction
@@ -198,6 +194,7 @@ integrating highly migratory Pacific salmon into regional and local scale
 ecosystem-based management policies and outline potential strategies to overcome
 the challenges.
 
+
 ## Statement of interdisciplinarity
 
 The research presented in this thesis includes two levels of
@@ -215,6 +212,25 @@ policy perspective in order to answer an important fisheries question.
 
 ## Contributions
 
+I am the sole author of the general introduction and
+discussion and these chapters are written in the first-person
+singular. Chapters 1--4 are derived from either published manuscripts or
+submitted manuscripts with co-authors and these chapters are written in the
+first-person plural. For each of the chapters deriving from multi-authored
+manuscripts (chapters 1--4), I am the first-author of the work and performed
+the data analysis and wrote the first draft of the text. These chapters,
+however, benefited greatly from discussions, editing, and comments from the
+co-author. The original published sources of these chapters are provided at the
+beginning of each chapter. The initial ideas for chapter 1 were developed
+by myself, Randall Peterman, Franz Mueter and Sean Cox. Chapter 2 builds on
+ideas originally presented in an unpublished manuscript by Randall Peterman,
+Franz Mueter, and Brigitte Dorner. The main idea for chapter 3 came out of
+discussions between myself and Randall Peterman following a presentation on
+using Bayesian networks for ecological research by Catherine Michielsens. The
+ideas presented in chapter 4 were initially developed by myself, Murray
+Rutherford, and Sean Cox.
+
+<!--
 I am the sole author of chapters xxx and xxx (general introduction and
 discussion, respectively) and these chapters are written in the first-person
 singular. Chapters xxx-xxx are derived from either published manuscripts or
@@ -232,6 +248,6 @@ discussions between myself and Randall Peterman following a presentation on
 using Bayesian networks for ecological research by Catherine Michielsens. The
 ideas presented in chapter (policy) were initially developed by myself, Murray
 Rutherford, and Sean Cox.
-
+-->
 
 # References

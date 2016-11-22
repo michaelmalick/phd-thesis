@@ -1,8 +1,8 @@
 ---
-title: PhD Thesis Finish + Graduation
+title:  PhD Thesis Finish + Graduation
 author: Michael Malick
-date: 2016-07-11
-tags: phd
+date:   2016-07-11
+tags:   phd
 ---
 
 
@@ -35,54 +35,54 @@ tags: phd
 
 # Defense chair
 - Professors, Associate Professors, Assistant Professors and Senior
-  lecturers are able to chair defences.
+  lecturers are able to chair defenses.
 
 - Short List:
 
-  Ken Lertzman
-  Professor
-  Forest Ecology
-  kenneth_lertzman@sfu.ca
-  778-782-3069
+    Ken Lertzman
+    Professor
+    Forest Ecology
+    kenneth_lertzman@sfu.ca
+    778-782-3069
 
-  Anne K. Salomon
-  Associate Professor and Hakai Professor
-  Coastal Marine Ecology and Conservation Lab
-  anne_salomon@sfu.ca
-  778-782-8739
+    Anne K. Salomon
+    Associate Professor and Hakai Professor
+    Coastal Marine Ecology and Conservation Lab
+    anne_salomon@sfu.ca
+    778-782-8739
 
-  Karen E. Kohfeld
-  Associate Professor
-  karen_kohfeld@sfu.ca
-  778-782-7651
+    Karen E. Kohfeld
+    Associate Professor
+    karen_kohfeld@sfu.ca
+    778-782-7651
 
-  Jonn Axsen
-  Assistant Professor
-  jaxsen@sfu.ca
-  778-782-9365
+    Jonn Axsen
+    Assistant Professor
+    jaxsen@sfu.ca
+    778-782-9365
 
 
 # Internal examiner
-- Internal examiners must be present at the defence and may not act as any
-  other role in the defence
+- Internal examiners must be present at the defense and may not act as any
+  other role in the defense
 
 - Short List
 
-  Michael Bradford
-  Research Scientist
-  Adjunct Professor, School of Resource and Environmental Management
-  Email: mbradfor@sfu.ca
-  Phone: 604 666-7912
+    Michael Bradford
+    Research Scientist
+    Adjunct Professor, School of Resource and Environmental Management
+    Email: mbradfor@sfu.ca
+    Phone: 604 666-7912
 
-  Nicholas Dulvy
-  Professor, SFU
-  Email: nkd3@sfu.ca
-  Phone: 778-782-4124
+    Nicholas Dulvy
+    Professor, SFU
+    Email: nkd3@sfu.ca
+    Phone: 778-782-4124
 
-  Jonathan Moore
-  Associate Professor, SFU
-  Email: jwmoore@sfu.ca
-  Phone: 778-782-9246
+    Jonathan Moore
+    Associate Professor, SFU
+    Email: jwmoore@sfu.ca
+    Phone: 778-782-9246
 
 
 # External examiner
@@ -133,40 +133,40 @@ tags: phd
 
 - Short list
 
-  Martin Krkosek
-  Assistant Professor
-  University of Toronto
-  Email: martin.krkosek@utoronto.ca
-  Phone: 416-978-3839
-  Website: <http://www.eeb.utoronto.ca/people/d-faculty/Krkosek.htm>
-  Conflicts: None
-  Problems: assistant prof -- need to show he has supervised a PhD student
+    Martin Krkosek
+    Assistant Professor
+    University of Toronto
+    Email: martin.krkosek@utoronto.ca
+    Phone: 416-978-3839
+    Website: <http://www.eeb.utoronto.ca/people/d-faculty/Krkosek.htm>
+    Conflicts: None
+    Problems: assistant prof -- need to show he has supervised a PhD student
             to completion
 
-  Gregory Ruggerone
-  Vice-President Natural Resources Consultants
-  Email: GRuggerone@nrccorp.com
-  Phone: 206-285-3480
-  Website: <http://www.nrccorp.com/staff_gregory.php>
-  Conflicts: None
-  Problems: not a professor -- need to argue why an academic wouldn't be
+    Gregory Ruggerone
+    Vice-President Natural Resources Consultants
+    Email: GRuggerone@nrccorp.com
+    Phone: 206-285-3480
+    Website: <http://www.nrccorp.com/staff_gregory.php>
+    Conflicts: None
+    Problems: not a professor -- need to argue why an academic wouldn't be
             better
 
-  Daniel E. Schindler
-  Professor University of Washington
-  Email: deschind@uw.edu
-  Phone: 206-616-6724
-  Website: <https://fish.uw.edu/faculty/daniel-schindler/>
-  Conflicts: None
-  Problems: None
+    Daniel E. Schindler
+    Professor University of Washington
+    Email: deschind@uw.edu
+    Phone: 206-616-6724
+    Website: <https://fish.uw.edu/faculty/daniel-schindler/>
+    Conflicts: None
+    Problems: None
 
-  Jeremy Collie
-  Professor University of Rhode Island
-  Email: jcollie@uri.edu
-  Phone: 401-874-6859
-  Website: <http://www.collielab.org/people/>
-  Conflicts: None
-  Problems: None
+    Jeremy Collie
+    Professor University of Rhode Island
+    Email: jcollie@uri.edu
+    Phone: 401-874-6859
+    Website: <http://www.collielab.org/people/>
+    Conflicts: None
+    Problems: None
 
 
 # Thesis formatting

@@ -1,8 +1,8 @@
 ---
-title: PhD Thesis General Discussion
+title:  PhD Thesis General Discussion
 author: Michael Malick
-date: 2016-10-17
-tags: phd
+date:   2016-10-17
+tags:   phd
 ---
 
 - See @Szuwalski2015 for a discussion on using environmental-recruitment

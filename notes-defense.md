@@ -1,8 +1,8 @@
 ---
-title: PhD Thesis Finish + Graduation
+title:  PhD Thesis Finish + Graduation
 author: Michael Malick
-date: 2016-07-11
-tags: phd
+date:   2016-07-11
+tags:   phd
 ---
 
 # Defense prep
