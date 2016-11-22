@@ -175,32 +175,28 @@ using Bayesian network.
 A better understanding of how environmental forcing impacts salmon populations
 is a necessary but not sufficient condition for maintaining viable and
 productive salmon stocks. We also need to develop a parallel understanding of
-how this ecological information can be incorporated into management decision
-making [@Link2002a]. Management of living marine resources is increasingly
-moving towards a more holistic ecosystem-based approach to management due to
-complex and non-linear interactions of ecosystem components. Ecosystem-based
-management approaches are often recommended to overcome perceived failures of
-traditional single-sector resource management by explicitly taking into account
-cumulative impacts of human activities on ecosystem structure and function
-[@Grumbine1994; @Murawski2007a; @Long2015]. Implementing an ecosystem-based
-management approach that is holistic and integrative across sectors requires
-defining boundaries that delimit the spatial extent of the decision-making
-process [@Engler2015; @Yaffee1999]. In other words, ecosystem-based management
-is a type of place-based (or area-based) management that ideally has
-ecologically defined boundaries. Ecosystem boundaries, whether defined for
-management purposes or research purposes, are porous, allowing organisms,
-materials, and energy to move across the defined boundaries [@ONeill2001]. In
-particular, migratory marine and anadromous fish species often move across
-management and jurisdictional boundaries throughout their life cycles,
-potentially leading to mismatches between the scale of management and the
-biology of a fish stock [@Cash2006a]. Because migratory species may spend a
-considerable portion of time outside the human defined boundaries of an
-ecosystem, factors external to the management area may strongly contribute to
-the cumulative impacts of human activities for these species . In
-chapter 4, I investigate challenges associated with integrating highly migratory
-Pacific salmon into ecosystem-based management policies and outline potential
-solutions to these challenges.
-
+how these impacts interact with other anthropogenic disturbances, such as
+commercial harvesting, and how this information can be incorporated into
+management decisions [@Link2002a]. Increasingly, management of living marine
+resources is moving toward ecosystem-based approaches to management that shift
+the focus of management from a single-species to maintaining critical components
+of ecosystem structure and function [@Grumbine1994; @Murawski2007a; @Long2015].
+Implementing ecosystem-based management approaches requires defining boundaries
+that delimit the spatial extent of the decision-making process and most of the
+research examining the challenges to implementing ecosystem-based management
+assume that the anthropogenic (or natural) disturbances occur within the human
+defined boundaries of the decision-making area [@Engler2015; @Yaffee1999].
+However, for highly migratory marine and anadromous fish species, these impacts
+can occur across a continuum of spatial scales that frequently extend beyond the
+boundaries of the ecosystem-based management area [@Dallimer2015]. For example,
+management actions, such as decisions to increased commercial harvest, in
+locations that are geographically distance from the ecosystem-based management
+area may strongly impact the supply of ecosystem services provided by a
+migratory species within the bounds of the ecosystem-based management area. In
+chapter 4, I confront this assumption by examining challenges associated with
+integrating highly migratory Pacific salmon into regional and local scale
+ecosystem-based management policies and outline potential strategies to overcome
+the challenges.
 
 ## Statement of interdisciplinarity
 
