@@ -55,12 +55,12 @@ species distributions, and fish stock productivity [@IPCC2013a; @Taylor2008a;
 @Pinsky2013; @Peterman2012].
 
 Concurrent with climate and ecosystem changes from anthropogenic sources are
-changes resulting from natural climate variability. In the North Pacific,
+changes resulting from natural climate variability. In the Northeast Pacific,
 large-scale climate patterns, e.g., the Pacific Decadal Oscillation and North
 Pacific Gyre Oscillation, at least partially control the dynamics of marine and
 coastal ecosystems. Fluctuations in these patterns, often referred to as regime
 shifts, can substantially alter the structure and function of ecosystems that
-comprise the North Pacific [@Chavez2003a]. For instance, a rapid ecological
+comprise the Northeast Pacific [@Chavez2003a]. For instance, a rapid ecological
 shift occurred in response to a climatic regime shift in 1976/1977 (i.e., the
 Pacific Decadal Oscillation shifted from a "cool regime" to a "warm regime"),
 which resulted in a taxonomic reorganization in the Northeast Pacific where the
@@ -142,9 +142,9 @@ in turn is associated with increased marine survival of coho salmon (*O.
 kisutch*) [@Keister2011a; @Bi2011a]. Beyond the Northern California Current
 area, however, the effects of variability in horizontal ocean transport on
 Pacific salmon productivity are largely untested. In chapter 2, I examine the
-effects of two modes of variability in horizontal ocean transport in the North
-Pacific on productivity of 163 North American pink, chum (*O. keta*), and
-sockeye salmon stocks.
+effects of two modes of variability in horizontal ocean transport in the
+Northeast Pacific on productivity of 163 North American pink, chum (*O. keta*),
+and sockeye salmon stocks.
 
 Although the vertical and horizontal transport pathways are individually
 appealing to explain how climate forcing downscales to affect regional and local
