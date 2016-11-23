@@ -5,6 +5,7 @@ export PATH := /usr/local/texlive/2015basic/bin/universal-darwin:$(PATH)
 export PATH := /usr/local/bin:$(PATH)
 PANDOC = pandoc
 
+all: intro.pdf intro.docx figures.pdf
 pdf: intro.pdf figures.pdf
 doc: intro.docx figures.pdf
 
