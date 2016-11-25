@@ -1,6 +1,6 @@
 % Bayesian Network Chapter
 % Michael Malick
-% 2015-10-12
+% 2016-11-25
 
 \chapter[Quantifying ecological network effects]{Accounting for multiple
   pathways in the connections among climate variability, ocean processes, and
@@ -83,6 +83,19 @@ However, there has been little research on the relative importance of particular
 pathways on salmon recruitment or on the joint effect of multiple pathways
 linking climate to fish recruitment in general.
 
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.75]{./4_bayesnetwork/figures/fig1_intro_path.pdf}
+  \caption[Schematic of pathways linking large-scale climate processes and
+           Pacific salmon recruitment.]{Schematic of pathways linking
+           large-scale climate processes and Pacific salmon recruitment; (a)
+           pathway where climate has a direct effect on recruitment, (b) pathway
+           where climate effects on recruitment are mediated by a regional-scale
+           oceanographic process (e.g., upwelling), (c) climate effects are
+           mediated by multiple regional-scale variables resulting in two
+           pathways connecting climate and recruitment.}
+  \label{fig:bn:1}
+\end{figure}
+
 In this study, we investigate how multiple ecological pathways potentially link
 climate and oceanographic processes to wild Oregon coho salmon (\emph{O.
 kisutch}) recruitment. Specifically, we developed two probabilistic network
@@ -138,6 +151,15 @@ river populations only. In the past, there was also substantial production of
 hatchery coho salmon on the Oregon coast -- we have excluded this production
 from our analysis, and concentrate on just the wild production.
 
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.9]{./4_bayesnetwork/figures/map.pdf}
+  \caption[Study area showing the ocean-entry locations of the ten largest river
+           basins in the Oregon Coast ESU.]{Study area showing the ocean-entry
+           locations of the ten largest river basins located within the Oregon
+           Coast coho salmon evolutionarily significant unit (ESU).}
+  \label{fig:bn:2}
+\end{figure}
+
 Annual aggregate adult recruitment and escapement estimates for the wild river
 coho salmon populations within the Oregon Coast ESU were available for brood
 years 1968-2009 from the Pacific Fisheries Management Council \citep{PFMC2013,
@@ -154,6 +176,16 @@ aggregate recruitment data across all coho salmon populations in the Oregon
 Coast ESU (Fig. \ref{fig:bn:3}), which is consistent with the current pre-season
 forecasting methods used by the Pacific Fisheries Management Council
 \citep{PFMC2013}.
+
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.9]{./4_bayesnetwork/figures/recruit_ts.pdf}
+  \caption[Time series of spawning stock size and the resulting
+           total recruitment.]{Time series of spawning stock size (dashed line)
+           and the resulting total recruitment (solid line) for Oregon Coast
+           coho salmon. Grey shaded region indicates the period used for the
+           biophysical network.}
+  \label{fig:bn:3}
+\end{figure}
 
 We chose to focus on wild coho salmon production instead of hatchery production
 because of a potential mismatch between the biological data used in this study
@@ -201,6 +233,31 @@ variables are believed to set the stage for regional-scale physical and
 biological processes, each of the three large-scale variables was averaged over
 the months of December-March in the winter prior to smolt out-migration
 \citep{Mantua1997a, Yeh2011, DiLorenzo2013a}.
+
+\begin{table}[htbp]
+  \small \centering \libertineLF
+  \caption[Summary of environmental variables used to construct the
+           probabilistic networks.]{Summary of environmental variables used to
+           construct the probabilistic networks. Seasonal average indicates
+           the period over which each variable was averaged. Extent refers to
+           the north-south spatial area that the variable covers (degrees
+           latitude).}
+  \begin{threeparttable}
+    \input{./4_bayesnetwork/tables/R_p3r_b3r_table_var_summary.tex}
+    \begin{tablenotes}
+      {\footnotesize
+        \item[a] 1: \url{http://www.cpc.ncep.noaa.gov};
+                 2: \url{http://jisao.washington.edu/pdo/PDO.latest};
+                 3: \url{http://www.o3d.org/npgo/npgo.php};
+                 4: \url{http://www.ncdc.noaa.gov/ersst/};
+                 5: \url{http://www.pfel.noaa.gov};
+                 6: \citet{Peterson2012a};
+                 7: \citet{PFMC2013}.
+        }
+    \end{tablenotes}
+  \end{threeparttable}
+  \label{tab:bn:1}
+\end{table}
 
 Four of the environmental variables represent physical oceanographic variability
 on a smaller, regional scale. First, we used monthly National Oceanic and
@@ -311,6 +368,36 @@ variables can be both dependent and independent variables within the network, we
 refer to variables at the base of an arrow as parent variables and variables at
 the tip of an arrow head as child variables, as is the convention for such
 analyses of probabilistic network models \citep{Koller2009a, Korb2004a}.
+
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.75]{./4_bayesnetwork/figures/fig3_p3r.pdf}
+  \caption[Directed acyclic graph for the probabilistic network fit using only
+           physical environmental variables.]{Directed acyclic graph for the
+           probabilistic network fit using only physical environmental variables
+           (called the physical network here). Ovals represent variables and
+           arrows indicate dependencies among variables within the network.
+           Numbers next to each arrow are the partial correlation coefficients.
+           Thick solid arrows indicate the pathway with the highest average
+           partial correlations (``link strength'', i.e., PDO to SST to coho
+           recruitment), whereas the thick dashed arrow indicates the first link
+           in the pathway with the second-highest average link strength.}
+  \label{fig:bn:4}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.75]{./4_bayesnetwork/figures/fig4_b3r.pdf}
+  \caption[Directed acyclic graph for the probabilistic network fit using both
+           physical and biological environmental variables.]{Directed acyclic
+           graph for the probabilistic network fit using both physical and
+           biological environmental variables (called the biophysical network
+           here). Ovals represent variables and arrows indicate dependencies
+           among variables within the network. Numbers next to each arrow are
+           the partial correlation coefficients. Thick solid arrows indicate the
+           pathway with the highest average partial correlations (i.e., link
+           strength), whereas thick dashed arrows indicate the pathway with the
+           second highest average link strength.}
+  \label{fig:bn:5}
+\end{figure}
 
 The first network structure was a physical network based on only physical
 environmental variables for coho salmon ocean entry years 1970-2011. The
@@ -496,6 +583,18 @@ but also included ichthyoplankton biomass (average correlation = 0.54; Fig.
 highest relative strength went from the PDO through deep temperature and copepod
 biomass to recruitment (average correlation = 0.53).
 
+\begin{table}[htbp]
+  \small \centering \libertineLF
+  \caption[Relative pathway strength for each pathway connecting large-scale
+           climate variables and coho salmon recruitment.]{Relative pathway
+           strength for each pathway connecting large-scale climate variables
+           and coho salmon recruitment in the physical and biophysical networks;
+           $\overline{r}$ gives the average of the absolute value of the partial
+           correlation coefficients for each link in a pathway.}
+  \input{./4_bayesnetwork/tables/R_p3r_b3r_table_path_strength.tex}
+  \label{tab:bn:2}
+\end{table}
+
 In the physical network, the two environmental variables with a direct effect on
 recruitment (SST and spring transition) had a negative relationship with
 recruitment indicating that cooler surface temperatures and an earlier spring
@@ -531,6 +630,38 @@ biophysical network, there was a 34\% chance that recruitment would be 150 000
 or less when ichthyoplankton biomass was greater than average and a 73\% chance
 when ichthyoplankton biomass was less than average (Fig. \ref{fig:bn:7}g).
 
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.9]{./4_bayesnetwork/figures/p3r_post_vars.pdf}
+  \caption[Cumulative probability distributions of coho salmon recruitment for
+           the physical network conditioned on each variable in the
+           network.]{Cumulative probability distributions of coho salmon
+           recruitment for the physical network conditioned on each variable in
+           the network. Solid red curves indicate the cumulative probability
+           for recruitment given that the environmental variable is greater than
+           average, whereas dashed blue curves show cumulative probability when
+           the environmental variable is less than average. Thin dotted lines
+           indicate the cumulative probabilities for 150 000 salmon. The
+           \(\Delta p\) gives the maximum vertical difference in probability
+           between the two cumulative distributions within a panel.}
+  \label{fig:bn:6}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.9]{./4_bayesnetwork/figures/b3r_post_vars.pdf}
+  \caption[Cumulative probability distributions of coho salmon recruitment for
+           the biophysical network conditioned on each variable in the
+           network.]{Cumulative probability distributions of coho salmon
+           recruitment for the biophysical network conditioned on each variable
+           in the network. Solid red curves indicate the cumulative probability
+           for recruitment given that the environmental variable is greater than
+           average, whereas dashed blue curves show cumulative probability when
+           the environmental variable is less than average. Thin dotted lines
+           indicate the cumulative probabilities for 150 000 salmon. The
+           \(\Delta p\) gives the maximum vertical difference in probability
+           between the two cumulative distributions within a panel.}
+  \label{fig:bn:7}
+\end{figure}
+
 Among the three large-scale climate variables, the PDO had the strongest overall
 effect on recruitment in both networks with a \(\Delta p\) between 2 and 4 times
 greater than for the ONI and NPGO (Figs. \ref{fig:bn:6} and \ref{fig:bn:7}). In
@@ -562,6 +693,36 @@ prey resource indices were below average (solid blue curve in Fig.
 equated to a 25\% chance that recruitment would be 150 000 salmon or less when
 both prey indices were above average and a 81\% chance recruitment would be
 equal to or below that level when both prey indices were below average.
+
+\begin{figure}[htbp]
+  \centering \includegraphics[scale=0.9]{./4_bayesnetwork/figures/p3r_b3r_coho_post_parents.pdf}
+  \caption[Cumulative conditional posterior probability distributions for coho
+           salmon recruitment conditioned on the parent variables of
+           recruitment.]{Cumulative conditional posterior probability
+           distributions for coho salmon recruitment conditioned on the parent
+           variables of recruitment for (a) the physical network (conditioned on
+           sea surface temperature (SST) and spring transition (ST) date) and
+           (b) the biophysical network (conditioned on ichthyoplankton biomass
+           (Ich) and copepod biomass (Cope)). Solid red curves indicate
+           the cumulative probability for recruitment given that both
+           conditioning variables are greater than average (+). Solid
+           blue curves show cumulative probabilities when both variables are
+           less than their long-term averages (-). Dashed curves indicate
+           scenarios when the conditioning variables are mixed. For the physical
+           network, the red dashed curve indicates cumulative probabilities
+           when SST is above average and the spring transition is below average,
+           whereas the dashed blue curve shows the cumulative probabilities for
+           the opposite conditions. For the biophysical network, the red dashed
+           curve indicates cumulative probabilities when ichthyoplankton biomass
+           is above average and copepod biomass is below average, whereas the
+           dashed blue curve shows the cumulative probabilities for the
+           opposite conditions. Thin dotted lines indicate the cumulative
+           probabilities for 150 000 salmon.  The \(\Delta p\) gives the maximum
+           vertical difference in probability between the two cumulative
+           distributions where both conditioning variables are either above or
+           below average within a panel.}
+  \label{fig:bn:8}
+\end{figure}
 
 When oceanographic conditions were mixed, that is, when one parent variable of
 recruitment was above average and the other was below average, the probability
@@ -783,184 +944,11 @@ Mueter and two anonymous referees for helpful comments and discussions.
 
 
 
-\section{Tables}
-
-\begin{table}[!ht]
-  \small \centering \libertineLF
-  \caption[Summary of environmental variables used to construct the
-           probabilistic networks.]{Summary of environmental variables used to
-           construct the probabilistic networks. Seasonal average indicates
-           the period over which each variable was averaged. Extent refers to
-           the north-south spatial area that the variable covers (degrees
-           latitude).}
-  \begin{threeparttable}
-    \input{./4_bayesnetwork/tables/R_p3r_b3r_table_var_summary.tex}
-    \begin{tablenotes}
-      {\footnotesize
-        \item[a] 1: \url{http://www.cpc.ncep.noaa.gov};
-                 2: \url{http://jisao.washington.edu/pdo/PDO.latest};
-                 3: \url{http://www.o3d.org/npgo/npgo.php};
-                 4: \url{http://www.ncdc.noaa.gov/ersst/};
-                 5: \url{http://www.pfel.noaa.gov};
-                 6: \citet{Peterson2012a};
-                 7: \citet{PFMC2013}.
-        }
-    \end{tablenotes}
-  \end{threeparttable}
-  \label{tab:bn:1}
-\end{table}
-
-\newpage
-\begin{table}[!ht]
-  \small \centering \libertineLF
-  \caption[Relative pathway strength for each pathway connecting large-scale
-           climate variables and coho salmon recruitment.]{Relative pathway
-           strength for each pathway connecting large-scale climate variables
-           and coho salmon recruitment in the physical and biophysical networks;
-           $\overline{r}$ gives the average of the absolute value of the partial
-           correlation coefficients for each link in a pathway.}
-  \input{./4_bayesnetwork/tables/R_p3r_b3r_table_path_strength.tex}
-  \label{tab:bn:2}
-\end{table}
-
-
-
-\section{Figures}
-
-\begin{figure}[htbp]
-  \centering \includegraphics[scale=0.75]{./4_bayesnetwork/figures/fig1_intro_path.pdf}
-  \caption[Schematic of pathways linking large-scale climate processes and
-           Pacific salmon recruitment.]{Schematic of pathways linking
-           large-scale climate processes and Pacific salmon recruitment; (a)
-           pathway where climate has a direct effect on recruitment, (b) pathway
-           where climate effects on recruitment are mediated by a regional-scale
-           oceanographic process (e.g., upwelling), (c) climate effects are
-           mediated by multiple regional-scale variables resulting in two
-           pathways connecting climate and recruitment.}
-  \label{fig:bn:1}
-\end{figure}
-
-\begin{figure}[htbp]
-  \centering \includegraphics[scale=0.9]{./4_bayesnetwork/figures/map.pdf}
-  \caption[Study area showing the ocean-entry locations of the ten largest river
-           basins in the Oregon Coast ESU.]{Study area showing the ocean-entry
-           locations of the ten largest river basins located within the Oregon
-           Coast coho salmon evolutionarily significant unit (ESU).}
-  \label{fig:bn:2}
-\end{figure}
-
-\begin{figure}[htbp]
-  \centering \includegraphics[scale=0.9]{./4_bayesnetwork/figures/recruit_ts.pdf}
-  \caption[Time series of spawning stock size and the resulting
-           total recruitment.]{Time series of spawning stock size (dashed line)
-           and the resulting total recruitment (solid line) for Oregon Coast
-           coho salmon. Grey shaded region indicates the period used for the
-           biophysical network.}
-  \label{fig:bn:3}
-\end{figure}
-
-\begin{figure}[htbp]
-  \centering \includegraphics[scale=0.75]{./4_bayesnetwork/figures/fig3_p3r.pdf}
-  \caption[Directed acyclic graph for the probabilistic network fit using only
-           physical environmental variables.]{Directed acyclic graph for the
-           probabilistic network fit using only physical environmental variables
-           (called the physical network here). Ovals represent variables and
-           arrows indicate dependencies among variables within the network.
-           Numbers next to each arrow are the partial correlation coefficients.
-           Thick solid arrows indicate the pathway with the highest average
-           partial correlations (``link strength'', i.e., PDO to SST to coho
-           recruitment), whereas the thick dashed arrow indicates the first link
-           in the pathway with the second-highest average link strength.}
-  \label{fig:bn:4}
-\end{figure}
-
-\begin{figure}[htbp]
-  \centering \includegraphics[scale=0.75]{./4_bayesnetwork/figures/fig4_b3r.pdf}
-  \caption[Directed acyclic graph for the probabilistic network fit using both
-           physical and biological environmental variables.]{Directed acyclic
-           graph for the probabilistic network fit using both physical and
-           biological environmental variables (called the biophysical network
-           here). Ovals represent variables and arrows indicate dependencies
-           among variables within the network. Numbers next to each arrow are
-           the partial correlation coefficients. Thick solid arrows indicate the
-           pathway with the highest average partial correlations (i.e., link
-           strength), whereas thick dashed arrows indicate the pathway with the
-           second highest average link strength.}
-  \label{fig:bn:5}
-\end{figure}
-
-\begin{figure}[htbp]
-  \centering \includegraphics[scale=0.9]{./4_bayesnetwork/figures/p3r_post_vars.pdf}
-  \caption[Cumulative probability distributions of coho salmon recruitment for
-           the physical network conditioned on each variable in the
-           network.]{Cumulative probability distributions of coho salmon
-           recruitment for the physical network conditioned on each variable in
-           the network. Solid red curves indicate the cumulative probability
-           for recruitment given that the environmental variable is greater than
-           average, whereas dashed blue curves show cumulative probability when
-           the environmental variable is less than average. Thin dotted lines
-           indicate the cumulative probabilities for 150 000 salmon. The
-           \(\Delta p\) gives the maximum vertical difference in probability
-           between the two cumulative distributions within a panel.}
-  \label{fig:bn:6}
-\end{figure}
-
-\begin{figure}[htbp]
-  \centering \includegraphics[scale=0.9]{./4_bayesnetwork/figures/b3r_post_vars.pdf}
-  \caption[Cumulative probability distributions of coho salmon recruitment for
-           the biophysical network conditioned on each variable in the
-           network.]{Cumulative probability distributions of coho salmon
-           recruitment for the biophysical network conditioned on each variable
-           in the network. Solid red curves indicate the cumulative probability
-           for recruitment given that the environmental variable is greater than
-           average, whereas dashed blue curves show cumulative probability when
-           the environmental variable is less than average. Thin dotted lines
-           indicate the cumulative probabilities for 150 000 salmon. The
-           \(\Delta p\) gives the maximum vertical difference in probability
-           between the two cumulative distributions within a panel.}
-  \label{fig:bn:7}
-\end{figure}
-
-\begin{figure}[htbp]
-  \centering \includegraphics[scale=0.9]{./4_bayesnetwork/figures/p3r_b3r_coho_post_parents.pdf}
-  \caption[Cumulative conditional posterior probability distributions for coho
-           salmon recruitment conditioned on the parent variables of
-           recruitment.]{Cumulative conditional posterior probability
-           distributions for coho salmon recruitment conditioned on the parent
-           variables of recruitment for (a) the physical network (conditioned on
-           sea surface temperature (SST) and spring transition (ST) date) and
-           (b) the biophysical network (conditioned on ichthyoplankton biomass
-           (Ich) and copepod biomass (Cope)). Solid red curves indicate
-           the cumulative probability for recruitment given that both
-           conditioning variables are greater than average (+). Solid
-           blue curves show cumulative probabilities when both variables are
-           less than their long-term averages (-). Dashed curves indicate
-           scenarios when the conditioning variables are mixed. For the physical
-           network, the red dashed curve indicates cumulative probabilities
-           when SST is above average and the spring transition is below average,
-           whereas the dashed blue curve shows the cumulative probabilities for
-           the opposite conditions. For the biophysical network, the red dashed
-           curve indicates cumulative probabilities when ichthyoplankton biomass
-           is above average and copepod biomass is below average, whereas the
-           dashed blue curve shows the cumulative probabilities for the
-           opposite conditions. Thin dotted lines indicate the cumulative
-           probabilities for 150 000 salmon.  The \(\Delta p\) gives the maximum
-           vertical difference in probability between the two cumulative
-           distributions where both conditioning variables are either above or
-           below average within a panel.}
-  \label{fig:bn:8}
-\end{figure}
-\newpage
-
-
-
 \section{Supporting materials}
 
 \subsection{Supporting figures and tables}
 
-
-\newpage
-\begin{table}[!ht]
+\begin{table}[htbp]
   \small \centering \libertineLF
   \caption[Relative pathway strength for each pathway connecting large-scale
            climate variables and the coho salmon productivity index.]{Relative
@@ -972,6 +960,7 @@ Mueter and two anonymous referees for helpful comments and discussions.
   \input{./4_bayesnetwork/tables/R_S_p3e_b3e_table_path_strength.tex}
   \label{tab:bn:s1}
 \end{table}
+\clearpage % force tables to come prior to figures
 
 
 
