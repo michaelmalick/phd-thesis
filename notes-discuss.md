@@ -1,7 +1,7 @@
 ---
 title:  PhD Thesis General Discussion
 author: Michael Malick
-date:   2016-12-02
+date:   2016-12-05
 tags:   phd
 ---
 
@@ -11,7 +11,176 @@ tags:   phd
 - using research in applied management
 
 
+# Multiple competing hypotheses
+
+   For example, the relative importance of environmental forcing and the
+   effects of fishing in controlling the dynamics of exploited fish populations
+   has been widely debated in fisheries science. In many cases, separating the
+   effects of fishing and environmental forcing may not be possible
+   without extreme management actions. Yet, climate change is already
+   having profound impacts on some marine species and the projected increase in
+   extreme events, such as marine heat waves, could have widespread impacts on
+   exploited species. Understanding the inter-actions between environmental
+   forcing and the effects of fishing ...
+
+
+   re-organizing the spatial distributions of many species
+
+   including a broader range of competing hypotheses
+
+the effects of environmental conditions on higher-trophic-level fish species has
+been, and continues to be, debated in fisheries science [@Walters1988a;
+@Skud1975]. At the core of this debate is contention over the relative
+importance of environmental stochasticity and the effects of fishing in
+controlling the dynamics of exploited fish populations.
+
+   Avoiding such attachments to a single hypothesis may be an important to
+   increasing our ability to detect and anticipate the effects of perturbations
+   on marine ecosystems.
+
+   In particular, increasing our ability to detect and anticipate the effects of
+   perturbations on marine ecosystems will likely require understanding both the
+   relative importance of competing hypotheses and the cumulative impacts of
+   the mechanisms hypothesized to drive the observed changes.
+
+   For example, attributing a population response to environmental forcing that
+   occur through either bottom-up and top-down pathways has been a long standing
+   challenge in fisheries oceanography.
+
+
+   Often times competing
+   hypotheses are not mutually exclusive and in these situations efforts should
+   be made to understand the cumulative effects
+
+
+   As my fourth chapter indicates, multiple environmental
+   pathways arising from the same climate process can contribute to explaining
+   the observed variability in the populations dynamics of Pacific salmon.
+   disentangling the effects of environmental forcing that
+   occur through bottom-up and top-down pathways.
+
+   Changes in climatic and
+   physical ocean processes can simultaneously impact food resource availability
+   and predator distributions or abundances. Only considering environmental
+   forcing pathways that represent bottom-up forcing is inherently incomplete
+   and future research should strive to further understand interactions and
+   cumulative effects of processes driving interactions across multiple trophic
+   levels.
+
+   More generally, it may be prudent to place a high priority on identifying
+   the potential range of causal mechanisms and seeking evidence for these
+   alternative hypotheses, as well as seeking to understand the cumulative
+   effects and relative importance of competing hypotheses.
+
+   Only considering a single environmental variable or
+   forcing pathway when attempting to understand the drivers of the dynamics of
+   exploited species is inherently incomplete.
+
+   and future research should strive to further understand interactions and
+   cumulative effects of processes driving interactions across multiple trophic
+   levels.
+
+
+   that represent bottom-up forcing is inherently incomplete
+   and future research should strive to further understand interactions and
+   cumulative effects of processes driving interactions across multiple trophic
+   levels. For instance, as the climate warms, the relative importance of
+   bottom-up and top-down pathways may shift as marine species track preferred
+   environmental conditions [@Pinsky2013].
+
 # Challenges remaining
+
+is identifying how relationships between environmental processes and demographic
+rates of marine and anadromous fish populations vary over time.
+
+3. This thesis also reveals several remaining challenges in detecting and
+   anticipating the effects of environmental forcing on living marine resources.
+
+   A first challenge is disentangling the effects of environmental forcing that
+   occur through bottom-up and top-down pathways. Changes in climatic and
+   physical ocean processes can simultaneously impact food resource availability
+   and predator distributions or abundances. Only considering environmental
+   forcing pathways that represent bottom-up forcing is inherently incomplete
+   and future research should strive to further understand interactions and
+   cumulative effects of processes driving interactions across multiple trophic
+   levels.
+
+   A second challenge is identifying how driver-response relationships vary over
+   time. Increasingly, evidence suggests that both environmental processes and
+   demographic rates of marine and anadromous fish populations are
+   non-stationary through time. Similar to the implications of spatial
+   non-stationarity observed in this thesis, temporal non-stationarity in
+   driver-response relationships implies that relationships inferred from past
+   observation may not hold today and this non-stationarity may partially
+   explain why environmental correlations frequently break down over time.
+   Time-varying relationships present a particularly difficult challenge for
+   projecting how future climate changes may impact living marine resources
+   because using historical data to project future outcomes may be misleading.
+   Advancements in quantitative methods, such as state-space modeling
+   approaches, may provide a useful starting place to find clues on the
+   prevalence of time-varying relationships.
+
+   A third challenge is recognizing the need to investigate multiple competing
+   hypotheses to explain observed patterns. As my fourth chapter indicates,
+   multiple environmental pathways arising from the same climate process can
+   contribute to explaining the observed variability in the populations dynamics
+   of Pacific salmon. Over a century ago, Chamberlin (1890) warned that "We are
+   so prone to attribute a phenomenon to a single cause, that, when we find an
+   agency present, we are liable to rest satisfied therewith, and fail to
+   recognize that it is but one factor, and perchance a minor factor, in the
+   accomplishment of the total result."
+
+
+
+
+
+   Over the next few decades, addressing these types of challenges may be a
+   critical part of effectively managing our living marine resources.
+
+
+   The pursuit of evidence for multiple
+   competing hypotheses may be an important component of developing policies
+   that
+
+   A third challenge is moving beyond a correlation based understanding
+   of ecosystem dynamics to a more causal mechanistic understanding. Despite the
+   common refrain that correlation does not imply causation, correlations based
+   studies still comprise a large fraction of the research on how environmental
+   forcing influences marine and anadromous species. The reliance on correlation
+   based studies is partly due to the difficulty in carrying out manipulative
+   experiments at scales that are meaningful for management. However, several
+   techniques and emerging approaches show promising in helping to improve our
+   causal understanding of the system including spatial dynamics of
+   driver-response relationships, meta-analytic modeling approaches that can
+   synthesize data across multiple spatial scales,
+
+   Over the next few decades, addressing these types of challenges may be a
+   critical part of effectively managing our living marine resources.
+
+
+   First, examining the spatial scales of variability in the driver and response
+   variables can help determine
+
+   Second, meta-analytic modeling approaches (e.g., hierarchical modeling),
+
+   Third, the increasing availability of high-resolution ocean modeling
+   frameworks
+
+Over the next few decades, addressing these types of challenges may be a
+critical part of effectively managing our living marine resources.
+
+The utility of improved understanding of marine ecosystem dynamics is largely
+dependent on how this understanding can be integrated into applied management.
+
+
+As management of marine resources increasingly moves towards ecosystem-based
+approaches to management, strategic management advice based on empirical
+evidence
+
+
+This will likely occur at a species and system specific basis.
+
+
 
 3. This thesis also reveals several remaining challenges in detecting and
    anticipating the effects of environmental forcing on living marine resources.
@@ -33,10 +202,28 @@ tags:   phd
    disentangling the effects of top-down and bottom-up pressures
    [@Plaganyi2014].
 
-4. A second major challenge is moving beyond a correlation based understanding of
-   ecosystem dynamics to a more mechanistic understanding. A major limitation of
-   relying on correlative relationships is that these relationships frequently
-   break down over time.
+4. A second major challenge is moving beyond a correlation based understanding
+   of ecosystem dynamics to a more mechanistic understanding. A major limitation
+   of relying on correlative relationships to increase our understanding of
+   ecosystem dynamics is that these relationships frequently break down over
+   time. In this thesis I use two separate techniques to help increase the
+   reliability of the correlation based results.
+
+   First, examining the spatial scales of variability in the driver and response
+   variables
+
+   Second, meta-analytic modeling approaches (e.g., hierarchical modeling),
+
+   Research on the effects of environmental forcing on marine species often rely
+   on variables that represent proxies for other variables that are thought to
+   more directly impact the dynamics of the focal species. For example, in
+   chapter 4 I use indices of horizontal ocean transport variability
+
+   This use of proxy variables is usually necessitated due to poor data
+   availability for processes that are
+
+   With the advent of widespread availability of ocean remote sensing data and
+   the increased availability of output from regional ocean modeling systems
 
 Disentangling the effects of environmental stochasticity on fish populations is
 difficult because stock productivity is affected by multiple ecological
@@ -409,20 +596,25 @@ northern areas.
 7. Is there evidence for threshold and other non-linear effects of the
    environment on Pacific salmon demographic rates?
 
-- As the climate warms, maintaining viable and productive marine and anadromous
-  fish populations will require the ability to anticipate how ecological
-  perturbations affect stock productivity. The contributions to our
-  understanding of how climatic and ocean processes relate to demographic rates
-  of Pacific salmon presented in this thesis and elsewhere represent a first
-  step in increasing this ability. However, many important questions remain. For
-  example, what is the relative importance of top-down and bottom-up forcing
-  pathways and how will changing distributions of marine species impact this
-  relative importance? How will changing thermal isotherms and increased ocean
-  acidification impact food resource availability for juvenile Pacific salmon?
-  What evidence is there for temporal non-stationarity in relationships between
-  environmental forcing and productivity of exploited species? Over the next few
-  decades, answering these types of questions may be a critical part of
-  effectively managing our living marine resources.
+
+* Does the relative importance of competing hypothesis change over time, that
+  is, temporal non-stationarity
+
+- As the climate changes at an unprecedented rate, maintaining viable and
+  productive marine and anadromous fish populations will require the ability to
+  anticipate how ecological perturbations affect demographic rates of exploited
+  species. The contributions to our understanding of how climatic and ocean
+  processes relate to demographic rates of Pacific salmon presented in this
+  thesis and elsewhere represent a first step in increasing this ability.
+  However, many important questions remain. For example, what is the relative
+  importance of top-down and bottom-up forcing pathways and how will changing
+  distributions of marine species impact this relative importance? How will
+  changing thermal isotherms and increased ocean acidification impact food
+  resource availability for juvenile Pacific salmon? What evidence is there for
+  temporal non-stationarity in relationships between environmental forcing and
+  productivity of exploited species? Over the next few decades, answering these
+  types of questions may be a critical part of effectively managing our living
+  marine resources.
 
 
 # Management
@@ -453,3 +645,7 @@ processes will be needed to inform tactical-management advice.
    evidence
 
 
+This will likely occur at a species and system specific basis.
+
+The utility of increasing our understanding of how environmental forcing impacts
+living marine resources is largely dependent how
