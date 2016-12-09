@@ -1,17 +1,132 @@
 ---
 title:  PhD Thesis General Discussion
 author: Michael Malick
-date:   2016-12-05
+date:   2016-12-06
 tags:   phd
 ---
 
-- 4--10 paragraphs in length
+1. My second and third chapters indicated that the effects of phytoplankton
+   dynamics and horizontal ocean transport on salmon productivity were dependent
+   on the geographic location of juvenile salmon ocean entry, suggesting that in
+   some cases environmental forcing is non-stationary across space. A practical
+   implication of this spatial non-stationarity is that relationships inferred
+   from data in one location may not be applicable to another location.
 
-- outlook
-- using research in applied management
+# Spatial non-stationarity
 
+My second and third chapters indicated that the effects of phytoplankton
+dynamics and horizontal ocean transport on salmon productivity were dependent on
+the geographic location of juvenile salmon ocean entry, suggesting that in some
+cases environmental forcing is non-stationary across space. A practical
+implication of this spatial non-stationarity is that relationships inferred from
+data in one location may not be applicable to another location.
+
+Second, my thesis also provides some evidence that the effects of environmental
+forcing on higher-trophic-level species is non-stationary across space.
+
+My
+second and third chapters indicated that the effects of the spring bloom
+initiation date and horizontal ocean transport on salmon productivity were
+dependent on the geographic location of juvenile salmon ocean entry. A practical
+implication of this spatial non-stationarity is that relationships inferred from
+data in one location may not be applicable to another location. Evidence for
+changes in the effects of environmental forcing across space also highlights the
+importance of using cross-system comparative research approaches to gain
+understanding of ecosystem dynamics.
+
+Second, this thesis provides evidence that the effects of environmental forcing
+on higher-trophic-level species is non-stationary across space. In other words,
+the functional form or magnitude of the effect size of ecological relationships
+may be dependent on the spatial context. For example, chapters 1 and 2 indicated
+sharp differences in the effects of phytoplankton dynamics and ocean current
+patterns between the stocks that enter the ocean in the predominantly
+downwelling domain of the Northern Gulf of Alaska and stocks that enter the
+ocean in the more southern upwelling domain. Similar spatial non-stationarity
+has also been shown in the relationships between sea surface temperature and
+salmon productivity, where cooler sea surface temperatures tend to be associated
+with increased salmon productivity in southern areas and lower productivity in
+northern areas.
+
+My thesis also provides some evidence that the effects of environmental forcing
+on higher-trophic-level species is non-stationary across space. My second and
+third chapters indicated that the effects of the spring bloom initiation date
+and horizontal ocean transport on salmon productivity were dependent on the
+geographic location of juvenile salmon ocean entry. This result is consistent
+with previous work on Pacific salmon that indicated that the effects of sea
+surface temperature are dependent on the latitude of ocean entry of a salmon
+stock. A practical implication of this spatial non-stationarity is that
+relationships inferred from data in one location may not be applicable to
+another location. Evidence for changes in the effects of environmental forcing
+across space also highlights the importance of using cross-system comparative
+research approaches to gain understanding of ecosystem dynamics.
+
+4. My thesis also provides some evidence that the effects of environmental
+   forcing on higher-trophic-level species is non-stationary across space. My
+   second and third chapters indicated that the effects of the spring bloom
+   initiation date and horizontal ocean transport on salmon productivity were
+   dependent on the geographic location of juvenile salmon ocean entry. This
+   result is consistent with previous work on Pacific salmon that indicated that
+   the effects of sea surface temperature are dependent on the latitude of ocean
+   entry of a salmon stock. A practical implication of this spatial
+   non-stationarity is that relationships inferred from data in one location may
+   not be applicable to another location. Evidence for changes in the effects of
+   environmental forcing across space also highlights the importance of using
+   cross-system comparative research approaches to gain understanding of
+   ecosystem dynamics. Although manipulative experiments are often viewed as the
+   gold standard for gaining causal understanding of a system, in fisheries
+   science, undertaking these types of experiments at scales relevant to
+   management is often not practical. In the absence of manipulative
+   experiments, comparative research approaches offer an alternative that can
+   leverage data across multiple spatial and temporal scales to better
+   understand the dynamics of the system. For example, in chapters two and three
+   I use hierarchical models to estimate the effects of meso-scale ocean
+   processes on salmon productivity. By effectively using the many salmon data
+   sets as replicates within the analysis, this approach can help reduce
+   uncertainties associated with the physical and biological processes that
+   underlie dynamics of exploited species.
 
 # Multiple competing hypotheses
+
+3. The support for simultaneously operating pathways provided in my thesis
+   highlights the need to pursue evidence for multiple competing hypotheses to
+   explain observed patterns in the dynamics of marine and anadromous fish
+   species. Over a century ago, Chamberlin @Chamberlin1965 warned that "We
+   [scientists] are so prone to attribute a phenomenon to a single cause, that,
+   when we find an agency present, we are liable to rest satisfied therewith,
+   and fail to recognize that it is but one factor, and perchance a minor
+   factor, in the accomplishment of the total result." Yet, broadening our focus
+   beyond a single hypothesis or set of hypotheses focused around a single
+   mechanism remains challenging. For example, the research presented in this
+   thesis largely assumes that environmental pathways linking climatic and ocean
+   processes to Pacific salmon dynamics occur through bottom-up forcing
+   mechanisms. Changes in climatic and physical ocean processes, however, can
+   simultaneously impact food resource availability and predator distributions
+   (or abundances) and only considering environmental forcing pathways that
+   represent bottom-up forcing is inherently incomplete. Increasing our ability
+   to detect and anticipate the effects of perturbations on marine ecosystems
+   may be dependent on evaluating the relative importance of competing
+   hypotheses and the cumulative impacts of multiple mechanisms hypothesized to
+   drive the observed changes.
+
+3. Together, chapters two, three, and four highlight the need to purse evidence
+   for multiple competing hypotheses to explain observed changes in demographic
+   rates of exploited species. Over a century ago, Chamberlin @Chamberlin1965
+   warned that "We [scientists] are so prone to attribute a phenomenon to a
+   single cause, that, when we find an agency present, we are liable to rest
+   satisfied therewith, and fail to recognize that it is but one factor, and
+   perchance a minor factor, in the accomplishment of the total result." Yet,
+   broadening our focus beyond a single hypothesis or set of hypotheses focused
+   around a single mechanism remains challenging. For instance, in this thesis I
+   largely assume that climatic and ocean processes influence Pacific salmon
+   through bottom-up pressures. However, only considering environmental forcing
+   pathways that represent bottom-up forcing is inherently incomplete as changes
+   in climatic and physical ocean processes can simultaneously impact food
+   resource availability and predator distributions or abundances. Future
+   research should strive to further understand interactions and cumulative
+   effects of processes driving interactions across multiple trophic levels,
+   e.g., by estimating the cumulative effects and relative importance of
+   multiple hypothesized pathways linking climatic changes and the dynamics of
+   exploited species.
 
    For example, the relative importance of environmental forcing and the
    effects of fishing in controlling the dynamics of exploited fish populations
@@ -90,6 +205,59 @@ controlling the dynamics of exploited fish populations.
 
 # Challenges remaining
 
+3. This thesis also reveals several remaining challenges in understanding the
+   effects of environmental forcing on living marine resources. A first
+   challenge is disentangling the effects of environmental forcing that occur
+   through bottom-up and top-down pathways. Changes in climatic and physical
+   ocean processes can simultaneously impact food resource availability and
+   predator distributions or abundances. Only considering environmental forcing
+   pathways that represent bottom-up forcing is inherently incomplete and future
+   research should strive to further understand interactions and cumulative
+   effects of processes driving interactions across multiple trophic levels. For
+   instance, as the climate warms, the relative importance of bottom-up and
+   top-down pathways may shift as marine species track preferred environmental
+   conditions [@Pinsky2013]. End-to-end ecosystem models (e.g., Atlantis)
+   provide one option for improving our understanding of interactions between
+   bottom-up and top-down pressures on exploited species, however, in many
+   systems data may not be available to parameterize such models. Alternatively,
+   models of intermediate complexity, which can allow for environmental
+   influence on trophic interactions, may prove useful in disentangling the
+   effects of top-down and bottom-up pressures [@Plaganyi2014].
+
+4. An extension of this first challenge is recognizing the need to pursue
+   evidence for multiple competing hypotheses to explain observed patterns in
+   the dynamics of marine and anadromous fish species. Over a century ago,
+   Chamberlin @Chamberlin1965 warned that "We [scientists] are so prone to
+   attribute a phenomenon to a single cause, that, when we find an agency
+   present, we are liable to rest satisfied therewith, and fail to recognize
+   that it is but one factor, and perchance a minor factor, in the
+   accomplishment of the total result." Yet, broadening our focus beyond a
+   single hypothesis or set of hypotheses focused around a single mechanism
+   remains challenging.
+
+5. Another challenge is identifying how relationships between environmental
+   processes and demographic rates of marine and anadromous fish populations
+   vary over time. Increasingly, evidence suggests that both environmental
+   processes and demographic rates of marine and anadromous fish populations are
+   non-stationary through time. Similar to the implications of spatial
+   non-stationarity observed in this thesis, temporal non-stationarity in
+   driver-response relationships implies that relationships inferred from past
+   observation may not hold today and this non-stationarity may partially
+   explain why environmental correlations frequently break down over time.
+   Time-varying relationships present a particularly difficult challenge for
+   projecting how future climate changes may impact living marine resources
+   because using historical data to project future outcomes may be misleading.
+   Advancements in quantitative methods, such as state-space modeling
+   approaches, may provide a useful starting place to find clues on the
+   prevalence of time-varying relationships.
+
+
+
+---
+
+   Disentangling the effects of alternative forcing pathways is an important
+   future challenge.
+
 is identifying how relationships between environmental processes and demographic
 rates of marine and anadromous fish populations vary over time.
 
@@ -134,7 +302,7 @@ rates of marine and anadromous fish populations vary over time.
 
 
 
-   Over the next few decades, addressing these types of challenges may be a
+Over the next few decades, addressing these types of challenges may be a
    critical part of effectively managing our living marine resources.
 
 
@@ -169,8 +337,6 @@ rates of marine and anadromous fish populations vary over time.
 Over the next few decades, addressing these types of challenges may be a
 critical part of effectively managing our living marine resources.
 
-The utility of improved understanding of marine ecosystem dynamics is largely
-dependent on how this understanding can be integrated into applied management.
 
 
 As management of marine resources increasingly moves towards ecosystem-based
@@ -360,10 +526,10 @@ hypothesized to link climate processes and Pacific salmon.
 
 # Main thesis conclusion
 
-* The results presented here strongly suggest that climatic and ocean processes
-  can impact salmon populations simultaneously through multiple ecological
-  pathways and that the relative importance of these pathways is non-stationary
-  through space.
+* Together, the results presented in this thesis strongly suggest that climatic
+  and ocean processes can impact salmon populations simultaneously through
+  multiple environmental pathways and that the relative importance of these
+  pathways may be non-stationary through space.
 
 * My research suggests that climatic and ocean processes can impact
   higher-trophic-level species via simultaneously operating environmental
@@ -374,27 +540,113 @@ hypothesized to link climate processes and Pacific salmon.
 
 # Main contributions of thesis
 
-1. Environmental forcing pathways mediated by either vertical or horizontal
-   ocean transport processes can strongly impact the dynamics of Pacific salmon
-   stocks.
+1. Multiple pathways
+2. Spatial non-stationarity
+3. Spatial dynamics in management
 
-2. Multiple environmental pathways can simultaneously impact dynamics of
-   higher-trophic-level species
+* My thesis makes several contributions to the study of environmental forcing in
+  coastal ecosystems.
 
-3. Effects of environmental conditions on salmon productivity are non-stationary
-   through space.
+1. First, I provide evidence that environmental forcing pathways mediated by
+   either vertical or horizontal ocean transport processes can strongly impact
+   the dynamics of Pacific salmon stocks.
+
+2. Second, this thesis provides evidence supporting the idea that multiple
+   environmental forcing pathways connect climatic and ocean processes to
+   dynamics of higher-trophic-level species.
+
+   Second, my thesis supports the idea that the dynamics of higher-trophic-level
+   species respond to forcing from multiple environmental pathways.
+
+3. Third, my results indicated that the effects of environmental conditions on
+   salmon productivity are non-stationary through space.
    - Implications for management -- EBM
+
+4. Fourth, my thesis suggests that effectively integrating highly-migratory
+   species into ecosystem-based management policies may require inter-national
+   cooperation.
+
 
 ---
 
-1. Bottom-up forcing pathways are an important component to understanding how
-   changes in climate systems impact higher-trophic-level species.
-2. Pathways may be non-stationary through space
-3. Multiple environmental pathways can simultaneously impact dynamics of
-   higher-trophic-level species
-4. Accounting for spatial dynamics is a necessary component to integrating
+
+2. My thesis makes several contributions to the study of environmental forcing
+   in coastal ecosystems. My thesis provides evidence supporting the idea that
+   multiple environmental forcing pathways connect climatic and ocean processes
+   to dynamics of higher-trophic-level species. In chapters two and three, I
+   show that environmental forcing pathways mediated by either vertical or
+   horizontal ocean transport processes can impact the dynamics of
+   higher-trophic-level species. Although I investigate the effects of
+   phytoplankton dynamics and ocean currents on salmon productivity
+   individually, these meso-scale ocean processes likely influence
+   higher-trophic-levels species simultaneously. Indeed, my fourth chapter
+   indicates that large-scale climate processes can impact Pacific salmon
+   year-class strength via multiple simultaneously operating environmental
+   pathways. For instance, large-scale variability indexed by the Pacific
+   Decadal Oscillation may downscale to affect regional and local scale dynamics
+   of Pacific salmon through concurrent pathways that are mediated by either
+   horizontal or vertical ocean transport. Disentangling the effects of
+   alternative forcing pathways is an important challenge and future research
+   should strive to further understand the cumulative effects and relative
+   importance of multiple mechanisms hypothesized to drive ecosystem dynamics.
+
+2. My thesis makes several contributions to the study of environmental forcing
+   in coastal ecosystems. My second and third chapters provide evidence that
+   environmental forcing pathways mediated by either vertical or horizontal
+   ocean transport processes can strongly impact the dynamics of
+   higher-trophic-level species. In both studies, however, the effects of
+   environmental conditions were dependent on the geographic location of
+   juvenile salmon ocean entry, suggesting that in some cases environmental
+   forcing is non-stationary across space. A practical implication of this
+   spatial non-stationarity is that relationships inferred from data in one
+   location may not be applicable to another location. My fourth chapter further
+   shows the need to account for multiple environmental pathways when
+   considering how environmental forcing impacts higher-trophic-level species,
+   e.g., by estimating the cumulative effects and relative importance of
+   multiple hypothesized pathways linking climatic changes and the dynamics of
+   exploited species. My fifth chapter indicates that considering spatial scales
+   of the impacts of human and natural disturbances on highly-migratory species
+   is an important component to integrating these species into ecosystem-based
+   management policies. Together, the results presented in this thesis strongly
+   suggest that climatic and ocean processes can impact salmon populations
+   simultaneously through multiple environmental pathways and that the relative
+   importance of these pathways may be non-stationary through space.
+
+
+
+
+
+
+
+
+
+---
+
+   Only considering a single pathway/mechanisms is likely insufficient to
+   understand how environmental forcing impacts living marine resources. We also
+   need to understand the relative importance and cumulative effects of multiple
+   pathways.
+
+   More generally, it may be prudent to place a high priority on identifying
+   the potential range of causal mechanisms and seeking evidence for these
+   alternative hypotheses, as well as seeking to understand the cumulative
+   effects and relative importance of competing hypotheses.
+
+My fifth chapter indicates that considering spatial scales of the impacts of
+human and natural disturbances on highly-migratory species is an important
+component to integrating these species into ecosystem-based management policies.
+
+Third, failure to account for impacts of human and natural processes across the
+entire migratory range of Pacific salmon may inhibit
+
+4. Accounting for spatial dynamics in natural and anthropogenic forcing and a
+   populations response to this forcing is  a necessary component to integrating
    highly-migratory Pacific salmon into EBM policies.
 
+   For example, results of chapter 4 indicated the strongest effects of
+   horizontal ocean transport were limited in extent to stocks that enter the
+   ocean south of approximately 55N, suggesting that different mechanisms may
+   underlie salmon dynamics in areas north and south of this latitude.
 
 2. My thesis makes several contributions to the study of environmental forcing
    in coastal ecosystems. My second and third chapters advance our understanding
@@ -410,22 +662,27 @@ hypothesized to link climate processes and Pacific salmon.
    exploited species.
 
 
-  - In this thesis, I make several contributions to our understanding of how
-    environmental forcing impacts the dynamics of higher-trophic-level species and
-    how these impacts can be accounted for in ecosystem-based management policies.
 
-  - First, I provide evidence that environmental forcing pathways mediated by
-    either vertical or horizontal ocean transport processes can strongly impact
-    the dynamics of Pacific salmon stocks.
+   Evidence for changes in the effects of environmental forcing across space
+   also highlights the importance of using cross-system comparative research
+   approaches to gain understanding of ecosystem dynamics. Although manipulative
+   experiments are often viewed as the gold standard for gaining causal
+   understanding of a system, in fisheries science, undertaking these types of
+   experiments at scales relevant to management is often not practical. In the
+   absence of manipulative experiments, comparative research approaches offer an
+   alternative that can leverage data across multiple spatial and temporal
+   scales to better understand the dynamics of the system. For example, in
+   chapters two and three I use hierarchical models to estimate the effects of
+   meso-scale ocean processes on salmon productivity. By effectively using the
+   many salmon data sets as replicates within the analysis, this approach can
+   help reduce uncertainties associated with the physical and biological
+   processes that underlie dynamics of exploited species.
 
-  - Second, this thesis indicates the need to account for multiple environmental
-    pathways when considering how environmental forcing impacts
-    higher-trophic-level species.
-
-  - Third, my results indicated that the effects of environmental conditions on
-    salmon productivity are non-stationary through space.
-    - Implications for management
-
+   meta-analytic modeling approaches, such as the hierarchical models used in
+   chapters two and three, can help reduce the chances of finding spurious
+   relationships and help reduce uncertainties associated with the physical and
+   biological processes that underlie dynamics of exploited species by using the
+   many available population data sets as replicates within the analysis.
 
 
 
@@ -472,18 +729,6 @@ suggests that future research effects should focus on understanding the relative
 importance and cumulative effects of multiple potential pathways linking
 large-scale climatic processes and the dynamics of higher trophic level species.
 
-Second, this thesis provides evidence that the  effects of environmental forcing
-on higher-trophic-level species is non-stationary across space. In other words,
-the functional form or magnitude of the effect size of ecological relationships
-may be dependent on the spatial context. For example, chapters 1 and 2 indicated
-sharp differences in the effects of phytoplankton dynamics and ocean current
-patterns between the stocks that enter the ocean in the predominantly
-downwelling domain of the Northern Gulf of Alaska and stocks that enter the
-ocean in the more southern upwelling domain. Similar spatial non-stationarity
-has also been shown in the relationships between sea surface temperature and
-salmon productivity, where cooler sea surface temperatures tend to be associated
-with increased salmon productivity in southern areas and lower productivity in
-northern areas.
 
 
 # Main conclusions from chapters
@@ -509,17 +754,7 @@ northern areas.
    activities and natural processes impact those services."
 
 
-# Practical implications
-
-- A practical implication of this spatial non-stationarity is that relationships
-  inferred from data in one location may not be applicable to another location.
-
-
 # Ideas
-
-   For example, results of chapter 4 indicated the strongest effects of
-   horizontal ocean transport were limited in extent to stocks that enter the
-   ocean south of approximately 55N.
 
 - See @Szuwalski2015 for a discussion on using environmental-recruitment
   correlates to inform management. These observed relationships may be best
@@ -547,6 +782,12 @@ northern areas.
     tactile management advice, but are useful for scenario analysis
   - @Schindler2015a
 
+
+# Phrases
+
+- implications for management
+- outlook
+- using research in applied management
 - "This research reveals several remaining challenges..."
 - "As we continue to apply..."
 - "Ultimately, ..."
@@ -555,6 +796,7 @@ northern areas.
 - "My third chapter rigorously assesses the evidence..."
 - "Climate change is already having profound effects on the spatial distribution
   of many species"
+
 
 # Outline
 
@@ -586,26 +828,30 @@ northern areas.
 # Questions
 
 1. What is the relative importance of top-down and bottom-up forcing pathways?
+
 2. How will changing distributions of marine species impact predator
    distributions and abundances?
+
 3. How will ocean acidification impact food resource availability?
+
 4. How will extreme climate and ocean events, e.g., marine heat waves, impact
    year class strength?
+
 5. How do the effects of exploitation interact with environmental variability?
+
 6. Do environmental driver population response relationships vary over time?
+
 7. Is there evidence for threshold and other non-linear effects of the
    environment on Pacific salmon demographic rates?
 
-
-* Does the relative importance of competing hypothesis change over time, that
-  is, temporal non-stationarity
+8. Does the relative importance of competing hypothesis change over time?
 
 - As the climate changes at an unprecedented rate, maintaining viable and
   productive marine and anadromous fish populations will require the ability to
   anticipate how ecological perturbations affect demographic rates of exploited
   species. The contributions to our understanding of how climatic and ocean
   processes relate to demographic rates of Pacific salmon presented in this
-  thesis and elsewhere represent a first step in increasing this ability.
+  thesis represent a single step in increasing this ability.
   However, many important questions remain. For example, what is the relative
   importance of top-down and bottom-up forcing pathways and how will changing
   distributions of marine species impact this relative importance? How will
@@ -613,39 +859,73 @@ northern areas.
   resource availability for juvenile Pacific salmon? What evidence is there for
   temporal non-stationarity in relationships between environmental forcing and
   productivity of exploited species? Over the next few decades, answering these
-  types of questions may be a critical part of effectively managing our living
-  marine resources.
+  types of questions may...
+      - be a critical part of effectively managing our living marine resources.
+      - determine our ability to maintain viable and productive living marine
+        resources.
 
+   Suggesting that broad-scale climate variability is filtered through regional-
+   and local-scale processes.
 
 # Management
 
-The utility of the results of this thesis are likely best used in the context of
-short-term projections of year class strength. Strategic management advice
+- The utility of the results of this thesis are likely best used in the context
+  of short-term projections of year class strength. For example, probabilistic
+  networks, such as the ones constructed in chapter four, could be used provide
+  one or two year forecasts of total recruitment of salmon populations.
 
-are likely most applicable to providing short-term strategic management advice.
-For example, probabilistic networks, such as the ones constructed in chapter
-four, could be used provide one or two year forecasts of total recruitment of
-salmon populations.
+- Moving toward a more mechanistic understanding of the drivers in population
+  processes will be needed to inform tactical-management advice.
 
-Moving toward a more mechanistic understanding of the drivers in population
-processes will be needed to inform tactical-management advice.
+- The contributions to our understanding of how climatic and ocean processes
+  relate to demographic rates of Pacific salmon presented in this thesis and
+  elsewhere represent a first step in increasing our ability to maintain viable
+  and productive Pacific salmon populations. The challenge still remains,
+  however, how information about environmental driver and population response
+  relationships can be used to inform applied management.
 
-3. The contributions to our understanding of how climatic and ocean processes
-   relate to demographic rates of Pacific salmon presented in this thesis and
-   elsewhere represent a first step in increasing our ability to maintain viable
-   and productive Pacific salmon populations. The challenge still remains,
-   however, how information about environmental driver and population response
-   relationships can be used to inform applied management.
+  Results of my fifth chapter provide some indication of how this challenge may
+  be addressed.
 
-   Results of my fifth chapter provide some indication of how this challenge may
-   be addressed.
+  As management of marine resources increasingly moves towards ecosystem-based
+  approaches to management, strategic management advice based on empirical
+  evidence
 
-   As management of marine resources increasingly moves towards ecosystem-based
-   approaches to management, strategic management advice based on empirical
-   evidence
+6. The utility of improving our understanding of marine ecosystem dynamics is
+   dependent on how this understanding can be used to inform applied management.
 
 
-This will likely occur at a species and system specific basis.
+# Conclusion
 
-The utility of increasing our understanding of how environmental forcing impacts
-living marine resources is largely dependent how
+Effective decision-making in the presence of large uncertainty is a fundamental
+challenge of managing living marine resources. Environmental variability is an
+intrinsic element of coastal ecosystems and can have profound impacts on
+ecosystem structure and function as well as the human-derived benefits from the
+system. As climatic processes and ecosystem dynamics change at unprecedented
+rates, reducing uncertainties about the impacts of changing environmental
+conditions on living marine resources uncertainties about the impacts of
+changing environmental conditions on living marine resources may be a critical
+component to maintaining viable and productive fish populations.
+
+Ultimately, understanding how environmental forcing impacts commercially
+valuable species is a necessary component to implementing management actions
+that are robust to a wide range of potential future scenarios.
+
+5. Environmental variability is an intrinsic element of coastal ecosystems and
+   can have profound impacts on ecosystem structure and function as well as the
+   human-derived benefits from the system. Uncertainties about the impacts of
+   changing environmental conditions on living marine resources are likely to
+   always be present and effective decision-making in the presence of this
+   uncertainty is a fundamental challenge of managing natural resources.
+   Ultimately, as climatic processes and ecosystem dynamics change at
+   unprecedented rates, reducing uncertainties about how environmental forcing
+   impacts commercially valuable species is a necessary component to
+   implementing management actions that are robust to a wide range of potential
+   future scenarios.
+
+5. Environmental variability is an intrinsic element of coastal ecosystems and
+   can have profound impacts on ecosystem structure and function, and
+   subsequently the magnitude (and composition) of ecosystem services derived
+   from the system. As the climatic change occurs at an unprecedented rate,
+   reducing uncertainties about the impacts of changing environmental conditions
+   on living marine resources is a critical challenge. However,
