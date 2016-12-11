@@ -23,11 +23,11 @@ CSL  = --csl ~/Documents/pandoc/csl-citations/cjfas.csl
 ABV  = --citation-abbreviations ~/Documents/pandoc/csl-citations/abbrev.json
 
 
-./1_introduction/intro.tex: $(INTRO) makefile
-	$(PANDOC) --chapters -o  $@ $<
+# ./1_introduction/intro.tex: $(INTRO) makefile
+# 	$(PANDOC) --chapters -o  $@ $<
 
-./6_discussion/discussion.tex: $(DISCU) makefile
-	$(PANDOC) --chapters -o $@ $<
+# ./6_discussion/discussion.tex: $(DISCU) makefile
+# 	$(PANDOC) --chapters -o $@ $<
 
 master.pdf: master.tex $(ACKNO) $(INTRO) $(DISCU) $(SPBLM) $(NPCUR) $(BYNET) makefile *.tex
 	cp -r ~/Documents/research/phd-spring-bloom/thesis/figures ./2_springbloom
