@@ -7,7 +7,7 @@ Michael Malick
 11 Dec 2016
 
 
-# Summary and general conclusions
+# General conclusions
 
 In this thesis, I have sought to contribute to our knowledge of how
 environmental forcing pathways link climatic and ocean processes to dynamics of
