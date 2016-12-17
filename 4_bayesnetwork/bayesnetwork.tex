@@ -495,7 +495,7 @@ For the first set of posterior distributions, we estimated the probability of
 recruitment being less than a range of abundance values given values of a single
 environmental variable in the network (i.e., we only specified conditions for a
 single environmental variable at a time). For instance, we estimated the
-conditional probability that recruitment would be less than or equal to 150 000
+conditional probability that recruitment would be less than or equal to 150~000
 salmon given that SST was above average. For environmental variables not
 directly connected to recruitment (e.g., the PDO), this set of posterior
 distributions accounts for all pathways connecting that variable and recruitment
@@ -529,7 +529,7 @@ recruitment was calculated by finding the maximum vertical difference (i.e.,
 probability) between the cumulative probability distributions for recruitment
 given above- and below-average SST conditions. To more easily compare results
 from the physical and biophysical networks, we also estimated the posterior
-probability that coho salmon recruitment would be less than or equal to 150 000
+probability that coho salmon recruitment would be less than or equal to 150~000
 salmon, which is approximately equal to average recruitment for 1970-2011 (149
 152 salmon).
 
@@ -539,17 +539,17 @@ salmon, which is approximately equal to average recruitment for 1970-2011 (149
 We estimated the conditional posterior probability distributions for recruitment
 using logic sampling (also known as forward sampling), which is a type of
 rejection sampling \citep{Henrion1988a, Korb2004a}. As an example, to estimate
-the conditional probability of recruitment being below 150 000 salmon given that
+the conditional probability of recruitment being below 150~000 salmon given that
 the PDO was above average in the physical network, we first sampled values for
 the three large scale variables independently of each other weighting by the
 prior distribution for each variable. We then sampled values for SST and
 upwelling weighting by the known values of the large-scale variables.  The
 spring transition was then sampled, weighting by the known values of SST and
 upwelling. Finally, recruitment values were sampled, weighting by the known
-values of both parent variables. The probability of recruitment being below 150
-000 given an above average PDO value was then estimated by dividing the number
-of samples where recruitment was less than 150 000 and the PDO was above average
-by the number of samples where the PDO was above average.
+values of both parent variables. The probability of recruitment being below
+150~000 given an above average PDO value was then estimated by dividing the
+number of samples where recruitment was less than 150~000 and the PDO was above
+average by the number of samples where the PDO was above average.
 
 More generally, the estimation algorithm consisted of sampling from the joint
 posterior distribution, where the samples were weighted either by the prior
@@ -563,7 +563,7 @@ coho salmon recruitment given the evidence was then computed as the number of
 samples where both the evidence and recruitment values matched the specified
 value divided by the total number of samples where the sampled evidence values
 match the specified value \citep{Henrion1988a}. For each analysis, we generated
-1 000 000 samples from the posterior distribution in order to ensure that events
+1~000~000 samples from the posterior distribution in order to ensure that events
 with low probabilities were sufficiently sampled \citep{Koller2009a}.
 
 
@@ -625,10 +625,10 @@ biophysical network, ichthyoplankton biomass had the strongest effect on
 recruitment with \(\Delta p\) = 0.40, which was considerably stronger than all
 other variables in the network (Fig. \ref{fig:bn:7}). Differences in steepness
 of the two conditional probability distributions for the physical network meant
-that there was a 76\% chance that recruitment would be 150 000 or less when SST
+that there was a 76\% chance that recruitment would be 150~000 or less when SST
 was above average and a 49\% chance of recruitment being equal to or below that
 level when SST was below average (Fig. \ref{fig:bn:6}d). Likewise, for the
-biophysical network, there was a 34\% chance that recruitment would be 150 000
+biophysical network, there was a 34\% chance that recruitment would be 150~000
 or less when ichthyoplankton biomass was greater than average and a 73\% chance
 when ichthyoplankton biomass was less than average (Fig. \ref{fig:bn:7}g).
 
@@ -642,7 +642,7 @@ when ichthyoplankton biomass was less than average (Fig. \ref{fig:bn:7}g).
            for recruitment given that the environmental variable is greater than
            average, whereas dashed blue curves show cumulative probability when
            the environmental variable is less than average. Thin dotted lines
-           indicate the cumulative probabilities for 150 000 salmon. The
+           indicate the cumulative probabilities for 150~000 salmon. The
            \(\Delta p\) gives the maximum vertical difference in probability
            between the two cumulative distributions within a panel.}
   \label{fig:bn:6}
@@ -658,7 +658,7 @@ when ichthyoplankton biomass was less than average (Fig. \ref{fig:bn:7}g).
            for recruitment given that the environmental variable is greater than
            average, whereas dashed blue curves show cumulative probability when
            the environmental variable is less than average. Thin dotted lines
-           indicate the cumulative probabilities for 150 000 salmon. The
+           indicate the cumulative probabilities for 150~000 salmon. The
            \(\Delta p\) gives the maximum vertical difference in probability
            between the two cumulative distributions within a panel.}
   \label{fig:bn:7}
@@ -669,12 +669,12 @@ effect on recruitment in both networks with a \(\Delta p\) between 2 and 4 times
 greater than for the ONI and NPGO (Figs. \ref{fig:bn:6} and \ref{fig:bn:7}). In
 particular, a warm PDO (i.e., when the PDO was above average) was associated
 with lower recruitment. For example, there was a 71\% chance that recruitment
-would be 150 000 salmon or less when the PDO was in a warm phase for the
+would be 150~000 salmon or less when the PDO was in a warm phase for the
 physical network and a 62\% chance for the biophysical network (Figs.
 \ref{fig:bn:6}b and \ref{fig:bn:7}b). When the PDO was cool, the probability of
-recruitment being equal to or below 150 000 was considerably less, with a 54\%
+recruitment being equal to or below 150~000 was considerably less, with a 54\%
 chance in the physical network and a 45\% chance in the biophysical network. In
-contrast, for the NPGO and ONI, the probability of recruitment being 150 000 or
+contrast, for the NPGO and ONI, the probability of recruitment being 150~000 or
 less was nearly identical, regardless of whether these variables were above or
 below average.
 
@@ -684,7 +684,7 @@ cumulative probability distribution for recruitment (solid red curve in Fig.
 \ref{fig:bn:8}a) was considerably steeper compared to when SST was cool and the
 spring transition occurred early (solid blue curve in Fig. \ref{fig:bn:8}a).
 This difference in steepness corresponded to an 81\% chance recruitment would be
-equal to or below 150 000 salmon when both conditioning variables were above
+equal to or below 150~000 salmon when both conditioning variables were above
 average but only a 43\% when both variables were below average (Fig.
 \ref{fig:bn:8}a). For the biophysical network, when both variables that index
 coho salmon prey resources (i.e., ichthyoplankton and copepod biomass) were
@@ -692,7 +692,7 @@ above average, the cumulative probability distribution for recruitment was
 considerably less steep (solid red curve in Fig. \ref{fig:bn:8}b) than when the
 prey resource indices were below average (solid blue curve in Fig.
 \ref{fig:bn:8}b). This difference in the cumulative probability distributions
-equated to a 25\% chance that recruitment would be 150 000 salmon or less when
+equated to a 25\% chance that recruitment would be 150~000 salmon or less when
 both prey indices were above average and a 81\% chance recruitment would be
 equal to or below that level when both prey indices were below average.
 
@@ -719,7 +719,7 @@ equal to or below that level when both prey indices were below average.
            is above average and copepod biomass is below average, whereas the
            dashed blue curve shows the cumulative probabilities for the
            opposite conditions. Thin dotted lines indicate the cumulative
-           probabilities for 150 000 salmon.  The \(\Delta p\) gives the maximum
+           probabilities for 150~000 salmon.  The \(\Delta p\) gives the maximum
            vertical difference in probability between the two cumulative
            distributions where both conditioning variables are either above or
            below average within a panel.}
@@ -728,7 +728,7 @@ equal to or below that level when both prey indices were below average.
 
 When oceanographic conditions were mixed, that is, when one parent variable of
 recruitment was above average and the other was below average, the probability
-that recruitment would be 150 000 salmon or less tended to be more influenced by
+that recruitment would be 150~000 salmon or less tended to be more influenced by
 SST than the spring transition date in the physical network and by
 ichthyoplankton biomass than copepod biomass in the biophysical network (Fig.
 \ref{fig:bn:8}). For instance, the cumulative probability distribution when
