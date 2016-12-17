@@ -1,6 +1,6 @@
 % Spring Bloom Chapter
 % Michael Malick
-% 2016-11-25
+% 2016-12-17
 
 \chapter[Phytoplankton phenology as a driver of salmon productivity]{Linking
   phytoplankton phenology to salmon productivity along a north-south gradient in
@@ -11,7 +11,7 @@
   Malick, M.J., S.P. Cox, F.J. Mueter, R.M. Peterman. 2015. Linking
   phytoplankton phenology to salmon productivity along a north-south gradient in
   the Northeast Pacific Ocean. Canadian Journal of Fisheries and Aquatic
-  Sciences 72:697-708. \url{http://doi.org/10.1139/cjfas-2014-0298}.}
+  Sciences 72:697--708. \url{http://doi.org/10.1139/cjfas-2014-0298}.}
 
 
 \section{Abstract}
@@ -23,7 +23,7 @@ gorbuscha}) stocks. Specifically, we used spatial covariance functions in
 combination with multi-stock spawner-recruit analyses to model relationships
 among satellite-derived chlorophyll-a concentrations, initiation date of the
 spring phytoplankton bloom, and salmon productivity. For all variables, positive
-spatial covariation was strongest at the regional scale (0-800 km) with no
+spatial covariation was strongest at the regional scale (0--800 km) with no
 covariation beyond 1500 km. Spring bloom timing was significantly correlated
 with salmon productivity for both northern (Alaska) and southern (British
 Columbia) populations, although the correlations were opposite in sign. An early
@@ -137,19 +137,15 @@ southeast Alaska (Table \ref{tab:bloom:1}).
   \begin{TableNotes}
     % {\footnotesize
       \item[a] Sources of data by stock number: 1: Pieter Van Will, Fisheries
-               and Oceans Canada (DFO), Port Hardy, BC; 2-8: David Peacock,
-               Fisheries and Oceans Canada (DFO), Prince Rupert, BC; 9-11:
-               Steve Heinl, Alaska Department of Fish and Game (ADFG),
-               Ketchikan, AK and \citet{Piston2011a}; 12: Steve Moffitt,
-               Alaska Department of Fish and Game (ADFG), Cordova, AK; 13-15:
-               Ted Otis, Alaska Department of Fish and Game (ADFG), Homer, AK;
-               16-20: Matt Foster, Alaska Department of Fish and Game (ADFG),
-               Kodiak, AK; 21-25: Charles Russell, Alaska Department of Fish
-               and Game (ADFG), Kodiak, AK; 26-27: Matt Foster, Alaska
-               Department of Fish and Game (ADFG), Kodiak, AK.
-      \item[b] Includes statistical areas 11-16; Excludes Fraser River
-      \item[c] Includes districts 101-108
-      \item[d] Includes districts 109-112, 114, 115
+               and Oceans Canada (DFO), Port Hardy, BC; 2--8: David Peacock,
+               DFO, Prince Rupert, BC; 9--11: Steve Heinl, Alaska Department of
+               Fish and Game (ADFG), Ketchikan, AK and \citet{Piston2011a}; 12:
+               Steve Moffitt, ADFG, Cordova, AK; 13--15: Ted Otis, ADFG, Homer,
+               AK; 16--20: Matt Foster, ADFG, Kodiak, AK; 21--25: Charles
+               Russell, ADFG, Kodiak, AK; 26--27: Matt Foster, ADFG, Kodiak, AK.
+      \item[b] Includes statistical areas 11--16; Excludes Fraser River
+      \item[c] Includes districts 101--108
+      \item[d] Includes districts 109--112, 114, 115
       \item[e] Includes district 113
       \item[f] Sum of Humpy Creek and Seldovia Bay data sets
       \item[g] Sum of Port Chatham, Port Dick, Rocky River, Windy Creek, and
@@ -159,7 +155,7 @@ southeast Alaska (Table \ref{tab:bloom:1}).
       \item[i] Sum of Southeast and Southcentral districts data sets
     % }
   \end{TableNotes}
-  \begin{longtable}{lllllllll}
+  \begin{longtable}{llllrrrrr}
     \caption[Summary of pink salmon stock-recruit data sets]{Summary of pink
              salmon stock-recruit data sets. Brood years indicate the temporal
              range of spawning years; N is the number of non-missing years
@@ -172,7 +168,6 @@ southeast Alaska (Table \ref{tab:bloom:1}).
              single-stock Ricker models (eq. \ref{eq:bloom:1}).} \\
     \hline
     \input{./2_springbloom/tables/R_table_sr_data.tex}
-    \hline
     \insertTableNotes
     \label{tab:bloom:1}
   \end{longtable}
@@ -185,7 +180,7 @@ We used satellite-derived chl-a concentration estimates (measured as mg
 m\textsuperscript{-3}) from the Sea-viewing Wide Field-of-view Sensor (SeaWiFS)
 and the Moderate Resolution Imaging Spectroradiometer (MODIS-Aqua) from the
 Goddard Space Flight Center (\url{http://oceancolor.gsfc.nasa.gov}). Level-3
-processed data were downloaded for 1998-2010 (but only 2003-2010 had complete
+processed data were downloaded for 1998--2010 (but only 2003--2010 had complete
 MODIS data) in their original 9 km\textsuperscript{2}, 1-day-resolution. We
 converted the data to a 1$^{\circ}$x1$^{\circ}$ resolution and subsetted the
 resulting grid to 46$^{\circ}$--61$^{\circ}$N and 167$^{\circ}$--125$^{\circ}$W,
@@ -196,21 +191,22 @@ enter the ocean in the Gulf of Alaska.
 All analyses were performed using 8-day composite chl-a data because these had
 less missing data across all years compared to 1-day and 5-day composites
 (Supporting materials Fig. \ref{fig:bloom:s1}). In addition, the SeaWiFS data
-set had numerous large gaps during the spring and summer for years 2008-2010,
+set had numerous large gaps during the spring and summer for years 2008--2010,
 which made these years of SeaWiFS data unsuitable for our study (Supporting
 materials Fig. \ref{fig:bloom:s1}). We evaluated the feasibility of
 concatenating the SeaWiFS and MODIS data sets into a single continuous data set
 that would provide an additional three years of data (compared to using SeaWiFS
 data alone) by comparing the two data sets over the first five overlapping years
-(2003-2007; Supporting materials \ref{supp:bloom:A}). We estimated correlations,
-root mean squared log\textsubscript{10} error (RMSE), and log\textsubscript{10}
-bias to quantify differences between the two chl-a data sets. The SeaWiFS and
-MODIS data sets were highly correlated (average of 0.87 across all grid cells).
-In addition, over all years and grid cells RMSE (0.16) and log bias (0.012)
-(Supporting materials Fig. \ref{fig:bloom:s2}) were consistent with other
-studies comparing SeaWiFS and MODIS data products over a similar study region
-\citep{Waite2013}. Based on these minimal differences, we concatenated the
-SeaWiFS (1998-2002) and MODIS (2003-2010) data sets without further processing.
+(2003--2007; Supporting materials \ref{supp:bloom:A}). We estimated
+correlations, root mean squared log\textsubscript{10} error (RMSE), and
+log\textsubscript{10} bias to quantify differences between the two chl-a data
+sets. The SeaWiFS and MODIS data sets were highly correlated (average
+correlation of 0.87 across all grid cells). In addition, over all years and grid
+cells RMSE (0.16) and log bias (0.012; Supporting materials Fig.
+\ref{fig:bloom:s2}) were consistent with other studies comparing SeaWiFS and
+MODIS data products over a similar study region \citep{Waite2013}. Based on
+these minimal differences, we concatenated the SeaWiFS (1998--2002) and MODIS
+(2003--2010) data sets without further processing.
 
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.6]{2_springbloom/figures/map.pdf}
@@ -235,7 +231,7 @@ initiation date and mean chl-a concentrations. We estimated the spring bloom
 initiation date as the first 8-day period in a given year when the chl-a
 concentration was more than 5\% above the median chl-a concentration of the
 entire multi-year data set for a particular grid cell \citep{Siegel2002a,
-Henson2007a}. In addition, we log\textsubscript{10}-transformed the chl-a
+Henson2007a}. In addition, we log\textsubscript{10} transformed the chl-a
 averages to help normalize the chl-a values.
 
 
@@ -247,7 +243,7 @@ dates, and (3) monthly mean chl-a concentrations. For salmon stocks, pairwise
 correlation coefficients were computed between time series of productivity for
 each of the 27 stocks. For the spring bloom initiation date, correlation
 coefficients were computed between each pair of grid cells using time series of
-the estimated annual spring bloom initiation date for years 1998-2010. For chl-a
+the estimated annual spring bloom initiation date for years 1998--2010. For chl-a
 concentration, we calculated correlations across grid cells using time series of
 the monthly mean chl-a concentration. To account for potential changes in
 spatial patterns across seasons, we calculated correlations for chl-a
@@ -271,7 +267,7 @@ the residual.
 
 We fit the Ricker models (eq. \ref{eq:bloom:1}) to two partitions of the data --
 one including all available brood years and the second including only brood
-years 1997-2009 (Table \ref{tab:bloom:1}). The latter partition corresponds to
+years 1997--2009 (Table \ref{tab:bloom:1}). The latter partition corresponds to
 the years available for the bloom initiation date and chl-a variables. Because
 juvenile pink salmon enter the ocean the year following spawning (i.e., brood
 year + 1), we offset the phytoplankton variables one year to correspond with the
@@ -283,13 +279,13 @@ first performed Mantel tests using matrices of the cross-correlations and a
 matrix of great-circle distance (computed using the haversine formula) between
 all pairs of grid cells or stocks \citep{Legendre1998a, Koenig1999a}.
 Statistical significance of Mantel statistics were determined using
-randomization tests with 1 000 permutations. We then determined the spatial
+randomization tests with 1000 permutations. We then determined the spatial
 scale of covariation for each significant Mantel test by fitting a smooth
 non-parametric covariance function \citep{Bjornstad2001a} between the
 correlation coefficients for a given variable and the distance separating
 correlated grid cells or ocean-entry points of salmon stocks. Confidence
 intervals (CI) for each covariance function were computed by bootstrapping the
-estimation procedure 1 000 times.
+estimation procedure 1000 times.
 
 Covariance functions were summarized using two distance metrics: (1) the
 y-intercept of the covariance function, which provides an estimate of the
@@ -312,7 +308,7 @@ to inform construction of the multi-stock models and to help evaluate the
 multi-stock model assumptions. Second, we used the single-stock analysis along
 with intervention analyses to break up the data sets spatially to provide the
 best fits of the multi-stock models. For both single-stock and multi-stock
-models, only pink salmon brood years 1997-2009 were used.
+models, only pink salmon brood years 1997--2009 were used.
 
 The bloom initiation date and both chl-a covariates included in the models
 represented spatial and temporal (for chl-a) averages of conditions experienced
@@ -320,9 +316,9 @@ by juvenile pink salmon during their early marine life phase. The bloom
 initiation covariate was calculated for each salmon stock as the average of grid
 cell specific anomalies (i.e., a grid cell's value minus the long term mean for
 that grid cell) over all grid cells whose centers were within 250 km of the
-stock's ocean entry point. For chl-a, we calculated April-May averages to
+stock's ocean entry point. For chl-a, we calculated April--May averages to
 capture variability in phytoplankton biomass during the spring bloom and
-July-September averages to index chl-a variability during the late summer, which
+July--September averages to index chl-a variability during the late summer, which
 is believed to be a critical period for juvenile salmon survival
 \citep{Beamish2001a, Moss2005a}. For both time periods, we first averaged chl-a
 values over the specified months for each grid cell and then averaged over all
@@ -391,8 +387,8 @@ Because the chl-a and bloom initiation variables were moderately correlated
 from -0.50 to 0.20), the multi-stock models were fit separately for the bloom
 initiation date and both chl-a metrics. For the bloom initiation date and spring
 chl-a variables, we also fit multi-stock models separately for a southern stock
-group (stocks 1-9 in Table \ref{tab:bloom:1}) and a northern stock group (stocks
-10-27 in Table \ref{tab:bloom:1}), because the single-stock analysis and
+group (stocks 1--9 in Table \ref{tab:bloom:1}) and a northern stock group (stocks
+10--27 in Table \ref{tab:bloom:1}), because the single-stock analysis and
 intervention models suggested consistent differences in the effects of these
 variables between northern and southern stock groupings (see Results). For the
 late summer chl-a variable, we fit a single model using all stocks because the
@@ -404,7 +400,7 @@ and the bloom initiation date, we investigated two simpler nested models, (1)
 eq. \ref{eq:bloom:3} but without the random chl-a or bloom effect (i.e.,
 \(g_{i}\)), and (2) eq. \ref{eq:bloom:3} but without either the random or fixed
 chl-a or bloom effect (i.e., \(g_{i}\) and \(\gamma_{X}\), which was the null
-model).  Random effect significance was determined using likelihood ratio (L)
+model).  Random effect significance was determined using likelihood ratio ($L$)
 tests among the nested models, whereas fixed effect significance was tested
 using F-tests \citep{Pinheiro2000a}. All reported parameters were estimated
 using restricted maximum likelihood methods; however, for model comparisons,
@@ -439,9 +435,9 @@ the lowest AIC\textsubscript{C} value are considered equally plausible
 
 We checked the sensitivity of our results to four assumptions. First, we
 estimated sensitivity of the spatial analysis results to an alternative
-Beverton-Holt stock-recruitment model \citep{Beverton1957a} ($log_{e}(R/S) =
-log_{e}(a) - log_{e}(1 + bS) + \epsilon$).  Second, we checked the sensitivity
-to the interpolation procedure used on the chl-a time series by re-running each
+Beverton-Holt stock-recruitment model, $log_{e}(R/S) = log_{e}(a) - log_{e}(1 +
+bS) + \epsilon$ \citep{Beverton1957a}.  Second, we checked the sensitivity to
+the interpolation procedure used on the chl-a time series by re-running each
 analysis using spring bloom and chl-a values that did not include interpolated
 data points. Third, we tested our assumption that the error terms of the
 multi-stock models were temporally independent by refitting the models with
@@ -462,26 +458,26 @@ using Pearson correlation coefficients (see Supporting materials
 \subsection{Spatial analysis}
 
 Both sets of pink salmon residuals, monthly mean chl-a, and bloom initiation
-date all showed significant spatial covariation (P \textless{} 0.01 for all
+date all showed significant spatial covariation ($P$ \textless{} 0.01 for all
 Mantel tests). For both sets of pink salmon residuals (all brood years and
 recent, satellite-covered years), the nonparametric covariance functions
 indicated declining positive covariation with increasing distance between ocean
 entry points of juvenile salmon, up to approximately 800 to 1000 km where the
 functions approached zero correlation (Fig. \ref{fig:bloom:2}a and b). The
 estimated D50 was slightly larger for productivity indices fitted using all
-available brood years (D50 = 305 km; 95\% CI = 218-488 km) than for indices
-fitted using only brood years 1997-2009 (D50 = 261 km; 95\% CI = 148-628 km),
+available brood years (D50 = 305 km; 95\% CI = 218--488 km) than for indices
+fitted using only brood years 1997--2009 (D50 = 261 km; 95\% CI = 148--628 km),
 although there was considerable overlap in confidence intervals (Figs.
 \ref{fig:bloom:2} and \ref{fig:bloom:3}a). Correlations at zero distance (i.e.,
 the y-intercept of the covariance function) for both sets of productivity
-indices were considerably less than one (CZD = 0.51; 95\% CI = 0.41-0.62 and CZD
-= 0.49; 95\% CI = 0.28-0.69 for all brood years and 1997-2009 respectively; Fig.
+indices were considerably less than one (CZD = 0.51; 95\% CI = 0.41--0.62 and CZD
+= 0.49; 95\% CI = 0.28--0.69 for all brood years and 1997--2009 respectively; Fig.
 \ref{fig:bloom:3}b). Although the nonparametric covariance function for bloom
-initiation date had a slightly larger D50 (D50 = 367 km; 95\% CI = 235-776 km)
+initiation date had a slightly larger D50 (D50 = 367 km; 95\% CI = 235--776 km)
 than the two salmon productivity indices, there was considerable overlap in
 confidence intervals with both productivity indices (Fig. \ref{fig:bloom:3}a).
 Correlation at zero distance for the bloom initiation date was also considerably
-less than one (CZD = 0.44; 95\% CI = 0.33-0.55; Fig. \ref{fig:bloom:3}b).
+less than one (CZD = 0.44; 95\% CI = 0.33--0.55; Fig. \ref{fig:bloom:3}b).
 
 \begin{figure}[htbp]
   \centering \includegraphics[scale=0.9]{2_springbloom/figures/pinks_bloom_ncf.pdf}
@@ -490,7 +486,7 @@ less than one (CZD = 0.44; 95\% CI = 0.33-0.55; Fig. \ref{fig:bloom:3}b).
            correlations as a function of distance between location of data
            pairs) of correlations among salmon productivity indices across all
            brood years (top panel), salmon productivity for brood years
-           1997-2009 (middle panel), and spring bloom initiation date (bottom
+           1997--2009 (middle panel), and spring bloom initiation date (bottom
            panel). Solid curves represent the estimated smooth nonparametric
            covariance function with 95\% confidence band shown as the blue
            shaded region. Solid vertical lines indicate the 50\% correlation
@@ -506,7 +502,7 @@ less than one (CZD = 0.44; 95\% CI = 0.33-0.55; Fig. \ref{fig:bloom:3}b).
            top panel) and y-intercept (CZD; bottom panel) for the nonparametric
            covariance functions fit to pink salmon residuals using all brood
            years of data (``Pink all'' from Fig. \ref{fig:bloom:2}a), pink
-           salmon residuals using only brood years 1997-2009 (``Pink short''
+           salmon residuals using only brood years 1997--2009 (``Pink short''
            from Fig. \ref{fig:bloom:2}b), and initiation date for the spring
            bloom (from Fig. \ref{fig:bloom:2}c). Dots indicate point estimates
            for each metric and vertical lines give 95\% confidence intervals.}
@@ -514,10 +510,10 @@ less than one (CZD = 0.44; 95\% CI = 0.33-0.55; Fig. \ref{fig:bloom:3}b).
 \end{figure}
 
 For monthly mean chl-a concentrations, covariation decayed steeply with
-increasing distance over spatial scales of 0-500 km for all months (Fig.
+increasing distance over spatial scales of 0--500 km for all months (Fig.
 \ref{fig:bloom:4}).  The D50 was highest (\textasciitilde{}380 to 430 km) during
-the winter and spring (February-May) and declined to about 250 km during summer
-and fall (June-October), which was similar to the estimated D50 for salmon
+the winter and spring (February--May) and declined to about 250 km during summer
+and fall (June--October), which was similar to the estimated D50 for salmon
 productivity (Fig. \ref{fig:bloom:5}). In addition, confidence intervals for the
 chl-a D50 for all months overlapped the confidence intervals for salmon
 productivity D50s (Fig.  \ref{fig:bloom:5}). The CZD for chl-a concentrations
@@ -543,7 +539,7 @@ estimated CZD for the bloom initiation date and salmon productivity.
            50\% correlation scale (D50) for chl-a concentration by month.  Solid
            vertical lines indicate 95\% confidence intervals for each month.
            Dotted horizontal line indicates the 50\% correlation scale for pink
-           salmon using brood years 1997-2009; the grey shaded region indicates
+           salmon using brood years 1997--2009; the grey shaded region indicates
            the 95\% confidence interval for that pink salmon 50\% correlation
            scale.}
   \label{fig:bloom:5}
@@ -554,11 +550,11 @@ estimated CZD for the bloom initiation date and salmon productivity.
 
 The single-stock Ricker models indicated that pink salmon productivity was
 related to the spring bloom initiation date either positively (15 stocks) or
-negatively (12 stocks) (Fig. \ref{fig:bloom:6}a). The distribution of model
+negatively (12 stocks; Fig. \ref{fig:bloom:6}a). The distribution of model
 coefficients (i.e., \(\gamma\) in eq. \ref{eq:bloom:2}) ranged from -0.55 to
 0.25 and was asymmetric about zero with the majority of values between -0.2 and
 0.25 (Fig.  \ref{fig:bloom:6}d).  Productivity of all 9 pink salmon stocks south
-of northern southeast Alaska (i.e., stocks 1-9 in Table \ref{tab:bloom:1}) was
+of northern southeast Alaska (i.e., stocks 1--9 in Table \ref{tab:bloom:1}) was
 positively related to the spring bloom initiation date, whereas productivity of
 northern stocks was mostly negatively related (12 of 18 stocks; Fig.
 \ref{fig:bloom:6}a). The intervention model indicated a significant break (P
@@ -571,9 +567,9 @@ southeast Alaska outside stock (stock 10; Fig.  \ref{fig:bloom:1}).
   \caption[Estimates of the effects on salmon productivity of spring
            bloom initiation date and chl-a concentrations]{Estimates of the
            effects on pink salmon productivity of spring bloom initiation date
-           (left panels), mean April-May chl-a concentration (middle panels),
-           and mean July-September chl-a concentration (right panels) from the
-           single-stock and best-fit multi-stock models. In panels \emph{a-c}
+           (left panels), mean April--May chl-a concentration (middle panels),
+           and mean July--September chl-a concentration (right panels) from the
+           single-stock and best-fit multi-stock models. In panels \emph{a--c}
            the ordinate gives the stock number, as defined in Table
            \ref{tab:bloom:1}, solid circles represent the estimated effect for
            either chl-a or the bloom initiation from the single stock models
@@ -582,8 +578,8 @@ southeast Alaska outside stock (stock 10; Fig.  \ref{fig:bloom:1}).
            initiation or chl-a from a multi-stock model (i.e., \(\gamma\) in eq.
            \ref{eq:bloom:3}). Based on results from the single-stock analyses,
            separate multi-stock models were fit to northern and southern stocks
-           for the spring bloom and April-May chl-a covariates, which are
-           separated by a solid horizontal line. Bottom panels \emph{d-f} show
+           for the spring bloom and April--May chl-a covariates, which are
+           separated by a solid horizontal line. Bottom panels \emph{d--f} show
            histograms of the spring bloom and chl-a effects based on
            single-stock models (eq. \ref{eq:bloom:2}) and estimated probability
            density functions (smooth curves) of the single-stock model
@@ -633,15 +629,15 @@ salmon productivity when chl-a concentrations are higher (\(\gamma\) in rows 6
 and 10 in Table \ref{tab:bloom:2}). Furthermore, the spring bloom initiation
 date was a better predictor of salmon productivity than mean chl-a concentration
 for all subsets of data (i.e., northern stock group, southern stock group, and
-all stocks) (AIC\textsubscript{C} values in Table \ref{tab:bloom:2}).
+all stocks; AIC\textsubscript{C} values in Table \ref{tab:bloom:2}).
 
 \begin{table}[htbp]
   \small \centering \libertineLF
   \caption[Summary of the best-fit multi-stock Ricker model
            coefficients]{Summary of the best-fit multi-stock Ricker model
            coefficients (eq. \ref{eq:bloom:3}). The Subset column identifies the
-           stocks included in the hierarchical model (North = stocks 1-9, South
-           = stocks 10-27, and All = stocks 1-27). The Stocks column indicates
+           stocks included in the hierarchical model (North = stocks 1--9, South
+           = stocks 10--27, and All = stocks 1--27). The Stocks column indicates
            the number of stocks used to fit the model; N is the total number of
            data points across all stocks used to fit the model; $\alpha$ is the
            intercept representing average productivity of pink salmon at low
@@ -655,8 +651,8 @@ all stocks) (AIC\textsubscript{C} values in Table \ref{tab:bloom:2}).
     \input{./2_springbloom/tables/R_table_lme.tex}
     \begin{tablenotes}
       {\footnotesize
-        \item[*] Significantly different from zero at P \textless{} 0.05.
-        \item[**] Significantly different from zero at P \textless{} 0.01.
+        \item[*] Significantly different from zero at $P$ \textless{} 0.05
+        \item[**] Significantly different from zero at $P$ \textless{} 0.01
       }
     \end{tablenotes}
   \end{threeparttable}
@@ -668,17 +664,17 @@ productivity were significantly different than zero for both northern and
 southern multi-stock models (\(\gamma\) in rows 2 and 5 in Table
 \ref{tab:bloom:2}), but the models were not significantly different than the
 full model (eq. \ref{eq:bloom:3}), which included both the regional and
-stock-specific effects (L = 0.03, P \textgreater{} 0.1). The estimated
+stock-specific effects ($L$ = 0.03, $P$ \textgreater{} 0.1). The estimated
 region-wide effect of spring chl-a concentrations on salmon productivity of
 southern stocks and late summer chl-a on productivity of all stocks were
 significantly different from zero (\(\gamma\) in rows 6 and 10 in Table
 \ref{tab:bloom:2}). However, for both models and chl-a variables, there was no
 evidence of stock-specific effects based on likelihood ratio tests comparing the
-full models to a model without the random chl-a effects (L = 0.001, P
+full models to a model without the random chl-a effects ($L$ = 0.001, $P$
 \textgreater{} 0.1 for both spring and late summer chl-a). In addition, for the
 northern stock group there was no support for either a regional or
-stock-specific effect of spring chl-a (row 3 in Table \ref{tab:bloom:2}; L =
-0.001, P \textgreater{} 0.1).
+stock-specific effect of spring chl-a (row 3 in Table \ref{tab:bloom:2}; $L$ =
+0.001, $P$ \textgreater{} 0.1).
 
 In both the northern and southern areas, the bloom initiation date had a
 stronger effect on pink salmon productivity than spring chl-a concentrations as
@@ -688,7 +684,7 @@ southern stock group (Table \ref{tab:bloom:2}).  The bloom initiation date also
 had the highest relative importance (\(\Delta\)AIC\textsubscript{C} = 0) when
 the northern and southern models were combined with an AIC\textsubscript{C}
 value considerable less than late summer chl-a, spring chl-a, and the null model
-(rows 7-10 in Table \ref{tab:bloom:2}). Between the two chl-a variables, the
+(rows 7--10 in Table \ref{tab:bloom:2}). Between the two chl-a variables, the
 late summer chl-a average had a higher relative importance (i.e., lower
 AIC\textsubscript{C} value) than the average spring chl-a concentration as
 indicated by the 10 unit difference between AIC\textsubscript{C} values (rows 9
@@ -729,13 +725,13 @@ date and mean chl-a concentration, to better understand the potential mechanisms
 linking biological oceanographic conditions to Pacific salmon productivity. Our
 results indicated that (1) spatial covariation patterns for the spring bloom
 initiation date, average chl-a concentration, and pink salmon productivity were
-similar, with strongest positive covariation at the regional scale (0-800 km),
+similar, with strongest positive covariation at the regional scale (0--800 km),
 (2) there were opposing effects of the spring bloom initiation date on northern
 and southern pink salmon stock productivity with an early bloom initiation date
 being associated with higher northern stock productivity and a late bloom being
 associated with higher southern stock productivity, (3) phytoplankton biomass
-during the late summer (July-September) was more strongly associated with salmon
-productivity than phytoplankton biomass during the spring (April-May), and (4)
+during the late summer (July--September) was more strongly associated with salmon
+productivity than phytoplankton biomass during the spring (April--May), and (4)
 the spring bloom initiation date was a better predictor of salmon productivity
 than mean chl-a concentration for both southern and northern stocks.
 
@@ -762,18 +758,18 @@ the nugget effect may be caused by measurement errors in the chl-a estimates and
 spatial averaging, or from the presence of small-scale oceanographic features
 such as tidal mixing or river plumes that can lead to large changes in the bloom
 initiation date and chl-a concentrations over short distances (\textless{} 100
-km) \citep{Henson2007a}. The latter process could reduce the explanatory power
+km; \citealp{Henson2007a}). The latter process could reduce the explanatory power
 of both phytoplankton variables for salmon productivity because the
 phytoplankton variables may not index conditions that salmon actually experience
 at small spatial scales.
 
 There was a marked reduction in the D50 for monthly chl-a concentrations between
-May and June. The winter and spring period (February-May) included months with
+May and June. The winter and spring period (February--May) included months with
 both the highest annual chl-a concentrations (April and May) and the lowest
-(February and March), whereas the chl-a concentrations during June-October were
+(February and March), whereas the chl-a concentrations during June--October were
 relatively constant (Supporting materials Fig. \ref{fig:bloom:s5}). These
 periods correspond to times before the spring bloom (February and March), during
-it (April and May), and after it (June-October). Our results also showed that
+it (April and May), and after it (June--October). Our results also showed that
 coherence in chl-a concentrations following the spring bloom is smaller than
 prior to and during the bloom, which may result from different mechanisms
 underlying the spatial synchrony at different periods. For example, spatial
@@ -879,7 +875,7 @@ few months in the ocean. This assumption is supported by the correspondence of
 our estimates of the spring bloom initiation date and several studies that
 estimated the spring bloom start date using \emph{in situ} observations. For
 example, the average estimate for the spring bloom initiation date for the inner
-SEAK pink salmon stock group over the years 1998-2009 was the first week in
+SEAK pink salmon stock group over the years 1998--2009 was the first week in
 April, which matches \emph{in situ} observations for the bloom start date in
 Auke Bay, AK \citep{Ziemann1991}. Likewise, the average bloom start date for the
 southern BC stock was the second to third week in March, which matches \emph{in
@@ -941,7 +937,7 @@ Program to R.M. Peterman.
 \subsection{Comparison of SeaWiFS and MODIS chlorophyll-a data products}
 \label{supp:bloom:A}
 
-Lengthy periods of missing data in 2008-2010 for the SeaWiFS chl-a data set made
+Lengthy periods of missing data in 2008--2010 for the SeaWiFS chl-a data set made
 these years of data unsuitable for calculating an initiation date of the spring
 bloom (Fig. \ref{fig:bloom:s1}). Therefore, we investigated the feasibility of
 combining the SeaWiFS and MODIS chl-a data products. We used Pearson correlation
@@ -950,7 +946,7 @@ data, root mean squared log\textsubscript{10} error (RMSE), and
 log\textsubscript{10} bias (mean of the absolute value of log\textsubscript{10}
 transformed MODIS chl-a values minus SeaWiFS values) to quantify the covariation
 and differences between the SeaWiFS and MODIS data sets for the first five
-complete years of overlap, 2003-2007 \citep{Gregg2004, OReilly2000a, Zhang2006}
+complete years of overlap, 2003--2007 \citep{Gregg2004, OReilly2000a, Zhang2006}
 . We performed two primary comparisons. First, to assess the similarities
 between the data sets across the entire study region and time period, we
 calculated the average of each of the three metrics (i.e., correlation
@@ -965,7 +961,7 @@ grid cells was 0.87, with correlations for individual grid cells ranging from
 data sets over all years and grid cells was 0.16 and annually it ranged from
 0.09 in 2007 to 0.22 in 2006 (Fig.  \ref{fig:bloom:s2}).  These RMSE values are
 slightly smaller than RMSE values of the differences between satellite chl-a
-estimates and field sampled chl-a data (RMSE of 0.22; \citep{OReilly2000a}),
+estimates and field sampled chl-a data (RMSE of 0.22; \citealp{OReilly2000a}),
 indicating our RMSE values are within the range of background noise of the
 algorithm used to produced the chl-a estimates. The log\textsubscript{10} bias
 of MODIS data compared to SeaWiFS data over all grid cells and years was 0.012
@@ -994,13 +990,13 @@ concentrations on pink salmon dynamics, we compared the three chl-a metrics to
 pink salmon marine survival rates for three hatchery stocks located around the
 Gulf of Alaska (Armin F. Koernig, Kitoi Bay, and Port Armstrong). Marine
 survival rates for each hatchery stock were estimated for release years
-1998-2010 by dividing the total adult pink salmon returns resulting from
+1998--2010 by dividing the total adult pink salmon returns resulting from
 juveniles released in year \(t\) by the total number of juvenile pink salmon
 released into marine waters in year \(t\). To estimate the association between
 each of the three chl-a metrics and marine survival, we calculated Pearson
 correlation coefficients between marine survival rates and the spring bloom
-initiation date, average April-May chl-a concentration, and average
-July-September chl-a concentration. Like the analysis in the main text, each
+initiation date, average April--May chl-a concentration, and average
+July--September chl-a concentration. Like the analysis in the main text, each
 chl-a metric and the spring bloom initiation date were averaged over all grid
 cells within 250 km of the ocean release location for each hatchery.
 
@@ -1019,7 +1015,7 @@ correlations and a negative correlation (Supporting materials Fig.
 \ref{fig:bloom:s4}), however, the correlations were weak for all three
 hatcheries (less than 0.35 for all hatcheries). On average, the absolute values
 of correlations between marine survival and the spring bloom were higher
-(average correlation = -0.34) than for the spring chl-a concentration (average
+(average correlation = 0.34) than for the spring chl-a concentration (average
 correlation = 0.27) and the late summer chl-a concentration (average correlation
 = 0.23).
 
@@ -1076,7 +1072,7 @@ with pink salmon productivity than phytoplankton biomass.
            series and the three chl-a metrics]{Correlation matrix showing the
            Pearson correlation coefficients between each of the hatchery marine
            survival time series and the three chl-a metrics (* indicates
-           significantly different from zero at P \textless{} 0.05).}
+           significantly different from zero at $P$ \textless{} 0.05).}
   \label{fig:bloom:s4}
 \end{figure}
 
