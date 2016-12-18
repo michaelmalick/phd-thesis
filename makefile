@@ -17,7 +17,7 @@ POLCY = ./5_policy/policy.tex
 DISCU = ./6_discussion/discussion.tex
 
 master.pdf: master.tex $(ACKNO) $(ABSTR) \
-	$(INTRO) $(DISCU) $(SPBLM) $(NPCUR) $(BYNET) makefile *.tex
+	$(INTRO) $(DISCU) $(SPBLM) $(NPCUR) $(BYNET) $(POLCY) makefile *.tex
 	cp -r ~/Documents/research/phd-spring-bloom/thesis/figures ./2_springbloom
 	cp -r ~/Documents/research/phd-spring-bloom/thesis/tables ./2_springbloom
 	cp -r ~/Documents/research/phd-np-current/thesis/figures ./3_npcurrent
