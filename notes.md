@@ -263,6 +263,30 @@ date:   2017-02-10
   - @Friedland2012
   - @Satterthwaite2014
 
+# TITLE
+
+- Environmental forcing of Pacific salmon population dynamics
+- Simultaneously operating environmental pathways as drivers of
+
+Title 1: Ecological drivers of spatial and temporal variability in Pacific
+         salmon productivity
+
+Title 2: Ecological pathways as drivers of Pacific salmon productivity
+
+Title 3: Ecological pathways as drivers of Pacific salmon population ecology
+
+Title 4: Environmental pathways as drivers of Pacific salmon productivity
+
+Quantifying environmental pathway effects on Pacific salmon productivity
+
+
+SEAN: Connecting multi-scale climate and ocean processes to Pacific salmon
+      population dynamics and implications for ecosystem-based management
+
+Cross-scale environmental forcing of Pacific salmon population dynamics
+
+Multi-scale environmental forcing of Pacific salmon population dynamics with
+implications for ecosystem-based management
 # ABSTRACT
 
 ## Bloom + NPC
