@@ -1,10 +1,9 @@
-rem-phd-handbook.pdf
-/examples
+/example-theses
 /review
 *.RData
-/sfuthesis-2.1.0
-/copyright
-/forms
+/sfu-thesis-templates
+/copyright-chapters
+/info-forms
 master.pdf
 intro.pdf
 discussion.pdf
